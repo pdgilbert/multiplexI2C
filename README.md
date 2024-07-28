@@ -1,2 +1,2 @@
-# multiplexI2CwithRJ11
-RJ11 connectors multiplexed on I2C
+# multiplexI2C
+Multiplexed 4-wire screw down connectors on I2C with PCA9548A
