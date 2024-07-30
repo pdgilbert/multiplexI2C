@@ -1,0 +1,73 @@
+grep "/////////////// " ProjectNotes.txt   # for section index
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////            To Do
+////////////////////////////////////////////////////////////////////////////////
+
+space or more connectors?
+
+
+Reset pulldown to PA8 on header, but g4 uses  PB7 
+   f1   PA8     opendrain 
+   f4   PA8     opendrain 
+   g4   PB7     opendrain 
+   h7   PA8     opendrain 
+
+
+pullup 10k vs 20k?
+
+MCU on board?
+
+LoRa on board?
+
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     BOM / Parts / reference
+////////////////////////////////////////////////////////////////////////////////
+
+need 4P version of this
+Cixi Kefa Elec        KF128-2.54-2P      2 Screw horz TerminalBlock   1x02_P2.54mm_Horizontal  PTH     or equivalent, eg Phoenix_MPT-0,5-2-2.54             
+
+/////////// import footprint
+
+Open Footprint Editor > File > Import > Footprint.
+Open the kicad footprint, edit it and there is a tab for the 3d model link.
+[Footprint libraries are just a sub directory (extension .pretty) so one can also simply
+copy a footprint into such a directory. (This only works for footprints, symbols are different). ]
+
+Associate the footprint with symbol: In Schematic editor click on the symbol and 
+then right-click to edit properties. Click Footprint field, then bookshelf icon to browse.
+
+Then in PCB Editor > Tools > update PCB from Schematic.
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     Project setup notes & git
+////////////////////////////////////////////////////////////////////////////////
+
+Files as copied from ads1115with16JTS and renamed to start multiplexI2C  project
+
+multiplexI2C.kicad_pcb
+multiplexI2C.kicad_pro
+multiplexI2C.kicad_sch
+ProjectLib.kicad_sym
+ProjectLib.pretty
+sym-lib-table
+fp-lib-table
+.gitignore
+LICENSE
+LICENSE.cc.for.output
+
+mkdir outputs
+
+Do some stuff (eg on schematic) to get to reasonable starting point
+
+/////////////
+mv multiplexI2C multiplexI2C-orig
+create repo on github (web interface)
+clone local copy and populate with files from multiplexI2C-orig
+
+/////////////
+
+
+import any new footprints and 3D.
+////////////////////////////////////////////////////////////////////////////////
