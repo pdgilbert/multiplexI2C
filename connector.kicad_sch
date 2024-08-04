@@ -964,7 +964,7 @@
 	)
 	(hierarchical_label "SD"
 		(shape bidirectional)
-		(at 132.08 49.53 0)
+		(at 133.35 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1464,7 +1464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd866aa7-af5e-419e-a029-ee66195553d2")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 67.31 44.4499 0)
 			(effects
 				(font

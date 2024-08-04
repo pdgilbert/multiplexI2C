@@ -146,102 +146,6 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "ProjectLib:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3849,6 +3753,30 @@
 		(color 0 0 0 0)
 		(uuid "fdd41aef-796b-4110-8c72-a7a7944729f5")
 	)
+	(no_connect
+		(at 105.41 130.81)
+		(uuid "07e645ba-f5d4-4fcb-9967-8841db58241b")
+	)
+	(no_connect
+		(at 104.14 107.95)
+		(uuid "1ae94f1f-305e-48d4-bc6a-1a1e5100a9c0")
+	)
+	(no_connect
+		(at 105.41 154.94)
+		(uuid "23128419-6f36-46cd-a357-20d20d56c5a6")
+	)
+	(no_connect
+		(at 101.6 154.94)
+		(uuid "3398347b-3b47-4e90-adbf-29c6f80e0110")
+	)
+	(no_connect
+		(at 101.6 130.81)
+		(uuid "50b2983f-f61d-432f-9c0b-17cdfbb1aa0e")
+	)
+	(no_connect
+		(at 100.33 107.95)
+		(uuid "7ccb0a54-52cb-4268-861d-f299ae8093b4")
+	)
 	(wire
 		(pts
 			(xy 74.93 34.29) (xy 80.01 34.29)
@@ -7328,73 +7256,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 166.37 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a1edb88-80ce-4762-963e-d2cad8e7c989")
-		(property "Reference" "#PWR028"
-			(at 166.37 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "151b47f2-794e-40aa-8d8e-cfeca851a92d")
-		)
-		(instances
-			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 162.56 0)
 		(unit 1)
@@ -8766,7 +8627,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC2" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 53.34 0)
 			(effects
 				(font
@@ -8776,7 +8637,7 @@
 			)
 			(uuid "4feb1fb1-819c-4009-a80f-1ce6c836c309")
 		)
-		(pin "SD2" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -8824,7 +8685,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC4" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 97.79 0)
 			(effects
 				(font
@@ -8834,7 +8695,7 @@
 			)
 			(uuid "8f300da0-f480-42a9-9b9c-71fcdfaf8499")
 		)
-		(pin "SD4" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 100.33 0)
 			(effects
 				(font
@@ -8882,7 +8743,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC7" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 163.83 0)
 			(effects
 				(font
@@ -8892,7 +8753,7 @@
 			)
 			(uuid "a2a8eec2-0518-4e21-9b6f-10421264ce0a")
 		)
-		(pin "SD7" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 166.37 0)
 			(effects
 				(font
@@ -8940,7 +8801,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC3" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 74.93 0)
 			(effects
 				(font
@@ -8950,7 +8811,7 @@
 			)
 			(uuid "a177ca16-bec0-4db9-879e-479e6cab5e42")
 		)
-		(pin "SD3" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 77.47 0)
 			(effects
 				(font
@@ -8998,7 +8859,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC1" bidirectional
+		(pin "SC" bidirectional
 			(at 48.26 31.75 0)
 			(effects
 				(font
@@ -9008,7 +8869,7 @@
 			)
 			(uuid "2399137c-9e9f-41aa-a2bd-a36f44bf2160")
 		)
-		(pin "SD1" bidirectional
+		(pin "SD" bidirectional
 			(at 48.26 34.29 0)
 			(effects
 				(font
@@ -9056,7 +8917,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC6" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 142.24 0)
 			(effects
 				(font
@@ -9066,7 +8927,7 @@
 			)
 			(uuid "2754ee67-c0fe-4b11-b665-78501174592f")
 		)
-		(pin "SD6" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 144.78 0)
 			(effects
 				(font
@@ -9087,7 +8948,6 @@
 	(sheet
 		(at 58.42 22.86)
 		(size 16.51 15.24)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9114,7 +8974,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC0" bidirectional
+		(pin "SC" bidirectional
 			(at 74.93 31.75 0)
 			(effects
 				(font
@@ -9124,7 +8984,7 @@
 			)
 			(uuid "78a4f3f2-bb67-464d-82f0-8825917eb0c0")
 		)
-		(pin "SD0" bidirectional
+		(pin "SD" bidirectional
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -9172,7 +9032,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SC5" bidirectional
+		(pin "SC" bidirectional
 			(at 49.53 120.65 0)
 			(effects
 				(font
@@ -9182,7 +9042,7 @@
 			)
 			(uuid "6fdd1c13-a27b-41f6-944b-c412a565cb72")
 		)
-		(pin "SD5" bidirectional
+		(pin "SD" bidirectional
 			(at 49.53 123.19 0)
 			(effects
 				(font
