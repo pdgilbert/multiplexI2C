@@ -7895,7 +7895,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0.28 -1.49 360)
+			(at 0.28 -1.49 0)
 			(layer "F.SilkS")
 			(uuid "58f19717-1f1f-4e51-958c-f527886e7f65")
 			(effects
@@ -9560,7 +9560,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "9b19ff64-6ca2-457c-a3cf-984b4756c7aa")
 			(effects
@@ -9719,7 +9719,7 @@
 			(uuid "59103275-5f11-4178-847b-cac5924adb75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "7e177b02-56e0-4aae-8334-7021db0f363c")
 			(effects
@@ -9780,7 +9780,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "50e12b9f-ccfe-49be-ad1e-425e4f62eff6")
 			(effects
@@ -9939,7 +9939,7 @@
 			(uuid "cfc31ac7-3d21-40f5-9a75-580d60d71ba2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "a25953ce-336d-4eb1-98c2-54b74bbbc10d")
 			(effects
@@ -10220,7 +10220,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "c5c4bd05-7c72-46e2-83ef-b189b88cd523")
 			(effects
@@ -10379,7 +10379,7 @@
 			(uuid "3db12a51-467e-4aa9-a827-dd7a20f97935")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "dccc2d6e-4245-449f-8c95-f0f87bd1a886")
 			(effects
@@ -11320,7 +11320,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "59c7f865-1079-42c9-9651-ba5aa8d6355b")
 			(effects
@@ -11479,7 +11479,7 @@
 			(uuid "455135d8-b569-42fc-8d74-49ccb33133bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "671bdb41-4c57-497d-a04f-5fb505a8b827")
 			(effects
@@ -12420,7 +12420,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "cc19a54b-2fe3-41ec-b25a-670204178a7c")
 			(effects
@@ -12579,7 +12579,7 @@
 			(uuid "4ee626f2-7fb2-405e-bd59-923f3eb0ad95")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "96bff0bf-9554-4706-9f4f-349234dc0c26")
 			(effects
@@ -12640,7 +12640,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "66e80179-b550-429f-ba1b-9a7f9849246f")
 			(effects
@@ -12799,7 +12799,7 @@
 			(uuid "ed9fd91d-d0d6-4581-9f09-7df9e1ac80f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "31e85392-e72e-409c-b012-e85eb6c31b8d")
 			(effects
@@ -13080,7 +13080,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "89b253a5-114c-487b-a658-ef54f5990aaa")
 			(effects
@@ -13239,7 +13239,7 @@
 			(uuid "68fc8286-865a-4525-b32f-d4625c679565")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "13857be8-fdee-48eb-86b4-29443fea1f6c")
 			(effects
@@ -13300,7 +13300,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "892ea1a7-0e52-4a1d-8da5-4d3719dd4e01")
 			(effects
@@ -13459,7 +13459,7 @@
 			(uuid "adfedad3-a618-43d2-9f2e-4509dc209eb6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "702c88f2-f2c4-4614-8277-e87705861eeb")
 			(effects
@@ -15961,7 +15961,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 5.334 -0.635 360)
+			(at 5.334 -0.635 0)
 			(layer "B.Fab")
 			(uuid "027766e1-7447-4552-ae0b-ae58b4b32a11")
 			(effects
@@ -16120,7 +16120,7 @@
 			(uuid "cfdd76c5-4a81-4be9-923d-be99b0ea081b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "abb6976a-d011-44e8-ab20-73f053abae01")
 			(effects

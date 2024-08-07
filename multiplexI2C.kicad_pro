@@ -532,9 +532,9 @@
       "plot": "./outputs",
       "pos_files": "outputs",
       "specctra_dsn": "",
-      "step": "ads1115with16JTS.step",
+      "step": "outputs/ads1115with16JTS.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "outputs/multiplexI2C.wrl"
     },
     "page_layout_descr_file": ""
   },
