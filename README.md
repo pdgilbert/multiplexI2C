@@ -9,10 +9,10 @@ See the auto-generated menu in the github README display (above right).
 
 Kicad project WIP.
 
-![alt text](http:Graphics/multiplexI2C.wrl)
+![alt text](Graphics/multiplexI2C.wrl)
 
-![alt text](http:Graphics/multiplexI2C_top1.png)
+![alt text](Graphics/multiplexI2C_top1.png)
 
-![alt text](http:Graphics/multiplexI2C_top2.png)
+![alt text](Graphics/multiplexI2C_top2.png)
 
-![alt text](http:Graphics/multiplexI2C_bottom1.png)
+![alt text](Graphics/multiplexI2C_bottom1.png)
