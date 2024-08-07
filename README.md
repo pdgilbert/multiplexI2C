@@ -9,10 +9,15 @@ See the auto-generated menu in the github README display (above right).
 
 Kicad project WIP.
 
-![alt text](Graphics/multiplexI2C.wrl)
-
 ![alt text](Graphics/multiplexI2C_top1.png)
 
 ![alt text](Graphics/multiplexI2C_top2.png)
 
 ![alt text](Graphics/multiplexI2C_bottom1.png)
+
+3D  stl file  rendered by github
+( hints from https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#3d-file-viewer )
+![alt text](Graphics/multiplexI2C.stl)
+
+3D  wrl file (opens with eg. Meshlab)
+![alt text](Graphics/multiplexI2C.wrl)

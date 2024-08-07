@@ -1,5 +1,6 @@
 ## see https://docs.kicad.org/7.0/en/kicad/kicad.html re file names/uses
 
+outputs/
 Private/
 *-backups/
 *.bak
