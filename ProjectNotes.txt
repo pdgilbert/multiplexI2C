@@ -4,19 +4,19 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-pads for address change
+check value for SW resistors. How much current does address draw and will that bring v below Hi needed?
 
+pullup 10k vs 20k?
 space or more connectors?
 
 
 Reset pulldown to PA8 on header, but g4 uses  PB7 
+Mark "Reset" on Silksreen
    f1   PA8     opendrain 
    f4   PA8     opendrain 
    g4   PB7     opendrain 
    h7   PA8     opendrain 
 
-
-pullup 10k vs 20k?
 
 MCU on board?
 

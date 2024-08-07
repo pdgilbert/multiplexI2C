@@ -985,12 +985,11 @@
 		(fields_autoplaced yes)
 		(uuid "2ac55fa2-b45f-4223-9d6e-62ab08dacc63")
 		(property "Reference" "R11"
-			(at 105.41 41.91 0)
+			(at 105.41 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
@@ -1270,12 +1269,11 @@
 		(fields_autoplaced yes)
 		(uuid "72ff6a4f-8576-48f9-82a5-dbde65c797a1")
 		(property "Reference" "R12"
-			(at 128.27 44.45 0)
+			(at 128.27 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10k"
@@ -1368,11 +1366,12 @@
 		(dnp no)
 		(uuid "9a10d79d-b297-4560-b392-dfaaea7c5d5a")
 		(property "Reference" "C16"
-			(at 81.28 35.56 90)
+			(at 81.28 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0.1µF"
@@ -1469,7 +1468,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
