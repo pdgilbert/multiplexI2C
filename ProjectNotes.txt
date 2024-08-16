@@ -4,24 +4,99 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-check value for SW resistors. How much current does address draw and will that bring v below Hi needed?
-
-pullup 10k vs 20k?
-space or more connectors?
+- fix solder mask on takeoffPads. Done
+- square mounting holes. 44 x 66.9 mm  hole centers.   Done
 
 
-Reset pulldown to PA8 on header, but g4 uses  PB7 
-Mark "Reset" on Silksreen
-   f1   PA8     opendrain 
-   f4   PA8     opendrain 
-   g4   PB7     opendrain 
-   h7   PA8     opendrain 
+- Change value for address switch resistors to 100K as in note below.  Done
+- Change value for SDx and SCx resistors to 4.7K as in note below.  Done
+
+- Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads... Done
+
+- put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
+
+- Reset pullup to PA8 on header,  "Reset" marked on Silksreen, but g4 uses  PB7 
+  TEST ON BREADBOARD (POSSIBLY USE LARGER RESISTOR ?)
+  check circuit. this is held high to reset, normal is thru resistor to gnd or vcc?
+       f1   PA8     opendrain 
+       f4   PA8     opendrain 
+       g4   PB7     opendrain 
+       h7   PA8     opendrain 
 
 
 MCU on board?
 
 LoRa on board?
 
+
+///////////////   AHT10 sensor module  
+https://www.electroschematics.com/temperature-sensor/
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     Notes on PCA9548 pullup resistors
+////////////////////////////////////////////////////////////////////////////////
+
+See  http://www.ti.com/lit/pdf/SLVA689 re pullup sensor size.  !! very good
+
+pullup 10k vs 20k? vs 4.7k?  Consider pullup on sensor so small resister can be used with long wires and
+power is not lost when there is no sensor.
+
+4.7k seems to be needed sometimes on short wires, while 10k sometimes works on long wires.
+Possibly poor connections on RJ11 or on AHT10 module boards.
+Should use 4.7k to help insur better signal. Additional power should be small.
+In case of still bad signal: additional resistors can be added can be added in the J1 .. J8 connectors
+from power to SC and to SD, beside wires to the sensor module.
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     Notes on PCA9548 address 
+////////////////////////////////////////////////////////////////////////////////
+datasheet
+https://www.ti.com/document-viewer/TCA9548A/datasheet#device-address-scps2079628/SCPS2079628
+
+Fixed address:
+
+- The default only address could be specified by wiring A0, A1, A2 to GND.
+
+- Other address could be specied with GND and VCC settings.
+
+Changeable address:
+
+- a jumper block is possible but error prone. The jumper has to go to either GND or VCC, which is 
+possibly error prone. (A missing jumper would cause floating.)
+
+- Solder pads for 0 ohm resistors (or solder bridges) can be setup to change GND and VCC settings.
+This requires a solder iron and is not easily changed "in the field".
+
+- A DIP style switch can be used. The need for either GND or VCC means a pull-up or pull-down resistor
+is needed for each address pin A:
+
+ The usual. Switch X open pulls A high through R to VCC. X closed pulls A low to GND. 
+              A    --- R --- VCC
+                    |
+                    X ---- GND
+
+ The alternate. Switch X open pulls A low through R to GND. X closed pulls A high to VCC.
+                  A   --- X ---  VCC
+                       |
+                       --- R --- GND
+
+ In either case one address setting causes a power loss from Vcc through R to ground.
+ With VCC=3.2v and R = 100 K ohms The current is 0.032 mA and the power loss 0.01 mW per address.
+ According to the datasheet section 6.5 the current flow through A is max 0.001 mA when there is a direct 
+ connection to GND or VCC. 
+ This flow is even in the case the MCU and  PCA9548 are in sleep mode. 
+ That is not attractive for battery or solar opperation so the resistor R should be as large
+ as possible but still achieve necesssary high/low voltage. 
+ 
+ From the datasheet section 6.3 high should be at least 0.7 x Vcc and low should be less than 0.3 x Vcc.
+ So with Vcc 3.2v  high is at least 2.24v and low is less than 0.96v.
+ The necessary check in the alternate configuration is that with X open the drop from A to GND is 
+ less than 0.96v. At max current 0.001 mA the voltage drop through a 100 K ohm resistor is 0.1v.
+ Thus an even large resistance would be possible.
+
+ The alternate configuration is used so there is no power loss through R in the most usual 
+ setting  -  all address 0. X open and A pulled low to ground through R. In less usual situations where 
+ some address pins are high the power supply will likely need to be more robust for other reasons too.
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     BOM / Parts / reference
