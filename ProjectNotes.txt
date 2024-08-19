@@ -4,33 +4,75 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- fix solder mask on takeoffPads. Done
-- square mounting holes. 44 x 66.9 mm  hole centers.   Done
+
+-change PCA9548A to TCA, which has smaller footprint
+
+- change to parts used in ads..  so BOM gets generated correctly
+
+-- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm the part you will supply
+      ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP
+   is  OK.  An equivalent would also be OK.
 
 
-- Change value for address switch resistors to 100K as in note below.  Done
-- Change value for SDx and SCx resistors to 4.7K as in note below.  Done
+-- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
+     TXGA FFH25405-S20S1001K6K    ->  JILN part number  22850120ANG1SYA01 
 
-- Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads... Done
+-- J20   1x02_P2.54mm_Horizontal   2 Screw horz TerminalBlock
+  "TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  -> Cixi Kefa Elec	KF128-2.54-2P	2 Screw horz TerminalBlock
+https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
 
-- put  alert/rdy (1k - 10k typ.) -  possibly higher, check power loss implication
+-- J1-J8   1x04_P2.54mm_Horizontal  Screw_Terminal"
+  "TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" -> Cixi Kefa Elec	KF128-2.54-4P	4 Screw horz TerminalBlock
+https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf
 
-- Reset pullup to PA8 on header,  "Reset" marked on Silksreen, but g4 uses  PB7 
-  TEST ON BREADBOARD (POSSIBLY USE LARGER RESISTOR ?)
-  check circuit. this is held high to reset, normal is thru resistor to gnd or vcc?
+ProjectLib:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm
+xxhttp://www.kingtek.net.cn/pic/201601201446313350.pdf
+http://www.kingtek-switch.com/en/static/upload/file/20181202/1543761254585848.pdf
+
+- put ssd header to I2C2.
+
+- MCU on board?
+
+- LoRa on board?
+
+- BOM
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     BOM / Parts / reference
+////////////////////////////////////////////////////////////////////////////////
+
+need 4P version of this
+Cixi Kefa Elec        KF128-2.54-2P      2 Screw horz TerminalBlock   1x02_P2.54mm_Horizontal  PTH     or equivalent, eg Phoenix_MPT-0,5-2-2.54             
+
+Open Footprint Editor > File > Import > Footprint.
+Open the kicad footprint, edit it and there is a tab for the 3d model link.
+[Footprint libraries are just a sub directory (extension .pretty) so one can also simply
+copy a footprint into such a directory. (This only works for footprints, symbols are different). ]
+
+Associate the footprint with symbol: In Schematic editor click on the symbol and 
+then right-click to edit properties. Click Footprint field, then bookshelf icon to browse.
+
+Then in PCB Editor > Tools > update PCB from Schematic.
+
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     General Notes
+////////////////////////////////////////////////////////////////////////////////
+
+- The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
+  (This is adjusted very slightly and squared from project ads1115with16JTS.)
+
+
+- AHT10 sensor module reference  https://www.electroschematics.com/temperature-sensor/
+
+- Reset pullup to PA8 on header,  "Reset" marked on Silksreen, but beware stm32g4xx uses  PB7 
+  Reset is held low by opendrain to reset. For normal operation reset is at vcc through pullup resistor.
        f1   PA8     opendrain 
        f4   PA8     opendrain 
        g4   PB7     opendrain 
        h7   PA8     opendrain 
 
-
-MCU on board?
-
-LoRa on board?
-
-
-///////////////   AHT10 sensor module  
-https://www.electroschematics.com/temperature-sensor/
+- Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on PCA9548 pullup resistors
@@ -98,53 +140,4 @@ is needed for each address pin A:
  setting  -  all address 0. X open and A pulled low to ground through R. In less usual situations where 
  some address pins are high the power supply will likely need to be more robust for other reasons too.
 
-////////////////////////////////////////////////////////////////////////////////
-///////////////     BOM / Parts / reference
-////////////////////////////////////////////////////////////////////////////////
-
-need 4P version of this
-Cixi Kefa Elec        KF128-2.54-2P      2 Screw horz TerminalBlock   1x02_P2.54mm_Horizontal  PTH     or equivalent, eg Phoenix_MPT-0,5-2-2.54             
-
-/////////// import footprint
-
-Open Footprint Editor > File > Import > Footprint.
-Open the kicad footprint, edit it and there is a tab for the 3d model link.
-[Footprint libraries are just a sub directory (extension .pretty) so one can also simply
-copy a footprint into such a directory. (This only works for footprints, symbols are different). ]
-
-Associate the footprint with symbol: In Schematic editor click on the symbol and 
-then right-click to edit properties. Click Footprint field, then bookshelf icon to browse.
-
-Then in PCB Editor > Tools > update PCB from Schematic.
-
-////////////////////////////////////////////////////////////////////////////////
-///////////////     Project setup notes & git
-////////////////////////////////////////////////////////////////////////////////
-
-Files as copied from ads1115with16JTS and renamed to start multiplexI2C  project
-
-multiplexI2C.kicad_pcb
-multiplexI2C.kicad_pro
-multiplexI2C.kicad_sch
-ProjectLib.kicad_sym
-ProjectLib.pretty
-sym-lib-table
-fp-lib-table
-.gitignore
-LICENSE
-LICENSE.cc.for.output
-
-mkdir outputs
-
-Do some stuff (eg on schematic) to get to reasonable starting point
-
-/////////////
-mv multiplexI2C multiplexI2C-orig
-create repo on github (web interface)
-clone local copy and populate with files from multiplexI2C-orig
-
-/////////////
-
-
-import any new footprints and 3D.
 ////////////////////////////////////////////////////////////////////////////////
