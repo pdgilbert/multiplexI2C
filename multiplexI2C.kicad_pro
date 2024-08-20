@@ -532,9 +532,9 @@
       "plot": "./outputs",
       "pos_files": "outputs",
       "specctra_dsn": "",
-      "step": "outputs/multiplexI2C.step",
+      "step": "Graphics/multiplexI2C.step",
       "svg": "",
-      "vrml": "outputs/multiplexI2C.wrl"
+      "vrml": "Graphics/multiplexI2C.wrl"
     },
     "page_layout_descr_file": ""
   },
