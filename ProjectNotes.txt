@@ -7,7 +7,7 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 
 -change PCA9548A to TCA, which has smaller footprint
 
-- change to parts used in ads..  so BOM gets generated correctly
+- change to parts used in ads..  so BOM gets generated correctly. Done
 
 -- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm the part you will supply
       ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP
