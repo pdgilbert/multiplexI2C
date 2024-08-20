@@ -5,14 +5,6 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ////////////////////////////////////////////////////////////////////////////////
 
 
--change PCA9548A to TCA, which has smaller footprint
-
-- change to parts used in ads..  so BOM gets generated correctly. Done
-
--- For part line 4 item #2 TSSOP-10_3x3mm_P0.5mm the part you will supply
-      ADS1115IDGSR   Texas Instruments  IC ADC 16BIT SIGMA-DELTA 10VSSOP
-   is  OK.  An equivalent would also be OK.
-
 
 -- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
      TXGA FFH25405-S20S1001K6K    ->  JILN part number  22850120ANG1SYA01 
@@ -25,9 +17,6 @@ https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-
   "TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" -> Cixi Kefa Elec	KF128-2.54-4P	4 Screw horz TerminalBlock
 https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf
 
-ProjectLib:SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm
-xxhttp://www.kingtek.net.cn/pic/201601201446313350.pdf
-http://www.kingtek-switch.com/en/static/upload/file/20181202/1543761254585848.pdf
 
 - put ssd header to I2C2.
 
@@ -40,19 +29,6 @@ http://www.kingtek-switch.com/en/static/upload/file/20181202/1543761254585848.pd
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     BOM / Parts / reference
 ////////////////////////////////////////////////////////////////////////////////
-
-need 4P version of this
-Cixi Kefa Elec        KF128-2.54-2P      2 Screw horz TerminalBlock   1x02_P2.54mm_Horizontal  PTH     or equivalent, eg Phoenix_MPT-0,5-2-2.54             
-
-Open Footprint Editor > File > Import > Footprint.
-Open the kicad footprint, edit it and there is a tab for the 3d model link.
-[Footprint libraries are just a sub directory (extension .pretty) so one can also simply
-copy a footprint into such a directory. (This only works for footprints, symbols are different). ]
-
-Associate the footprint with symbol: In Schematic editor click on the symbol and 
-then right-click to edit properties. Click Footprint field, then bookshelf icon to browse.
-
-Then in PCB Editor > Tools > update PCB from Schematic.
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -75,7 +51,7 @@ Then in PCB Editor > Tools > update PCB from Schematic.
 - Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
 
 ////////////////////////////////////////////////////////////////////////////////
-///////////////     Notes on PCA9548 pullup resistors
+///////////////     Notes on PCA/TCA9548 pullup resistors
 ////////////////////////////////////////////////////////////////////////////////
 
 See  http://www.ti.com/lit/pdf/SLVA689 re pullup sensor size.  !! very good
@@ -90,7 +66,7 @@ In case of still bad signal: additional resistors can be added can be added in t
 from power to SC and to SD, beside wires to the sensor module.
 
 ////////////////////////////////////////////////////////////////////////////////
-///////////////     Notes on PCA9548 address 
+///////////////     Notes on TCA9548 address 
 ////////////////////////////////////////////////////////////////////////////////
 datasheet
 https://www.ti.com/document-viewer/TCA9548A/datasheet#device-address-scps2079628/SCPS2079628
@@ -99,7 +75,7 @@ Fixed address:
 
 - The default only address could be specified by wiring A0, A1, A2 to GND.
 
-- Other address could be specied with GND and VCC settings.
+- Other address could be specifed with GND and VCC wired settings.
 
 Changeable address:
 
@@ -107,7 +83,7 @@ Changeable address:
 possibly error prone. (A missing jumper would cause floating.)
 
 - Solder pads for 0 ohm resistors (or solder bridges) can be setup to change GND and VCC settings.
-This requires a solder iron and is not easily changed "in the field".
+This requires a solder iron and is not easily changed "in the field". Not clear that is needed.
 
 - A DIP style switch can be used. The need for either GND or VCC means a pull-up or pull-down resistor
 is needed for each address pin A:

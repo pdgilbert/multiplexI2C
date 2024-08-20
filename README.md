@@ -1,5 +1,6 @@
 # multiplexI2C
-Multiplexed 4-wire screw down connectors on I2C with PCA9548A
+Multiplexed 4-wire screw down connectors on I2C with TCA9548A. This allows connecting sensors 
+such as AHT10 on module boards using POT cable.
 
 ##  Contents
 
@@ -23,24 +24,20 @@ To download go to the file in the Graphics/ directory and click on the file.
 Github will try to render this, but fails because it is too large.
 Then click on the download raw file icon at the top right. 
 The file is produced from kicad  with `File > Export ... >  VRML...`
-![alt text](Graphics/multiplexI2C.wrl)
 ![.wrl file](Graphics/multiplexI2C.wrl)
 
 3D  `.step` file can be loaded by Freecad. It can be downloaded as above for `.wrl`.
 The file is produced from kicad  with `File > Export ... >  STEP...`
-![alt text](Graphics/multiplexI2C.step)
 ![.step file](Graphics/multiplexI2C.step)
 
 3D  `.stl` file can be  rendered by Github, Meshlab and Freecad. So far only mono-colour is working. 
-To render by Meshlab or Freecad may requires downloading as above for `.wrl`.
+To render by Meshlab or Freecad requires downloading as above for `.wrl`.
 The file can be produced from kicad by exporting a `.wrl` or `.step` file, 
 importing that to Meshlab or Freecad, and then exporting to `.stl`
-![alt text](Graphics/multiplexI2C.stl)
 ![.stl file](Graphics/multiplexI2C.stl)
 
 3D  `.ast` file (ASCII stl) is rendered by Github, according to above link, but files  
 larger than 10 MB are too big for GitHub to display. 
 The `multiplexI2C.ast` is almost 20MB so this format cannot be used by Github.
 It is not rendered by Meshlab.
-![alt text](Graphics/multiplexI2C.ast)
 ![.ast file](Graphics/multiplexI2C.ast)
