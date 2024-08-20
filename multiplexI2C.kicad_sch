@@ -8415,7 +8415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "ProjectLib:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -8451,7 +8451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -8460,7 +8460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "PCA9548ADW"
+		(property "MfgPart" "TCA9548A"
 			(at 104.14 63.5 0)
 			(effects
 				(font
