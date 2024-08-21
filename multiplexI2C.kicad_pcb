@@ -19660,6 +19660,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SCL2"
+		(at 82.32 81.63 0)
+		(layer "F.SilkS")
+		(uuid "4600451f-e7de-4e9f-94d5-deb2c5ac8517")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "v0.1.0 2024-08"
 		(at 81.026 94.742 0)
 		(layer "F.SilkS")
@@ -19691,7 +19704,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -19716,7 +19729,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -19745,6 +19758,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SDA2"
+		(at 85.49 64.06 0)
+		(layer "F.SilkS")
+		(uuid "a46461a9-ace1-410e-8e4d-3eee1afaee03")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCL2"
 		(at 61.34 89.6 90)
 		(layer "F.SilkS")
@@ -19752,7 +19778,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -19764,7 +19790,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
