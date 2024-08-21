@@ -3431,6 +3431,150 @@
 				)
 			)
 		)
+		(symbol "ProjectLib:ssd1306_header"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
+				(at 15.748 -3.556 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ProjectLib:ssd1306_header"
+				(at 12.7 -0.254 90)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 27.686 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4P I2C header for SSD1306 module"
+				(at 9.144 -0.762 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ssd1306"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ssd1306_header_0_1"
+				(rectangle
+					(start -4.572 4.826)
+					(end 0 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ssd1306_header_1_1"
+				(pin free line
+					(at 2.54 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 2.54 -1.27 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 2.54 1.27 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 2.54 3.81 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -3787,6 +3931,18 @@
 		(uuid "3d00cec3-2977-4b24-b926-431a68514648")
 	)
 	(junction
+		(at 162.56 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "452e9c5c-6f08-4774-afa0-2254b857b9df")
+	)
+	(junction
+		(at 163.83 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a25c9c4-6e11-49e2-ab62-7ad362bce254")
+	)
+	(junction
 		(at 161.29 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3865,6 +4021,12 @@
 		(uuid "acd6356a-1054-4c55-9587-385fee1d51aa")
 	)
 	(junction
+		(at 162.56 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be8c8f86-044c-4b59-972f-5a710cb56b4a")
+	)
+	(junction
 		(at 167.64 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3887,12 +4049,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d125da30-86fa-46b6-94c0-819101c2748c")
-	)
-	(junction
-		(at 162.56 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6b0d2e2-547a-4168-9e5b-b3c591ee95da")
 	)
 	(junction
 		(at 104.14 25.4)
@@ -3931,6 +4087,12 @@
 		(uuid "eff0ee21-084f-439c-bc19-217df3345c69")
 	)
 	(junction
+		(at 162.56 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4ee3cd-1d98-472e-b68e-baa71a22121c")
+	)
+	(junction
 		(at 186.69 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3965,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "055bc4a4-6b98-42f8-87f3-47c4d598b396")
+	)
+	(wire
+		(pts
+			(xy 165.1 196.85) (xy 173.99 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068af8ea-7b7a-4052-a319-dbbafb3d1622")
 	)
 	(wire
 		(pts
@@ -4078,6 +4250,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 199.39) (xy 173.99 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198dbbea-d969-4cf5-8999-87f4407e4596")
+	)
+	(wire
+		(pts
 			(xy 91.44 163.83) (xy 91.44 81.28)
 		)
 		(stroke
@@ -4138,7 +4320,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 148.59) (xy 168.91 149.86)
+			(xy 163.83 148.59) (xy 163.83 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4185,16 +4367,6 @@
 			(type default)
 		)
 		(uuid "2cc5a692-0872-491f-9acc-822f708972a8")
-	)
-	(wire
-		(pts
-			(xy 162.56 148.59) (xy 168.91 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db3ec74-74e9-4175-94e2-9494023b141f")
 	)
 	(wire
 		(pts
@@ -4358,6 +4530,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 125.73) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44261aac-06d4-4200-be64-ffa1d3e97c05")
+	)
+	(wire
+		(pts
 			(xy 69.85 66.04) (xy 93.98 66.04)
 		)
 		(stroke
@@ -4455,6 +4637,16 @@
 			(type default)
 		)
 		(uuid "57642869-e317-4716-9f90-b26df72bce1e")
+	)
+	(wire
+		(pts
+			(xy 162.56 146.05) (xy 165.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5783a899-2f1c-4fe8-b6ca-eefd58926392")
 	)
 	(wire
 		(pts
@@ -4978,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 125.73) (xy 173.99 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd4dff9-350f-44fb-9f39-fbf2d5f02f31")
+	)
+	(wire
+		(pts
 			(xy 157.48 105.41) (xy 162.56 105.41)
 		)
 		(stroke
@@ -5108,6 +5310,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10448aa-c08d-4677-b0be-37b8f31a9217")
+	)
+	(wire
+		(pts
 			(xy 157.48 135.89) (xy 162.56 135.89)
 		)
 		(stroke
@@ -5145,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "b77bf988-91f1-4592-aa0e-2fdfb027d7ef")
+	)
+	(wire
+		(pts
+			(xy 168.91 143.51) (xy 168.91 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ded88e-c3cf-4b87-b344-25e2c6ab21ed")
 	)
 	(wire
 		(pts
@@ -5288,6 +5510,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 194.31) (xy 173.99 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabff1f0-4b87-4b3a-9838-fb1bb5c1c75b")
+	)
+	(wire
+		(pts
 			(xy 49.53 142.24) (xy 86.36 142.24)
 		)
 		(stroke
@@ -5428,6 +5660,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 146.05) (xy 165.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc488efa-558b-41c7-8976-26533d5714ac")
+	)
+	(wire
+		(pts
 			(xy 114.3 58.42) (xy 125.73 58.42)
 		)
 		(stroke
@@ -5515,6 +5757,16 @@
 			(type default)
 		)
 		(uuid "e6d8a338-a50a-4493-8700-082111efa0b4")
+	)
+	(wire
+		(pts
+			(xy 162.56 143.51) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8adad8a-5e24-44f9-89bd-9f641b4025c1")
 	)
 	(wire
 		(pts
@@ -7794,6 +8046,80 @@
 		)
 	)
 	(symbol
+		(lib_id "ProjectLib:ssd1306_header")
+		(at 176.53 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90030471-ba87-4119-a94e-48cf67b079a1")
+		(property "Reference" "J9"
+			(at 179.07 187.198 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+			)
+		)
+		(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
+			(at 190.754 200.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 186.436 196.088 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.384 197.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4P I2C header for SSD1306 module"
+			(at 165.608 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "44398fa6-80b6-4d6c-ac28-a4234d7ac782")
+		)
+		(pin "3"
+			(uuid "8428e2d7-acf8-4424-a3cb-f9f5cf5ea7e2")
+		)
+		(pin "2"
+			(uuid "a5d02c7e-d055-4cbe-b5cd-ecae3a50a789")
+		)
+		(pin "1"
+			(uuid "20c36a98-d61b-4088-9151-89a8efcc9a0d")
+		)
+		(instances
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProjectLib:b_pill_takeoff_21-40")
 		(at 167.64 128.27 0)
 		(unit 1)
@@ -8322,7 +8648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 149.86 0)
+		(at 163.83 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8657,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e964e9c-436d-43e8-b065-674a6afaed91")
 		(property "Reference" "#PWR049"
-			(at 168.91 156.21 0)
+			(at 163.83 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 154.94 0)
+			(at 163.83 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 149.86 0)
+			(at 163.83 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 149.86 0)
+			(at 163.83 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 149.86 0)
+			(at 163.83 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
