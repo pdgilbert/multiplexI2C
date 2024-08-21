@@ -4,7 +4,10 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- put ssd header to I2C2.
+- R0s in place of switches for address
+
+-sx1276/1278 solder pad? 16x16mm & antenna?
+-E220        solder pad? 20x14mm & antenna?
 
 - MCU on board?
 
