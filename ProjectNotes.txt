@@ -4,20 +4,6 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-
-
--- J18, J19,  1x20_P2.54mm_Vertical      Female Header 2.54mm 180°Vertical Single row 20 Circuits(DIP)
-     TXGA FFH25405-S20S1001K6K    ->  JILN part number  22850120ANG1SYA01 
-
--- J20   1x02_P2.54mm_Horizontal   2 Screw horz TerminalBlock
-  "TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"  -> Cixi Kefa Elec	KF128-2.54-2P	2 Screw horz TerminalBlock
-https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf
-
--- J1-J8   1x04_P2.54mm_Horizontal  Screw_Terminal"
-  "TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" -> Cixi Kefa Elec	KF128-2.54-4P	4 Screw horz TerminalBlock
-https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf
-
-
 - put ssd header to I2C2.
 
 - MCU on board?
