@@ -709,6 +709,10 @@
     [
       "28f5dbbe-14b4-4c25-86a6-457951a84750",
       "Connector7"
+    ],
+    [
+      "8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683",
+      "radio-sx127x"
     ]
   ],
   "text_variables": {}

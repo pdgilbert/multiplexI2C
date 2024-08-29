@@ -4,14 +4,17 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- R0s in place of switches for address
-
 -sx1276/1278 solder pad? 16x16mm & antenna?
 -E220        solder pad? 20x14mm & antenna?
 
 - MCU on board?
 
 - LoRa on board?
+https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
+https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
+
+"Label not connected to anything" bug (fix commited but not released as of Aug 28, 2024
+https://gitlab.com/kicad/code/kicad/-/issues/13285
 
 - BOM
 
