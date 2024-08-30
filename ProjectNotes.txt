@@ -4,19 +4,16 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
--sx1276/1278 solder pad? 16x16mm & antenna?
--E220        solder pad? 20x14mm & antenna?
+-E220        solder pad? 20x14mm
 
 - MCU on board?
 
-- LoRa on board?
-https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
-https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
-
-"Label not connected to anything" bug (fix commited but not released as of Aug 28, 2024
-https://gitlab.com/kicad/code/kicad/-/issues/13285
+"Label not connected to anything" bug (Kicad fix commited but not released as of Aug 28, 2024
+https://gitlab.com/kicad/code/kicad/-/issues/13285. This does not prevent using the schematic.
 
 - BOM
+
+-spice
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     BOM / Parts / reference
@@ -41,6 +38,17 @@ https://gitlab.com/kicad/code/kicad/-/issues/13285
        h7   PA8     opendrain 
 
 - Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////     Notes on LoRa
+////////////////////////////////////////////////////////////////////////////////
+
+- LoRa on board?
+https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
+https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
+
+version with radio-sx127x pad being merged to main and tagged, but probably
+moving to E220 
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on PCA/TCA9548 pullup resistors
