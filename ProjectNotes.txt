@@ -45,7 +45,8 @@ https://gitlab.com/kicad/code/kicad/-/issues/13285. This does not prevent using 
 
 - LoRa on board
 version with radio-sx127x pad merged to main and tagged,
-https://www.hoperf.com/modules/lora/RFM95W-Special.html
+https://www.hoperf.com/modules/lora/RFM95W.html
+
 https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
 https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
 
