@@ -43,12 +43,17 @@ https://gitlab.com/kicad/code/kicad/-/issues/13285. This does not prevent using 
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
 
-- LoRa on board?
+- LoRa on board
+version with radio-sx127x pad merged to main and tagged,
+https://www.hoperf.com/modules/lora/RFM95W-Special.html
 https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
 https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
 
-version with radio-sx127x pad being merged to main and tagged, but probably
-moving to E220 
+
+Probably move sometime to E220-900M22S (branch e220)
+    https://www.cdebyte.com/products/E220-900T22D/7#Series
+using RF chipset llcc68, produced by Semtech
+ https://device.report/manual/2458480
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on PCA/TCA9548 pullup resistors
