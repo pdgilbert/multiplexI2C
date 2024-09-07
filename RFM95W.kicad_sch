@@ -44,8 +44,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
-				(at -83.82 41.91 0)
+			(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
+				(at -9.906 -32.512 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,8 +53,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
-				(at 0 0 0)
+			(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
+				(at 2.286 -37.338 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -625,10 +625,6 @@
 		(uuid "1e7b377b-5b46-4be4-9686-640bda3407c2")
 	)
 	(no_connect
-		(at 128.27 77.47)
-		(uuid "3efd74a3-48f3-4cb7-be29-068d379bd7de")
-	)
-	(no_connect
 		(at 128.27 85.09)
 		(uuid "7e6b28c3-63e7-4215-98cd-84dabe905d5e")
 	)
@@ -644,6 +640,15 @@
 			(type default)
 		)
 		(uuid "0e5ac2b0-0223-4dbb-b830-e827bc7d6860")
+	)
+	(bus_entry
+		(at 154.94 68.58)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0db362-0b71-49b5-b9b0-9b184ba9e515")
 	)
 	(bus_entry
 		(at 154.94 80.01)
@@ -731,6 +736,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 66.04) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136e389f-124b-4115-baf4-6487be2a7c77")
+	)
+	(wire
+		(pts
 			(xy 100.33 82.55) (xy 100.33 55.88)
 		)
 		(stroke
@@ -758,6 +773,16 @@
 			(type default)
 		)
 		(uuid "3102b181-843b-4cfb-a32c-0e93e31362f7")
+	)
+	(bus
+		(pts
+			(xy 154.94 68.58) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357e1a21-9fe2-41db-8eec-7da4d7d82f58")
 	)
 	(wire
 		(pts
@@ -911,6 +936,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 77.47) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924c9c36-1d98-4630-8f49-c996fa28f813")
+	)
+	(wire
+		(pts
 			(xy 100.33 55.88) (xy 152.4 55.88)
 		)
 		(stroke
@@ -1009,9 +1044,19 @@
 		)
 		(uuid "bf7cabc6-7893-46ff-b1cb-e60d62aae311")
 	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1dc273-1616-4be8-8f0c-a72992c318f7")
+	)
 	(bus
 		(pts
-			(xy 154.94 63.5) (xy 154.94 76.2)
+			(xy 154.94 63.5) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1072,6 +1117,16 @@
 		)
 		(uuid "2680c6b3-31da-4c66-b69d-4e39f5a74989")
 	)
+	(label "ANT"
+		(at 146.05 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d649013-0d2f-497d-9666-bb2f3c0ead97")
+	)
 	(label "SCK"
 		(at 146.05 60.96 0)
 		(fields_autoplaced yes)
@@ -1104,7 +1159,7 @@
 		)
 		(uuid "e630c10b-b663-4201-a02e-ffec7a0961b9")
 	)
-	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1}"
+	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1 ANT}"
 		(shape bidirectional)
 		(at 154.94 82.55 0)
 		(fields_autoplaced yes)
@@ -1116,7 +1171,7 @@
 		)
 		(uuid "7bd553cb-2d2e-4eca-87c5-b213aefa3f59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8016 82.55 0)
+			(at 202.1559 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
+		(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -1303,7 +1358,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+		(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HopeRF"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "RFM95W-915S2"
 			(at 115.57 85.09 0)
 			(effects
 				(font

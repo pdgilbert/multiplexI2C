@@ -10,6 +10,114 @@
 		(rev "v0.1.0")
 	)
 	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ProjectLib:C"
 			(pin_numbers hide)
 			(pin_names
@@ -3870,6 +3978,15 @@
 		(uuid "05b8ed87-1ea4-40a4-829c-d280bdb86f88")
 	)
 	(bus_entry
+		(at 129.54 91.44)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b123616-0856-483a-bc42-d0ced15c130b")
+	)
+	(bus_entry
 		(at 129.54 106.68)
 		(size 2.54 -2.54)
 		(stroke
@@ -4303,6 +4420,16 @@
 			(type default)
 		)
 		(uuid "3055a8c6-aaf6-4617-923c-27b0a3ac4153")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 138.43 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31466efd-9c4f-48cf-9d07-aa294e1ce6e4")
 	)
 	(wire
 		(pts
@@ -5286,7 +5413,7 @@
 	)
 	(bus
 		(pts
-			(xy 129.54 90.17) (xy 129.54 101.6)
+			(xy 129.54 90.17) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5663,6 +5790,16 @@
 			(type default)
 		)
 		(uuid "cd8fb932-4f47-484a-8be3-4c0c69fa8cfb")
+	)
+	(bus
+		(pts
+			(xy 129.54 91.44) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce641d6d-996c-40f5-8405-920acac73509")
 	)
 	(wire
 		(pts
@@ -6212,7 +6349,17 @@
 		)
 		(uuid "e2a85a29-4570-4a99-9013-526cb872add3")
 	)
-	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1}"
+	(label "ANT"
+		(at 133.35 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f10b4464-13fc-422a-bc35-bb5e2cfcc813")
+	)
+	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1 ANT}"
 		(shape bidirectional)
 		(at 129.54 116.84 270)
 		(fields_autoplaced yes)
@@ -6224,7 +6371,7 @@
 		)
 		(uuid "e05e1ae9-ee81-47c8-93cd-0693fe4c8b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 159.7016 90)
+			(at 129.54 164.0559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,6 +9659,73 @@
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 138.43 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6643508-1759-40b6-8c8a-5df62109a7b5")
+		(property "Reference" "AE1"
+			(at 140.97 83.1849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 140.97 85.7249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:PinSocket_1x01_P2.54mm_Horizontal"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd27c09d-19e6-4dd8-b31c-7171d2732e41")
+		)
+		(instances
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
