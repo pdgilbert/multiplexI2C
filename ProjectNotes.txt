@@ -43,18 +43,24 @@ https://gitlab.com/kicad/code/kicad/-/issues/13285. This does not prevent using 
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
 
-- LoRa on board
-version with radio-sx127x pad merged to main and tagged,
+- LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) apparently based
+on semtech sx1276 chipset and used radio-sx127x rust crate.
+An early version of this project with radio-sx127x RFM95W pad was merged to main and tagged as radio-sx127x.
+
+Branch RFM95W is now the  active branch with this LoRa module.
 https://www.hoperf.com/modules/lora/RFM95W.html
+https://www.instructables.com/Introduction-LoRa-Module-RFM95-RFM95W-Hoperf/
 
 https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
 https://stackoverflow.com/questions/35780290/how-can-i-use-hardware-nss-spi-on-stm32f4
 
 
-Probably move sometime to E220-900M22S (branch e220)
-    https://www.cdebyte.com/products/E220-900T22D/7#Series
-using RF chipset llcc68, produced by Semtech
+Sometime probably move to G-NiceRF LoRa-CC68-915 or E220-900M22S (branch e220) 
+using RF chipset llcc68, produced by Semtech, but first need rust crate for radio/module.
+  https://www.nicerf.com/lora-module/3438.html
+ https://www.cdebyte.com/products/E220-900T22D/7#Series
  https://device.report/manual/2458480
+
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on PCA/TCA9548 pullup resistors
