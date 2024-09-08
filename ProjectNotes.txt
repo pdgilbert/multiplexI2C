@@ -43,7 +43,8 @@ https://gitlab.com/kicad/code/kicad/-/issues/13285. This does not prevent using 
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
 
-ADD ANTENNA PAD
+ADD ANTENNA PAD  and 915mhz-spring-antenn  NiceRF  part# sw915-th06
+https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html
 
 - LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) apparently based
 on Semtech sx1276 chipset and used radio-sx127x rust crate.

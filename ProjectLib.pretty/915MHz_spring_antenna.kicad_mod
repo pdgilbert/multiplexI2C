@@ -1,0 +1,229 @@
+(footprint "915MHz_spring_antenna"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole 915MHz spring antenna")
+	(tags "Through hole 915MHz spring antenna")
+	(property "Reference" "REF**"
+		(at -4.38 -2.77 0)
+		(layer "F.SilkS")
+		(uuid "f908a9af-295f-463e-b50b-28cbfc04c577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "915MHz_spring_antenna"
+		(at -4.38 2.77 0)
+		(layer "F.Fab")
+		(uuid "69d505ea-c0a0-41bd-924c-deb9aea1d7e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "445283c7-a2df-46aa-8a01-59c35ea10504")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f8af122-1652-4081-a019-0c8d2af73c11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Through hole 915MHz spring antenna"
+		(at -1.5748 5.334 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "29abcefe-1250-4ce4-acf7-f74be008064e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -1.33)
+		(end 1.11 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a98d76b-b3e6-480f-ad05-b9b86d9d66e1")
+	)
+	(fp_line
+		(start 1.11 -1.33)
+		(end 1.11 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6f58e7a-6e65-4446-bc4a-c598f2570359")
+	)
+	(fp_line
+		(start -10.16 -2.54)
+		(end -10.16 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "140de3df-ebd2-43a0-9062-151f6b7811a5")
+	)
+	(fp_line
+		(start -10.16 2.54)
+		(end 1.75 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35e58dd1-7177-48e8-b408-12fcf6f40f33")
+	)
+	(fp_line
+		(start 1.75 2.54)
+		(end 1.778 -2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24d903f7-d4ed-4cba-bd18-1bc03f6b9d56")
+	)
+	(fp_line
+		(start 1.778 -2.54)
+		(end -10.16 -2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc284c28-da76-47e4-94f2-7d80a9091140")
+	)
+	(fp_line
+		(start -8.39736 1.943077)
+		(end -6.53784 -2.044677)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afdb776a-2a44-4cd2-a07c-08b94ad55d51")
+	)
+	(fp_line
+		(start -7.43216 1.993877)
+		(end -5.57264 -1.993877)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ceb6083-0126-49aa-a072-ba433e8e3fa9")
+	)
+	(fp_line
+		(start -6.21296 1.943077)
+		(end -4.35344 -2.044677)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47bf237c-6587-4b18-95cc-799b4a9b7a1b")
+	)
+	(fp_line
+		(start -5.04456 2.044677)
+		(end -3.18504 -1.943077)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f2c48fc-becc-4a23-9349-d1c6f9c46d98")
+	)
+	(fp_line
+		(start -3.826218 1.922308)
+		(end -2.896458 -0.071569)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "770f88f6-6e88-4aaa-97a3-30f39d658218")
+	)
+	(fp_line
+		(start -2.9224 -0.0508)
+		(end 0.0776 -0.0508)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b029628-b10c-4262-af8b-cbe07800ed4f")
+	)
+	(fp_line
+		(start 0 0.3)
+		(end 0 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf1c066d-84bb-4435-9428-12c8dbdb2c64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.5372 -4.6736 0)
+		(layer "F.Fab")
+		(uuid "999c9a21-624a-486b-a0e5-c9e85e5af904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85eea6f9-5edc-4eea-af25-23e0ff89de9b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x01_P2.54mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

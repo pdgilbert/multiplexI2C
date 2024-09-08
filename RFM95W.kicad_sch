@@ -1109,6 +1109,7 @@
 	)
 	(label "DIO0"
 		(at 146.05 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1119,6 +1120,7 @@
 	)
 	(label "ANT"
 		(at 146.05 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1140,6 +1142,7 @@
 	)
 	(label "DIO1"
 		(at 146.05 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
