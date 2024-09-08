@@ -9705,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
 			(at 138.43 83.82 0)
 			(effects
 				(font
