@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:ssd1306_header"
+		(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
 			(at 186.436 196.088 90)
 			(show_name yes)
 			(effects
@@ -9182,7 +9182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "ProjectLib:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 104.14 88.9 0)
 			(effects
 				(font

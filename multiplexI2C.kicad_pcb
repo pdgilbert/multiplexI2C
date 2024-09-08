@@ -395,7 +395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -914,7 +914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1432,7 +1432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3175,7 +3175,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4658,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5874,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8416,7 +8416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9425,16 +9425,16 @@
 			)
 		)
 	)
-	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+	(footprint "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "df301b88-665e-4d2a-9d58-abe3df40b358")
 		(at 65.61 92.825 -90)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J9"
-			(at 0 -2.77 0)
+			(at 0 -2.77 -90)
 			(layer "F.SilkS")
-			(uuid "c12a6365-dbbf-444d-89c1-aab20f39ef46")
+			(uuid "8fc31eb5-4897-470a-bd12-66d9471b62f5")
 			(effects
 				(font
 					(size 1 1)
@@ -9443,9 +9443,9 @@
 			)
 		)
 		(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
-			(at 9.03 2.37 0)
+			(at 0 10.39 -90)
 			(layer "F.Fab")
-			(uuid "96e81733-0a20-4a98-9eeb-1b9cc404f9b6")
+			(uuid "5114df7d-9753-49fd-84ef-5f6a20afdb6e")
 			(effects
 				(font
 					(size 1 1)
@@ -9453,12 +9453,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1508d6a-5984-49b7-bf5a-3cfda801caf0")
+			(uuid "980b3ea8-c002-42c2-b2fe-0ea6aed2a7e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9471,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63059a24-6ac3-4ebe-930a-cd9f8615cb6a")
+			(uuid "db8ccce3-6c4e-4ce6-8e2b-59274a5e5fcf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9484,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8161f849-27e3-4a5f-9d03-96d40c23bc03")
+			(uuid "a2ba5aa1-7a63-4ffe-84ed-1cfbc419a7e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9504,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b17db8c-27d7-4156-9ad0-0149a4b3701e")
+			(uuid "6d1c1ac2-56d2-4073-8f1e-681713cd56e7")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -9514,7 +9514,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5a7469ef-07ae-4f86-999b-7828d2335651")
+			(uuid "8b246e81-d200-4584-a094-17f1d0942e46")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -9524,7 +9524,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2e98223f-4919-4a68-aded-9d1ffe011eb2")
+			(uuid "ca9e54bc-ef51-49fa-8a57-e0d21f0dabca")
 		)
 		(fp_line
 			(start 1.33 1.27)
@@ -9534,7 +9534,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "82886426-0057-4413-8a8e-52021cabf13b")
+			(uuid "9e3de84d-67b5-4a17-a4ef-418397a4a0de")
 		)
 		(fp_line
 			(start 0 -1.33)
@@ -9544,7 +9544,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa708d28-74bf-40e6-8dad-67868c60d004")
+			(uuid "9573acd7-2aa8-4d92-90f8-eff5a6c0b6bc")
 		)
 		(fp_line
 			(start 1.33 -1.33)
@@ -9554,7 +9554,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9735855c-61ca-4195-83c2-f5166dba799d")
+			(uuid "dca0d3e5-e919-4ac4-b355-ab78f9c3267d")
 		)
 		(fp_line
 			(start -1.8 9.4)
@@ -9564,7 +9564,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c0f9548d-df46-41f3-aed8-9a2fcd2bc763")
+			(uuid "173bc4c9-e609-46b2-b6ca-839b1bd2f145")
 		)
 		(fp_line
 			(start 1.75 9.4)
@@ -9574,7 +9574,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "0225359d-1746-44cc-9a09-dbfb1032980c")
+			(uuid "c7850c7a-05d3-4fd2-bb1f-10979de053f8")
 		)
 		(fp_line
 			(start -1.8 -1.8)
@@ -9584,7 +9584,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4b940656-7302-4654-a723-2c3d6833cc96")
+			(uuid "7d735c43-5e3b-41a4-a319-418d7d3ac855")
 		)
 		(fp_line
 			(start 1.75 -1.8)
@@ -9594,7 +9594,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "53351bb5-5d78-40a9-94aa-8a64c0ec2d42")
+			(uuid "999fb054-76e4-484f-8e3b-673f420de888")
 		)
 		(fp_line
 			(start -1.27 8.89)
@@ -9604,7 +9604,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b8a25558-de91-42ab-963a-c80621933295")
+			(uuid "d3b1807e-bd36-4b2b-83c1-91c4ac58e0d4")
 		)
 		(fp_line
 			(start 1.27 8.89)
@@ -9614,7 +9614,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b756d9bc-2a73-4f5b-89c0-9cd1420b8f4e")
+			(uuid "fd16f5f4-d062-4006-ae18-28ba8bc54ca3")
 		)
 		(fp_line
 			(start 1.27 -0.635)
@@ -9624,7 +9624,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5de7d9e4-7fee-43a5-832e-3bfeda216357")
+			(uuid "703db412-dacd-4de6-873c-c54c40829b25")
 		)
 		(fp_line
 			(start -1.27 -1.27)
@@ -9634,7 +9634,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e8d0767a-ec90-4758-9462-56afd5d1e37b")
+			(uuid "87ad7b50-6814-41b9-a6c0-baf7cc8e198a")
 		)
 		(fp_line
 			(start 0.635 -1.27)
@@ -9644,12 +9644,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8d362c5b-63fd-4519-8064-d2f87b115ff6")
+			(uuid "2c4da9f9-cf3b-454d-b50c-112f218fc165")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.81 0)
 			(layer "F.Fab")
-			(uuid "202d02a1-986b-4b9c-af35-a0f74a0f19b3")
+			(uuid "8978dde6-4760-4ee3-b075-eafe3378cf80")
 			(effects
 				(font
 					(size 1 1)
@@ -9666,7 +9666,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "free")
-			(uuid "7aa78688-fb41-4a4b-affc-5b6ffd32cb25")
+			(uuid "4be7c02f-8969-40af-b0ef-2f1247d50db7")
 		)
 		(pad "2" thru_hole oval
 			(at 0 2.54 270)
@@ -9677,7 +9677,7 @@
 			(net 7 "Net-(J18-3v3)")
 			(pinfunction "VCC")
 			(pintype "free")
-			(uuid "f81dc495-9ecf-422c-b1b7-5da5945813c2")
+			(uuid "b7fa5946-5431-45ca-97bc-6d85cdfad641")
 		)
 		(pad "3" thru_hole oval
 			(at 0 5.08 270)
@@ -9688,7 +9688,7 @@
 			(net 5 "/SCL2")
 			(pinfunction "SCL")
 			(pintype "free")
-			(uuid "9e92582a-dc8e-4e1d-ae88-e8b43498e4cf")
+			(uuid "eb6587a9-409f-4da9-a38f-f472b8313fd7")
 		)
 		(pad "4" thru_hole oval
 			(at 0 7.62 270)
@@ -9699,7 +9699,7 @@
 			(net 6 "/SDA2")
 			(pinfunction "SDA")
 			(pintype "free")
-			(uuid "408db028-92de-4216-8c1c-3784cbc7fcea")
+			(uuid "b21fa1d6-e26d-40f5-b040-35eac491d9a8")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
 			(offset
@@ -9920,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10396,7 +10396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14205,7 +14205,7 @@
 			)
 		)
 		(property "Value" "915mhz antenna"
-			(at -9.83 2.74 270)
+			(at -9.83 2.74 -90)
 			(layer "B.Fab")
 			(uuid "15ff1e26-85d7-4aa7-9976-655aca45937f")
 			(effects
@@ -14230,7 +14230,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
+		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
