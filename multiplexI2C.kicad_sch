@@ -8511,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "ProjectLib:ssd1306_header"
 			(at 186.436 196.088 90)
 			(show_name yes)
 			(effects
@@ -9182,7 +9182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ProjectLib:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -9687,7 +9687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
+		(property "Value" "915mhz antenna"
 			(at 140.97 85.7249 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
+		(property "Datasheet" "~"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -9715,6 +9715,42 @@
 			)
 		)
 		(property "Description" "Antenna"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NiceRF"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "sw915-th06"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "PTH"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -10050,7 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-2P_C474920.pdf"
+		(property "Datasheet" "~"
 			(at 170.18 73.66 0)
 			(effects
 				(font

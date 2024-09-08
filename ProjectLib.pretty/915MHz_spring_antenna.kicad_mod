@@ -215,7 +215,7 @@
 		(remove_unused_layers no)
 		(uuid "85eea6f9-5edc-4eea-af25-23e0ff89de9b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x01_P2.54mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/Private/3dmodels/RFM95_LoRa_v15.step"
 		(offset
 			(xyz 0 0 0)
 		)

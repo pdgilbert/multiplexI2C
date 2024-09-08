@@ -1596,7 +1596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-2-54-4P_C474922.pdf"
+		(property "Datasheet" "~"
 			(at 69.85 44.45 0)
 			(effects
 				(font

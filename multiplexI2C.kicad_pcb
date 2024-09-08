@@ -14204,8 +14204,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Antenna"
-			(at -4.98 1.16 -90)
+		(property "Value" "915mhz antenna"
+			(at -9.83 2.74 270)
 			(layer "B.Fab")
 			(uuid "15ff1e26-85d7-4aa7-9976-655aca45937f")
 			(effects
@@ -14253,6 +14253,62 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "NiceRF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9411460-68ca-416b-8ffa-2e2bfa9eb311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MfgPart" "sw915-th06"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e7fcfa1-7aeb-4b00-86dd-ee9bf88fd5f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MountType" "PTH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "94f28b26-1e95-4f01-8add-e15258cc4213")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0dca7771-fbd3-4950-b82d-44499cafccbe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

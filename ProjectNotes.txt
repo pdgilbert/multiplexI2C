@@ -96,11 +96,15 @@ Fixed address:
 
 Changeable address:
 
+- Final decision to use R0 pads as described below. 
+
 - a jumper block is possible but error prone. The jumper has to go to either GND or VCC, which is 
 possibly error prone. (A missing jumper would cause floating.)
 
-- Solder pads for 0 ohm resistors (or solder bridges) can be setup to change GND and VCC settings.
-This requires a solder iron and is not easily changed "in the field". Not clear that is needed.
+- Solder pads for 0 ohm resistors (or, possibly less reliable, solder bridges) can be setup to 
+change GND and VCC settings. This requires a solder iron and is not easily changed "in the field". 
+Not does not seem likely that changing in the fiel is needed since that would require a software
+change flashed to the MCU. And an accidental change would break things.
 
 - A DIP style switch can be used. The need for either GND or VCC means a pull-up or pull-down resistor
 is needed for each address pin A:
