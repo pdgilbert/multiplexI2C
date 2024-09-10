@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+	(descr "header for ssd1306")
 	(tags "Through hole socket strip THT 1x04 2.54mm single row")
 	(property "Reference" "REF**"
 		(at 0 -2.77 0)

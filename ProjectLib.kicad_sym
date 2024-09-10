@@ -6144,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:ssd1306_header"
+		(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
 			(at 12.7 -0.254 90)
 			(show_name)
 			(effects

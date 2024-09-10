@@ -1605,7 +1605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 69.85 44.45 0)
 			(effects
 				(font

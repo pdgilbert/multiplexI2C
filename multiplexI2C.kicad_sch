@@ -3264,7 +3264,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:ssd1306_header"
+			(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
 				(at 12.7 -0.254 90)
 				(show_name)
 				(effects
@@ -6430,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "one side of blackpill (stm32f401) pins 21-40"
+		(property "Description" "20P header (for blackpill)"
 			(at 207.01 128.27 0)
 			(effects
 				(font
@@ -6797,7 +6797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "one side of blackpill (stm32f401) pins 1-20"
+		(property "Description" "20P header (for blackpill)"
 			(at 157.48 128.27 0)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 		(at 19.05 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6")
@@ -7854,7 +7854,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "744be153-2014-4cb2-abd0-aabbdefbf43a")
@@ -7893,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "extra takeoff pads for one side of blackpill (stm32f401) pins 1-20"
+		(property "Description" "unpopulated connections"
 			(at 160.02 128.27 0)
 			(effects
 				(font
@@ -8012,7 +8012,7 @@
 		(at 19.05 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8503,7 +8503,7 @@
 				)
 			)
 		)
-		(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
+		(property "Value" "PinSocket__1x04_P2.54mm_Vertical"
 			(at 190.754 200.914 90)
 			(effects
 				(font
@@ -8529,8 +8529,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4P I2C header for SSD1306 module"
+		(property "Description" "4P header (I2C for SSD1306 module)"
 			(at 165.608 201.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JILN"
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "228050104ANG1SYA01"
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "PTH"
+			(at 176.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 176.53 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8564,7 +8600,7 @@
 		(at 167.64 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "972c073e-1932-4ed0-be99-2e17ad3f079c")
@@ -8603,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "extra pads for one side of blackpill (stm32f401) pins 21-40"
+		(property "Description" "unpopulated connections"
 			(at 167.64 128.27 0)
 			(effects
 				(font
@@ -8789,7 +8825,7 @@
 		(at 170.18 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8888,7 +8924,7 @@
 		(at 152.4 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9815,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x04"
 			(at 199.39 53.34 0)
 			(effects
 				(font
@@ -10095,7 +10131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x02"
 			(at 170.18 73.66 0)
 			(effects
 				(font

@@ -310,7 +310,7 @@
 		(path "/97e06d61-2048-44bf-bea5-86c8aeb12065")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -408,7 +408,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -927,7 +927,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1445,7 +1445,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1913,14 +1913,14 @@
 		(layer "F.Cu")
 		(uuid "532d0b2f-b3e3-473e-9ce3-1ea76241e851")
 		(at 89.916 64.77)
-		(descr "sockets for blackpill stm32f401")
+		(descr "take-off from blackpill stm32f401")
 		(tags "blackpill bluepill pinSockets")
 		(property "Reference" "J**2"
 			(at 2.54 27.94 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cbb064c2-1f21-4706-b142-f93d59aa6ba6")
+			(uuid "ebb0ceec-40fe-4f7f-a187-492926fecd34")
 			(effects
 				(font
 					(size 1 1)
@@ -1932,7 +1932,7 @@
 			(at -0.127 -3.302 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ae9bce99-69cb-4bd3-bea8-6939efc24d06")
+			(uuid "540a9094-cf8c-42da-9fc1-436ee1191c38")
 			(effects
 				(font
 					(size 1 1)
@@ -1945,7 +1945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "896b0ef9-2ecc-4cb7-8839-61a9167afa23")
+			(uuid "8330ef49-23ce-48f4-9daf-e085d98b5080")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "101ce069-3a71-41ea-8896-627e0b2c144e")
+			(uuid "fa946498-673a-44de-89fa-28e8a43aa394")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,12 +1966,12 @@
 				)
 			)
 		)
-		(property "Description" "extra pads for one side of blackpill (stm32f401) pins 21-40"
+		(property "Description" "unpopulated connections"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c47a953e-b9cd-45e2-a5a1-a2a5abd2d8d3")
+			(uuid "78263d8d-1c31-4ca2-b913-43c0f8e87ede")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 		(path "/972c073e-1932-4ed0-be99-2e17ad3f079c")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -2.286 -25.146)
 			(end -2.286 -17.907)
@@ -2044,7 +2044,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "8dc4297f-dd53-459f-aefc-4253d246c4e8")
+			(uuid "ad821be1-0ff8-4d64-99c9-ed530b00b53b")
 		)
 		(fp_line
 			(start -2.286 -17.907)
@@ -2054,7 +2054,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "3d01d93f-2f0a-467d-8251-0f59deb0e421")
+			(uuid "d8de448a-1d57-400f-91be-bc52680eb2ec")
 		)
 		(fp_line
 			(start -1.016 -17.907)
@@ -2064,7 +2064,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "d932d031-184e-46ab-b3ba-e38927ae9b15")
+			(uuid "1a103a10-073e-48ac-a3c6-76b5497c0740")
 		)
 		(fp_line
 			(start -1.016 25.146)
@@ -2074,7 +2074,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "f376a831-3ad8-42a3-8d31-259dea843c8a")
+			(uuid "cef825e9-6faa-4d7e-a498-49b03f59d4ac")
 		)
 		(fp_line
 			(start 1.016 -25.146)
@@ -2084,7 +2084,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "f00617e2-0dbf-4cae-a43f-ead14e5b3874")
+			(uuid "d98f9c35-b038-4c23-b343-4cf56e756f8a")
 		)
 		(fp_line
 			(start 1.016 25.146)
@@ -2094,13 +2094,13 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "d7f285f4-e25f-4b22-91d9-e9c41fff1fca")
+			(uuid "8756045b-40ed-4c37-a2a9-c42bf8cd6103")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -1.143 -22.606 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d39c98ea-9b88-42a8-90a6-717605565f96")
+			(uuid "8ba6a7d3-2c4b-4714-b31e-fd97350f5250")
 			(effects
 				(font
 					(size 1 1)
@@ -2116,7 +2116,7 @@
 			(remove_unused_layers no)
 			(net 26 "Net-(J19-B12)")
 			(pintype "free")
-			(uuid "707513a9-33c9-44e2-a55f-16bb1fabfd3d")
+			(uuid "c25e200b-0a15-4be1-be97-6d2bfa54f37b")
 		)
 		(pad "22" thru_hole oval
 			(at 0 21.59)
@@ -2126,7 +2126,7 @@
 			(remove_unused_layers no)
 			(net 27 "Net-(J19-B13)")
 			(pintype "free")
-			(uuid "5e80f9f9-e449-4611-a7aa-4e3a3cf31acb")
+			(uuid "fa3565bb-26e1-43ec-86f5-847f4e5fd4b2")
 		)
 		(pad "23" thru_hole oval
 			(at 0 19.05)
@@ -2136,7 +2136,7 @@
 			(remove_unused_layers no)
 			(net 28 "Net-(J19-B14)")
 			(pintype "free")
-			(uuid "0a067868-d31c-43cb-8792-315ba6e1bbd3")
+			(uuid "45ed4ae4-4ac0-4709-a589-4660ce25d258")
 		)
 		(pad "24" thru_hole oval
 			(at 0 16.51)
@@ -2146,7 +2146,7 @@
 			(remove_unused_layers no)
 			(net 29 "Net-(J19-B15)")
 			(pintype "free")
-			(uuid "f5c89851-aada-4cdd-bcf2-a77fe4df8f9a")
+			(uuid "026d29b2-aa6a-4a1d-b18a-acb06ef1f570")
 		)
 		(pad "25" thru_hole oval
 			(at 0 13.97)
@@ -2156,7 +2156,7 @@
 			(remove_unused_layers no)
 			(net 30 "Net-(J19-A8)")
 			(pintype "free")
-			(uuid "fda4f296-4e63-411f-82b6-a61470535a57")
+			(uuid "9391a49e-68a5-4a64-bbcb-883e8380f2c4")
 		)
 		(pad "26" thru_hole oval
 			(at 0 11.43)
@@ -2166,7 +2166,7 @@
 			(remove_unused_layers no)
 			(net 31 "Net-(J19-A9)")
 			(pintype "free")
-			(uuid "0b3893b8-9ded-45c9-b10b-162da5de0377")
+			(uuid "295b3426-3c4d-4b55-a68b-4d60caa6a509")
 		)
 		(pad "27" thru_hole oval
 			(at 0 8.89)
@@ -2176,7 +2176,7 @@
 			(remove_unused_layers no)
 			(net 32 "Net-(J19-A10)")
 			(pintype "free")
-			(uuid "089a3e8c-e97d-4795-a5a2-2585498d88c3")
+			(uuid "76bb0c83-75a7-455b-a347-3de088eeb548")
 		)
 		(pad "28" thru_hole oval
 			(at 0 6.35)
@@ -2186,7 +2186,7 @@
 			(remove_unused_layers no)
 			(net 33 "Net-(J19-A11)")
 			(pintype "free")
-			(uuid "f4be7677-72cd-49c4-b3ba-fce3f557e5ae")
+			(uuid "354ff5e8-2a95-4e5a-8235-fc43f4a4a738")
 		)
 		(pad "29" thru_hole oval
 			(at 0 3.81)
@@ -2196,7 +2196,7 @@
 			(remove_unused_layers no)
 			(net 34 "Net-(J19-A12)")
 			(pintype "free")
-			(uuid "a1bc3331-96e2-4c86-9f30-27a4fc65296a")
+			(uuid "82dd8253-1f5d-41a2-b582-d7560c71c08b")
 		)
 		(pad "30" thru_hole oval
 			(at 0 1.27)
@@ -2206,7 +2206,7 @@
 			(remove_unused_layers no)
 			(net 35 "Net-(J19-A15)")
 			(pintype "free")
-			(uuid "5175412f-324f-4864-99f9-be4705893f78")
+			(uuid "0df0275f-bfd2-4789-80e5-893e7b0e66b4")
 		)
 		(pad "31" thru_hole oval
 			(at 0 -1.27)
@@ -2216,7 +2216,7 @@
 			(remove_unused_layers no)
 			(net 6 "/SDA2")
 			(pintype "free")
-			(uuid "b725d024-4d31-429f-ba44-20497d1bb826")
+			(uuid "eefa2113-ebed-4ae6-b18e-71fbd8dfdff0")
 		)
 		(pad "32" thru_hole oval
 			(at 0 -3.81)
@@ -2226,7 +2226,7 @@
 			(remove_unused_layers no)
 			(net 63 "DIO0")
 			(pintype "free")
-			(uuid "b1181373-5f88-41e3-854d-87a6423163a8")
+			(uuid "a38def36-60aa-4ff8-9303-231c43884142")
 		)
 		(pad "33" thru_hole oval
 			(at 0 -6.35)
@@ -2236,7 +2236,7 @@
 			(remove_unused_layers no)
 			(net 62 "DIO1")
 			(pintype "free")
-			(uuid "6e7b3edd-af76-4686-81e5-46ba6e1e8273")
+			(uuid "4a962642-b9cb-433b-87ae-e56b341e5741")
 		)
 		(pad "34" thru_hole oval
 			(at 0 -8.89)
@@ -2246,7 +2246,7 @@
 			(remove_unused_layers no)
 			(net 36 "Net-(J19-B6)")
 			(pintype "free")
-			(uuid "07db21c0-b08d-4dea-95a4-5cc759f99ab3")
+			(uuid "fbeace8c-b84f-4b1a-940c-2d0522b93db4")
 		)
 		(pad "35" thru_hole oval
 			(at 0 -11.43)
@@ -2256,7 +2256,7 @@
 			(remove_unused_layers no)
 			(net 37 "Net-(J19-B7)")
 			(pintype "free")
-			(uuid "45bf5316-2ce9-44e3-bd49-3e6a8def6043")
+			(uuid "44c17264-4066-4289-a4b4-283d7d93e055")
 		)
 		(pad "36" thru_hole oval
 			(at 0 -13.97)
@@ -2266,7 +2266,7 @@
 			(remove_unused_layers no)
 			(net 4 "/SCL1")
 			(pintype "passive")
-			(uuid "629aa817-b7ff-48a6-bef2-7917c846dddd")
+			(uuid "12bb2095-513f-46c4-bd06-f65f18c2e943")
 		)
 		(pad "37" thru_hole oval
 			(at 0 -16.51)
@@ -2276,7 +2276,7 @@
 			(remove_unused_layers no)
 			(net 3 "/SDA1")
 			(pintype "passive")
-			(uuid "da14ba14-b532-461f-b082-080cd393966c")
+			(uuid "3d944934-456f-4fc8-b0c2-28b4d3ac6326")
 		)
 		(pad "38" thru_hole oval
 			(at -1.27 -19.05)
@@ -2286,7 +2286,7 @@
 			(remove_unused_layers no)
 			(net 9 "Net-(J19-5v)")
 			(pintype "free")
-			(uuid "e7fa2eb5-f03f-4f06-ba5d-434b3c01b758")
+			(uuid "5470b9e7-f7f5-4f66-a492-9fc698c6f767")
 		)
 		(pad "39" thru_hole oval
 			(at -1.27 -21.59)
@@ -2296,7 +2296,7 @@
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pintype "power_in")
-			(uuid "531226aa-8feb-4956-9149-98c3502e7364")
+			(uuid "dd1fb3f8-323e-48ec-97b0-2d8f8433f029")
 		)
 		(pad "40" thru_hole oval
 			(at -1.27 -24.13)
@@ -2306,7 +2306,7 @@
 			(remove_unused_layers no)
 			(net 1 "+3V3")
 			(pintype "power_in")
-			(uuid "459b59a8-8e14-4f7d-962d-538d087e1de9")
+			(uuid "7c54b04c-cdb6-429b-9d9f-f46cecbabe18")
 		)
 	)
 	(footprint "ProjectLib:b_pill_socket_21-40"
@@ -2365,7 +2365,7 @@
 				)
 			)
 		)
-		(property "Description" "one side of blackpill (stm32f401) pins 21-40"
+		(property "Description" "20P header (for blackpill)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3188,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3775,7 +3775,7 @@
 		(path "/6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -4671,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5258,7 +5258,7 @@
 		(path "/74d55b8d-4816-4fd0-8b17-a3c0948ea73d")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -5355,7 +5355,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Generic connector, single row, 01x04"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5887,7 +5887,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7150,14 +7150,14 @@
 		(layer "F.Cu")
 		(uuid "c27bf816-9145-4b7d-bfe0-fe85f390e699")
 		(at 86.165 64.605)
-		(descr "sockets for blackpill stm32f401")
+		(descr "take-off  from blackpill stm32f401")
 		(tags "blackpill bluepill pinSockets")
 		(property "Reference" "J**1"
 			(at -5.08 26.67 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "469141a0-2ed3-4945-a6ff-609b46068c28")
+			(uuid "deef24ff-2239-45b4-97d9-4cea1f32ad17")
 			(effects
 				(font
 					(size 1 1)
@@ -7169,7 +7169,7 @@
 			(at -5.139 -3.772 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6e207296-d608-4876-9ea6-bd5b272359d2")
+			(uuid "2819a5de-d66f-4c01-9df9-51c3936406d7")
 			(effects
 				(font
 					(size 1 1)
@@ -7182,7 +7182,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7ae3bac-5d9a-4c21-9dbe-cf4d97324d77")
+			(uuid "b4cfef4a-91da-486f-a588-fa66d208360d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7195,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca241d4b-99be-4c88-8118-886a36031086")
+			(uuid "62ee10ae-4819-4894-987a-20db6e719d5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,12 +7203,12 @@
 				)
 			)
 		)
-		(property "Description" "extra takeoff pads for one side of blackpill (stm32f401) pins 1-20"
+		(property "Description" "unpopulated connections"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7591affa-b455-4bf4-80f6-39bda2530a2e")
+			(uuid "2459284a-e256-4241-90bc-de5ec1fb89bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7272,7 @@
 		(path "/744be153-2014-4cb2-abd0-aabbdefbf43a")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -6.096 -25.146)
 			(end -6.096 25.146)
@@ -7281,7 +7281,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "9d3fc705-0451-4f26-b6b4-258ce42feded")
+			(uuid "d5bfd2e5-32b0-4227-93ca-095047a854cf")
 		)
 		(fp_line
 			(start -6.096 25.146)
@@ -7291,7 +7291,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "92459ea3-20b6-4a05-b3ea-ae6c02e8857e")
+			(uuid "1748cd9d-d5e8-4c26-8208-5218899d9d29")
 		)
 		(fp_line
 			(start -4.064 -25.146)
@@ -7301,7 +7301,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "a5221dd9-8318-4257-a715-6cc0cfee5587")
+			(uuid "9e97f5f2-a2ae-4338-9199-8fd177b65451")
 		)
 		(fp_line
 			(start -4.064 18.034)
@@ -7311,7 +7311,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "8c97cb45-809c-47fe-a499-11aa6c161d52")
+			(uuid "cdf3994c-4694-4fe9-acf7-7211b953d470")
 		)
 		(fp_line
 			(start -2.794 18.034)
@@ -7321,7 +7321,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "d301993c-b44c-4150-85eb-6eaae6fbdd77")
+			(uuid "8d4cd128-66d4-4281-be8c-b0d4e0661af9")
 		)
 		(fp_line
 			(start -2.794 25.146)
@@ -7331,7 +7331,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "21549fdf-3266-4e5f-be2d-b436a36426cb")
+			(uuid "15beef7b-6805-4c61-9072-b4565e8f672a")
 		)
 		(fp_line
 			(start -8.89 -25.4)
@@ -7341,7 +7341,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "12d06b52-0be8-4ab7-bf1c-232cba9b4ad1")
+			(uuid "4e7302da-9d8f-4c5f-a853-35588f9f306b")
 		)
 		(fp_line
 			(start -6.35 25.4)
@@ -7351,7 +7351,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "42384658-d012-41ed-8abb-faed28dd01b1")
+			(uuid "09659a42-5dc3-43ad-95e1-0860e74e9e51")
 		)
 		(pad "1" thru_hole oval
 			(at -5.08 -24.13)
@@ -7361,7 +7361,7 @@
 			(remove_unused_layers no)
 			(net 10 "Net-(J18-VB)")
 			(pintype "free")
-			(uuid "73a1e12f-4770-448a-9b47-27609cf27fec")
+			(uuid "4796d6c2-c26f-4027-b64b-4dffb02e19a8")
 		)
 		(pad "2" thru_hole oval
 			(at -5.08 -21.59)
@@ -7371,7 +7371,7 @@
 			(remove_unused_layers no)
 			(net 11 "Net-(J18-C13)")
 			(pintype "free")
-			(uuid "26b566f7-5c67-44e0-9f1a-98501486608a")
+			(uuid "82f53709-a1e0-4e07-a1d9-7db2c4a3729c")
 		)
 		(pad "3" thru_hole oval
 			(at -5.08 -19.05)
@@ -7381,7 +7381,7 @@
 			(remove_unused_layers no)
 			(net 12 "Net-(J18-C14)")
 			(pintype "free")
-			(uuid "97bb5187-810a-4653-9c57-225d28bb0ea8")
+			(uuid "69b736ab-a148-4e2f-8c72-2d4325055c4d")
 		)
 		(pad "4" thru_hole oval
 			(at -5.08 -16.51)
@@ -7391,7 +7391,7 @@
 			(remove_unused_layers no)
 			(net 13 "Net-(J18-C15)")
 			(pintype "free")
-			(uuid "56777671-0cdd-40ab-82d0-790672dee236")
+			(uuid "7768eae7-ae11-4389-80a8-33a575b90e3a")
 		)
 		(pad "5" thru_hole oval
 			(at -5.08 -13.97)
@@ -7401,7 +7401,7 @@
 			(remove_unused_layers no)
 			(net 14 "Net-(J18-R)")
 			(pintype "free")
-			(uuid "47b9986b-5190-4040-9546-b0946c3eac92")
+			(uuid "3d871fdd-4533-4cb0-b8f7-38edf2e6a595")
 		)
 		(pad "6" thru_hole oval
 			(at -5.08 -11.43)
@@ -7411,7 +7411,7 @@
 			(remove_unused_layers no)
 			(net 19 "RESET")
 			(pintype "free")
-			(uuid "740b323a-07c2-47bd-b442-5865e6948407")
+			(uuid "f1c821f8-93b3-48c9-8c72-01cb4ed48fdf")
 		)
 		(pad "7" thru_hole oval
 			(at -5.08 -8.89)
@@ -7421,7 +7421,7 @@
 			(remove_unused_layers no)
 			(net 16 "Net-(J18-A1)")
 			(pintype "free")
-			(uuid "1d7c35dd-837d-4e8f-bbb2-fa2b3a1a0d1d")
+			(uuid "12b64bb1-38a5-43ae-a3d3-20b5467c0724")
 		)
 		(pad "8" thru_hole oval
 			(at -5.08 -6.35)
@@ -7431,7 +7431,7 @@
 			(remove_unused_layers no)
 			(net 17 "Net-(J18-A2)")
 			(pintype "free")
-			(uuid "9a294af8-8da6-4f6d-a983-99d143c5fd76")
+			(uuid "a9abe4c6-7dc2-4863-af45-240764d9bbab")
 		)
 		(pad "9" thru_hole oval
 			(at -5.08 -3.81)
@@ -7441,7 +7441,7 @@
 			(remove_unused_layers no)
 			(net 18 "Net-(J18-A3)")
 			(pintype "free")
-			(uuid "b3ac2a75-e879-440c-b4f6-c7f77d4fe331")
+			(uuid "0f3390ef-b4b7-4adc-adbc-a9d76e625a3a")
 		)
 		(pad "10" thru_hole oval
 			(at -5.08 -1.27)
@@ -7451,7 +7451,7 @@
 			(remove_unused_layers no)
 			(net 20 "NSS")
 			(pintype "free")
-			(uuid "ced101ce-5916-4c33-9efb-0258f52403a7")
+			(uuid "745ba41d-8947-488e-a1a3-fef8cd056c15")
 		)
 		(pad "11" thru_hole oval
 			(at -5.08 1.27)
@@ -7461,7 +7461,7 @@
 			(remove_unused_layers no)
 			(net 21 "SCK")
 			(pintype "free")
-			(uuid "ea8a42db-d720-4380-83b9-3f236ead4748")
+			(uuid "1e379347-dbb3-4a07-a583-8f6669b10a45")
 		)
 		(pad "12" thru_hole oval
 			(at -5.08 3.81)
@@ -7471,7 +7471,7 @@
 			(remove_unused_layers no)
 			(net 22 "MISO")
 			(pintype "free")
-			(uuid "f764049a-eaa7-41ab-8d29-c2db4c5face2")
+			(uuid "2dc1ae95-d8d0-49ab-b3d3-5861fad8a320")
 		)
 		(pad "13" thru_hole oval
 			(at -5.08 6.35)
@@ -7481,7 +7481,7 @@
 			(remove_unused_layers no)
 			(net 15 "MOSI")
 			(pintype "free")
-			(uuid "44570559-7b69-4d1f-ae4c-2fc2a878f9c0")
+			(uuid "88850332-3b85-427e-a3a8-cbe41559137c")
 		)
 		(pad "14" thru_hole oval
 			(at -5.08 8.89)
@@ -7491,7 +7491,7 @@
 			(remove_unused_layers no)
 			(net 23 "Net-(J18-B0)")
 			(pintype "free")
-			(uuid "64a2e589-351c-423f-a82f-fadf8487754f")
+			(uuid "4d0ba04b-d37d-4be8-9321-72d81df1ed37")
 		)
 		(pad "15" thru_hole oval
 			(at -5.08 11.43)
@@ -7501,7 +7501,7 @@
 			(remove_unused_layers no)
 			(net 24 "Net-(J18-B1)")
 			(pintype "free")
-			(uuid "d2eed8ad-d772-4165-aed4-f222d30cbf89")
+			(uuid "2ce4e224-1140-48c3-aa27-ee46189184c9")
 		)
 		(pad "16" thru_hole oval
 			(at -5.08 13.97)
@@ -7511,7 +7511,7 @@
 			(remove_unused_layers no)
 			(net 25 "Net-(J18-B2)")
 			(pintype "free")
-			(uuid "eff5c2f6-f087-4fca-a6be-08b006ca34c8")
+			(uuid "e29226a3-5a87-470d-b868-9f5a94b5a400")
 		)
 		(pad "17" thru_hole oval
 			(at -5.08 16.51)
@@ -7521,7 +7521,7 @@
 			(remove_unused_layers no)
 			(net 5 "/SCL2")
 			(pintype "free")
-			(uuid "e88f9489-f22e-4dcc-aa6b-924bf3b9644a")
+			(uuid "9789130c-9696-411a-96da-dd514d7dc1dc")
 		)
 		(pad "18" thru_hole oval
 			(at -3.81 19.05)
@@ -7531,7 +7531,7 @@
 			(remove_unused_layers no)
 			(net 7 "Net-(J18-3v3)")
 			(pintype "free")
-			(uuid "2d352f52-44ff-4940-9a59-5628d6d3b4be")
+			(uuid "706e989c-9c91-4565-9b70-6a774e065428")
 		)
 		(pad "19" thru_hole oval
 			(at -3.81 21.59)
@@ -7541,7 +7541,7 @@
 			(remove_unused_layers no)
 			(net 2 "GND")
 			(pintype "free")
-			(uuid "15a4e111-000d-4ec6-ad44-3fc6752e222f")
+			(uuid "eb24faec-df1e-44df-80e4-99fe598bdac5")
 		)
 		(pad "20" thru_hole oval
 			(at -3.81 24.13)
@@ -7551,7 +7551,7 @@
 			(remove_unused_layers no)
 			(net 8 "Net-(J18-5v)")
 			(pintype "free")
-			(uuid "c40dd658-6ea8-4154-a44a-468ea9386277")
+			(uuid "64ff42b5-55b9-4f1c-b22a-13c56b89450c")
 		)
 	)
 	(footprint "ProjectLib:b_pill_socket_1-20"
@@ -7610,7 +7610,7 @@
 				)
 			)
 		)
-		(property "Description" "one side of blackpill (stm32f401) pins 1-20"
+		(property "Description" "20P header (for blackpill)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8429,7 +8429,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9429,12 +9429,12 @@
 		(layer "F.Cu")
 		(uuid "df301b88-665e-4d2a-9d58-abe3df40b358")
 		(at 65.61 92.825 -90)
-		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
+		(descr "header for ssd1306")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J9"
 			(at 0 -2.77 -90)
 			(layer "F.SilkS")
-			(uuid "8fc31eb5-4897-470a-bd12-66d9471b62f5")
+			(uuid "ab06548c-f1d6-4640-9769-bf8159d9f228")
 			(effects
 				(font
 					(size 1 1)
@@ -9442,10 +9442,10 @@
 				)
 			)
 		)
-		(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
-			(at 6.705 3.55 180)
+		(property "Value" "PinSocket__1x04_P2.54mm_Vertical"
+			(at 23.655 3.43 -90)
 			(layer "F.Fab")
-			(uuid "5114df7d-9753-49fd-84ef-5f6a20afdb6e")
+			(uuid "33677d37-21a2-4bc2-adec-b9cd3e15d5ef")
 			(effects
 				(font
 					(size 1 1)
@@ -9458,7 +9458,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "980b3ea8-c002-42c2-b2fe-0ea6aed2a7e5")
+			(uuid "82197cd8-5612-4661-8f03-133d883d6358")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9471,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db8ccce3-6c4e-4ce6-8e2b-59274a5e5fcf")
+			(uuid "4864d060-41ae-43ad-bcd4-018561b21241")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,15 +9479,67 @@
 				)
 			)
 		)
-		(property "Description" "4P I2C header for SSD1306 module"
+		(property "Description" "4P header (I2C for SSD1306 module)"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2ba5aa1-7a63-4ffe-84ed-1cfbc419a7e6")
+			(uuid "7362fd1b-c053-4f6c-82bf-e722ee0fa60e")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JILN"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "805b8672-c638-41cc-94f0-2cf2c1fdd4d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MfgPart" "228050104ANG1SYA01"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "843b2fec-d300-445e-844a-131f429e4065")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MountType" "PTH"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbff3dad-805e-4bd2-8a28-602f17dec800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b586e48-e643-4b5e-bbea-a625e477f811")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9504,7 +9556,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6d1c1ac2-56d2-4073-8f1e-681713cd56e7")
+			(uuid "b4e1cab1-44e7-4064-8ae6-e5cac9e3b396")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -9514,7 +9566,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b246e81-d200-4584-a094-17f1d0942e46")
+			(uuid "8a4c4034-8ba7-4789-9dcb-e652642a90b4")
 		)
 		(fp_line
 			(start -1.33 1.27)
@@ -9524,7 +9576,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca9e54bc-ef51-49fa-8a57-e0d21f0dabca")
+			(uuid "fbb4dd52-1495-44cf-b5cf-39d01d3b0499")
 		)
 		(fp_line
 			(start 1.33 1.27)
@@ -9534,7 +9586,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9e3de84d-67b5-4a17-a4ef-418397a4a0de")
+			(uuid "7b0c22b3-84d2-4c7c-9b2c-0ed45764cf25")
 		)
 		(fp_line
 			(start 0 -1.33)
@@ -9544,7 +9596,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9573acd7-2aa8-4d92-90f8-eff5a6c0b6bc")
+			(uuid "5aaaf1a9-957a-4b1f-bcb6-08cd205dd124")
 		)
 		(fp_line
 			(start 1.33 -1.33)
@@ -9554,7 +9606,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dca0d3e5-e919-4ac4-b355-ab78f9c3267d")
+			(uuid "8c4199df-8d07-44fe-a9e1-e6e9db23be38")
 		)
 		(fp_line
 			(start -1.8 9.4)
@@ -9564,7 +9616,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "173bc4c9-e609-46b2-b6ca-839b1bd2f145")
+			(uuid "e91aa1e0-d69b-4958-8598-a78eba503559")
 		)
 		(fp_line
 			(start 1.75 9.4)
@@ -9574,7 +9626,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c7850c7a-05d3-4fd2-bb1f-10979de053f8")
+			(uuid "f6884c8b-dbec-4e36-b735-67905ae6f8d8")
 		)
 		(fp_line
 			(start -1.8 -1.8)
@@ -9584,7 +9636,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7d735c43-5e3b-41a4-a319-418d7d3ac855")
+			(uuid "7bb5829b-2f9f-444c-8a99-a988fb5ed96a")
 		)
 		(fp_line
 			(start 1.75 -1.8)
@@ -9594,7 +9646,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "999fb054-76e4-484f-8e3b-673f420de888")
+			(uuid "fd027a23-aa21-4f07-b1db-2559c7f4f6a7")
 		)
 		(fp_line
 			(start -1.27 8.89)
@@ -9604,7 +9656,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d3b1807e-bd36-4b2b-83c1-91c4ac58e0d4")
+			(uuid "937dde3b-3317-4a92-a2dd-edfc339fc58b")
 		)
 		(fp_line
 			(start 1.27 8.89)
@@ -9614,7 +9666,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fd16f5f4-d062-4006-ae18-28ba8bc54ca3")
+			(uuid "4205153a-074e-4b9b-876d-64b7e1275854")
 		)
 		(fp_line
 			(start 1.27 -0.635)
@@ -9624,7 +9676,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "703db412-dacd-4de6-873c-c54c40829b25")
+			(uuid "d02e939c-5396-4691-bb9c-9376f3c92fc0")
 		)
 		(fp_line
 			(start -1.27 -1.27)
@@ -9634,7 +9686,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "87ad7b50-6814-41b9-a6c0-baf7cc8e198a")
+			(uuid "88177166-2b49-46ac-8db6-96b906b4955f")
 		)
 		(fp_line
 			(start 0.635 -1.27)
@@ -9644,12 +9696,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2c4da9f9-cf3b-454d-b50c-112f218fc165")
+			(uuid "aded1862-be67-4cc7-9371-7bc493fd13ef")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.81 0)
 			(layer "F.Fab")
-			(uuid "8978dde6-4760-4ee3-b075-eafe3378cf80")
+			(uuid "97f61d30-fa40-4da8-aae6-83c56ead2924")
 			(effects
 				(font
 					(size 1 1)
@@ -9666,7 +9718,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "free")
-			(uuid "4be7c02f-8969-40af-b0ef-2f1247d50db7")
+			(uuid "2be2d64c-05b3-4905-ab6a-7a4d18130070")
 		)
 		(pad "2" thru_hole oval
 			(at 0 2.54 270)
@@ -9677,7 +9729,7 @@
 			(net 7 "Net-(J18-3v3)")
 			(pinfunction "VCC")
 			(pintype "free")
-			(uuid "b7fa5946-5431-45ca-97bc-6d85cdfad641")
+			(uuid "fbc8bc7e-b472-47f4-bf79-48cca312ee4b")
 		)
 		(pad "3" thru_hole oval
 			(at 0 5.08 270)
@@ -9688,7 +9740,7 @@
 			(net 5 "/SCL2")
 			(pinfunction "SCL")
 			(pintype "free")
-			(uuid "eb6587a9-409f-4da9-a38f-f472b8313fd7")
+			(uuid "d4bc72d2-49ab-4061-8ec3-3a610b34a550")
 		)
 		(pad "4" thru_hole oval
 			(at 0 7.62 270)
@@ -9699,7 +9751,7 @@
 			(net 6 "/SDA2")
 			(pinfunction "SDA")
 			(pintype "free")
-			(uuid "b21fa1d6-e26d-40f5-b040-35eac491d9a8")
+			(uuid "43f5a94d-837e-4228-9113-9096e0537e6a")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Vertical.wrl"
 			(offset
@@ -9836,7 +9888,7 @@
 		(path "/99e88154-98af-435b-9b4d-b1177eaeed03")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -9933,7 +9985,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x02"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10409,7 +10461,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x04"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14205,7 +14257,7 @@
 			)
 		)
 		(property "Value" "915mhz antenna"
-			(at -7.29 3.12 270)
+			(at -7.29 3.12 -90)
 			(layer "B.SilkS")
 			(uuid "15ff1e26-85d7-4aa7-9976-655aca45937f")
 			(effects
@@ -14230,7 +14282,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
