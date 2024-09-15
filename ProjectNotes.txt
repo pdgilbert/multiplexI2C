@@ -15,32 +15,63 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ////////////////////////////////////////////////////////////////////////////////
      
 ========fabrication files ==========
+
+Necessary files  https://www.pcbway.com/smt_ordering_guide.html
+
 Generate BOM_auto.csv  and edit to BOM.csv
-Generate 11 .grb files and 2 .drl files in ./outputs
 
- [hole counts   plated pads: 127  non-plated:2  through vias:16  micro vias: 0  buried vias:0 ]
+Generate 11 .grb files in ./outputs  
+
+Generate  2 .drl files in ./outputs
+
+[indicates  hole counts   plated pads: 127  non-plated:2  through vias:16  micro vias: 0  buried vias:0 ]
+
+Generate centroid position file   > Fabrication Ouputs  > Component Placement (.csv not .pos)
+[indicates componet count 56 ]
+check  J**1 and J**2 and DNP R0 are removed or edit them from the file.
 
 
-======= first quick Quote ========
+then  zip multiplexI2C-gerbers.zip  *.gbr *.drl
 
-Necessary files
-https://www.pcbway.com/smt_ordering_guide.html
+mkdir PCBway-submit
+mv multiplexI2C-gerbers.zip  PCBway-submit
+cp       BOM.csv             PCBway-submit
+cp multiplexI2C-all-pos.csv  PCBway-submit
+cp Graphics/*.png            PCBway-submit
 
-How to upload  https://www.pcbway.com/helpcenter/pcb_assembly_ordering/How_to_Upload_PCB_Assembly_PCBA__Inquiry.html 
 
-Quote assembly  https://www.pcbway.com/pcb-assembly.html
+======= submit and get Quote ========
+
+Folllowing  (The First Way)
+  https://www.pcbway.com/helpcenter/pcb_assembly_ordering/How_to_Upload_PCB_Assembly_PCBA__Inquiry.html 
+
+
+
+Quote assembly  and PCB  https://www.pcbway.com/pcb-assembly.html (sign in)
          Assembly
             quantity     5
-            unique parts  
-            SMT Pads
-            Thru-Holes
+            unique parts  13
+            SMT         parts : 37   Pads:  110
+            BGA QFP     parts : 1
+            Thru-Holes  parts : 14   Pads:   82 (plus 4 mounting holes)
          PCB
-            length
-            width
+            length      70.9 mm
+            width       48   mm
             num (pcs)    5
-            layers        2
-            thickness     1.6mm
-     
+            layers       2
+            thickness    1.6 mm
+
+material FR-4   S1000H TG150
+min track spacing?  left at 6/6mil
+
+Step 2 + Additional Options:
+-Do not add paste for 40 through hole pads (2 rows of 20) marked 
+SolderWire-0.25sqmm_1x20 on the F.Fab layer. These pads are
+not used.
+
+Step 3 + Additional Options:   png NOT VALID FORMAT so not submitted
+-3D render of front and back are included as png files. The spring antenna displays as a box in the rendering.
+    
 ===============================
 
 
@@ -70,6 +101,7 @@ Quote assembly  https://www.pcbway.com/pcb-assembly.html
 
 ADD ANTENNA PAD  and 915mhz-spring-antenn  NiceRF  part# sw915-th06
 https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html
+(This was "out of stock" so switched to DNP)
 
 - LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) apparently based
 on Semtech sx1276 chipset and used radio-sx127x rust crate.

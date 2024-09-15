@@ -9209,7 +9209,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TCA9548A"
+		(property "Value" "PCA9548A"
 			(at 107.1565 40.64 0)
 			(effects
 				(font
@@ -9227,7 +9227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
+		(property "Datasheet" "https://www.nxp.com/products/interfaces/ic-spi-i3c-interface-devices/ic-logic-multiplexers-switches/eight-channel-ic-bus-switch-with-reset:PCA9548A"
 			(at 102.87 57.15 0)
 			(effects
 				(font
@@ -9254,7 +9254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "NXP"
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -9263,7 +9263,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "TCA9548A"
+		(property "MfgPart" "PCA9548APW"
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -9711,7 +9711,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c6643508-1759-40b6-8c8a-5df62109a7b5")
 		(property "Reference" "AE1"

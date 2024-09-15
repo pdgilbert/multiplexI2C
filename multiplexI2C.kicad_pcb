@@ -6368,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Value" "TCA9548A"
+		(property "Value" "PCA9548A"
 			(at -5.5875 -2.385 90)
 			(layer "F.Fab")
 			(uuid "94f2c554-cb6a-40d6-85ca-d155c0426971")
@@ -6392,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
+		(property "Datasheet" "https://www.nxp.com/products/interfaces/ic-spi-i3c-interface-devices/ic-logic-multiplexers-switches/eight-channel-ic-bus-switch-with-reset:PCA9548A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6431,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "NXP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6444,7 +6444,7 @@
 				)
 			)
 		)
-		(property "MfgPart" "TCA9548A"
+		(property "MfgPart" "PCA9548APW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14369,7 +14369,7 @@
 		(path "/c6643508-1759-40b6-8c8a-5df62109a7b5")
 		(sheetname "Root")
 		(sheetfile "multiplexI2C.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.11 0)
 			(end 1.11 1.33)
