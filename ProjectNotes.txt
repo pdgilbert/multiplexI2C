@@ -4,7 +4,23 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
+- SMT pin header for ssd
+  or   KF2024V-2.54 SMT terminal block  pin header not wire
+  or  SMD PH3.5  Low Profile PH3.5 Single Row Rohs SMT Female Header Connector
+
+- consider screwless terminal connector, eg KEFA  KF141V_4P 
+  or  KF208VB-2.5/2.54  Spring type terminal block,
+  (https://www.kefaelectronic.com/KF208VB-2-5-2-54-Spring-type-terminal-block-pd563040758.html)
+  or https://abra-electronics.com/interconnects/terminals-blocks-barrier/spring-terminals/2427p-screwless-terminal-block-4-pin-0.1-pitch-top-entry-2-pack.html
+  or  WAGO 2086-1104-700-000_997-605 but a bit smaller would be better,
+  and SMT would be nice. Consider possibly multileveel 45 degree?
+  or https://www.kefaelectronic.com/KFM736H4-Spring-type-terminal-block-pd555948668.html
+     https://www.lcsc.com/category/432.html
+     https://www.lcsc.com/product-detail/C2974939.html
+
 - pull-up on nss. Done in v0.1.1
+
+- Move Spi Reset from PA0 to PA1 because PA0 is reset/wkup for mcu. Done
 
 - MCU on board?
 
@@ -34,12 +50,6 @@ check  J**1 and J**2 and DNP R0 are removed or edit them from the file.
 
 
 then  zip multiplexI2C-gerbers.zip  *.gbr *.drl
-
-mkdir PCBway-submit
-mv multiplexI2C-gerbers.zip  PCBway-submit
-cp       BOM.csv             PCBway-submit
-cp multiplexI2C-all-pos.csv  PCBway-submit
-cp Graphics/*.png            PCBway-submit
 
 
 ======= submit and get Quote ========
@@ -97,6 +107,16 @@ Step 3 + Additional Options:   png NOT VALID FORMAT so not submitted
 
 - Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
 
+
+///////////////     Version Notes
+
+- multiplexI2c v0.1.0 2024-09 (with socket for blackpill)
+     - to work needs pull-up resistor manually soldered on radio nss, MCU pin A4. 
+          This is fixed in drawings.
+     - has Spi reset on pin A0. This has been changed in the drawings to A1 
+          because A0 is MCU reset/wkup. It works without the change as long as reset is not used.
+
+
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
@@ -132,6 +152,14 @@ using RF Semtech chipset llcc68, but first need rust crate for radio/module.
 
 See  http://www.ti.com/lit/pdf/SLVA689 re pullup sensor size.  !! very good
 
+and  www.ti.com   ADS1113, ADS1114, ADS1115
+SBAS444E 2013 MAY 2009 2013 REVISED DECEMBER 2024
+p28
+"Long bus lines have higher
+capacitance and require smaller pullup resistors to compensate. Do not use resistors that are too small to avoid
+bus drivers being unable to pull the bus lines low."
+
+
 pullup 10k vs 20k? vs 4.7k?  Consider pullup on sensor so small resister can be used with long wires and
 power is not lost when there is no sensor.
 
@@ -140,6 +168,10 @@ Possibly poor connections on RJ11 or on AHT10 module boards.
 Should use 4.7k to help insur better signal. Additional power should be small.
 In case of still bad signal: additional resistors can be added can be added in the J1 .. J8 connectors
 from power to SC and to SD, beside wires to the sensor module.
+
+With prototype v1.0.0 2024-09 
+   AHT10 on 6m POT 22AWG does not work (4m does work)
+            6m does work with Tupavco TP801 "rounded phone cable" which is about 26 AWG
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on TCA9548 address 
