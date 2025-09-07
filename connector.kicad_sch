@@ -5,9 +5,9 @@
 	(uuid "79ef3708-3b83-4429-8d5f-8990bbc7f134")
 	(paper "A4")
 	(title_block
-		(title "multiplex I2C to 6P4C connectors")
-		(date "2024-07-25")
-		(rev "v0.1.0")
+		(title "Multiplex I2C to Screw Terminal connectors")
+		(date "2025-09-07")
+		(rev "v0.2.0")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"

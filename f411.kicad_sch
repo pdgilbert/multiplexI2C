@@ -5,9 +5,9 @@
 	(uuid "81648aa5-940b-4822-90ae-fe4e396bed12")
 	(paper "A4")
 	(title_block
-		(title "ADCs for 10K thermistors")
-		(date "2025-01-07")
-		(rev "v0.1.1")
+		(title "Multiplex I2C to Screw Terminal connectors")
+		(date "2025-09-07")
+		(rev "v0.2.0")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"
@@ -4748,7 +4748,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R25")
 					(unit 1)
 				)
@@ -4879,7 +4879,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R34")
 					(unit 1)
 				)
@@ -4980,7 +4980,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -5046,7 +5046,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR86")
 					(unit 1)
 				)
@@ -5112,7 +5112,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR92")
 					(unit 1)
 				)
@@ -5178,7 +5178,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR97")
 					(unit 1)
 				)
@@ -5244,7 +5244,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR84")
 					(unit 1)
 				)
@@ -5376,7 +5376,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "C14")
 					(unit 1)
 				)
@@ -5507,7 +5507,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5592,7 +5592,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -5658,7 +5658,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -5724,7 +5724,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR83")
 					(unit 1)
 				)
@@ -5789,7 +5789,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR070")
 					(unit 1)
 				)
@@ -5855,7 +5855,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -5987,7 +5987,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R27")
 					(unit 1)
 				)
@@ -6127,7 +6127,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "J18")
 					(unit 1)
 				)
@@ -6193,7 +6193,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR87")
 					(unit 1)
 				)
@@ -6323,7 +6323,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "C9")
 					(unit 1)
 				)
@@ -6453,7 +6453,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -6585,7 +6585,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "C17")
 					(unit 1)
 				)
@@ -6715,7 +6715,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -6978,7 +6978,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "U5")
 					(unit 1)
 				)
@@ -7044,7 +7044,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR88")
 					(unit 1)
 				)
@@ -7111,7 +7111,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR89")
 					(unit 1)
 				)
@@ -7241,7 +7241,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "L1")
 					(unit 1)
 				)
@@ -7307,7 +7307,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -7373,7 +7373,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR85")
 					(unit 1)
 				)
@@ -7439,7 +7439,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR80")
 					(unit 1)
 				)
@@ -7505,7 +7505,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR82")
 					(unit 1)
 				)
@@ -7571,7 +7571,7 @@
 		)
 		(instances
 			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR072")
 					(unit 1)
 				)
@@ -7702,7 +7702,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "D1")
 					(unit 1)
 				)
@@ -7768,7 +7768,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR91")
 					(unit 1)
 				)
@@ -7901,7 +7901,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R26")
 					(unit 1)
 				)
@@ -7968,7 +7968,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR90")
 					(unit 1)
 				)
@@ -8101,7 +8101,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R33")
 					(unit 1)
 				)
@@ -8231,7 +8231,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R24")
 					(unit 1)
 				)
@@ -8361,7 +8361,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "R23")
 					(unit 1)
 				)
@@ -8427,7 +8427,7 @@
 		)
 		(instances
 			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
 					(reference "#PWR79")
 					(unit 1)
 				)
@@ -8469,9 +8469,14 @@
 			)
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
-					(page "6")
+			(project ""
+				(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18"
+					(page "")
+				)
+			)
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
+					(page "13")
 				)
 			)
 		)
@@ -8511,9 +8516,14 @@
 			)
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f12d0b95-be3f-41e2-8b41-943aec5e1edf"
-					(page "5")
+			(project ""
+				(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18"
+					(page "")
+				)
+			)
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18"
+					(page "12")
 				)
 			)
 		)
