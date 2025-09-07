@@ -8471,7 +8471,7 @@
 		(instances
 			(project ""
 				(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18"
-					(page "")
+					(page "#")
 				)
 			)
 			(project "multiplexI2C"
@@ -8518,7 +8518,7 @@
 		(instances
 			(project ""
 				(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18"
-					(page "")
+					(page "#")
 				)
 			)
 			(project "multiplexI2C"

@@ -921,151 +921,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ProjectLib:ssd1306_header"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 -7.62 0)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-				)
-			)
-			(property "Value" "header_0.25sqmm_1x04_P4.2mm_D0.65mm_OD1.7mm"
-				(at 15.748 -3.556 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
-				(at 12.7 -0.254 90)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 27.686 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4P I2C header for SSD1306 module"
-				(at 9.144 -0.762 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ssd1306"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ssd1306_header_0_1"
-				(rectangle
-					(start -4.572 4.826)
-					(end 0 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ssd1306_header_1_1"
-				(pin free line
-					(at 2.54 3.81 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 2.54 1.27 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 2.54 -1.27 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 2.54 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1399,16 +1254,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 196.85) (xy 173.99 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "068af8ea-7b7a-4052-a319-dbbafb3d1622")
-	)
-	(wire
-		(pts
 			(xy 118.11 73.66) (xy 118.11 191.77)
 		)
 		(stroke
@@ -1466,16 +1311,6 @@
 			(type default)
 		)
 		(uuid "17dbcbb5-58d0-4c20-8ac9-b260fbb5ab0e")
-	)
-	(wire
-		(pts
-			(xy 163.83 199.39) (xy 173.99 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "198dbbea-d969-4cf5-8999-87f4407e4596")
 	)
 	(wire
 		(pts
@@ -2076,16 +1911,6 @@
 			(type default)
 		)
 		(uuid "c9ea2c24-a575-4576-82ef-92882d6fb8cc")
-	)
-	(wire
-		(pts
-			(xy 168.91 194.31) (xy 173.99 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabff1f0-4b87-4b3a-9838-fb1bb5c1c75b")
 	)
 	(wire
 		(pts
@@ -3489,116 +3314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectLib:ssd1306_header")
-		(at 176.53 195.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90030471-ba87-4119-a94e-48cf67b079a1")
-		(property "Reference" "J9"
-			(at 179.07 187.198 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-				)
-			)
-		)
-		(property "Value" "PinSocket__1x04_P2.54mm_Vertical"
-			(at 190.754 200.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProjectLib:PinSocket_1x04_P2.54mm_Vertical"
-			(at 186.436 196.088 90)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.384 197.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4P header (I2C for SSD1306 module)"
-			(at 165.608 201.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JILN"
-			(at 176.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgPart" "228050104ANG1SYA01"
-			(at 176.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MountType" "PTH"
-			(at 176.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "or equivalent"
-			(at 176.53 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "44398fa6-80b6-4d6c-ac28-a4234d7ac782")
-		)
-		(pin "3"
-			(uuid "8428e2d7-acf8-4424-a3cb-f9f5cf5ea7e2")
-		)
-		(pin "2"
-			(uuid "a5d02c7e-d055-4cbe-b5cd-ecae3a50a789")
-		)
-		(pin "1"
-			(uuid "20c36a98-d61b-4088-9151-89a8efcc9a0d")
-		)
-		(instances
-			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 25.4 0)
 		(mirror y)
@@ -3963,72 +3678,6 @@
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e964e9c-436d-43e8-b065-674a6afaed91")
-		(property "Reference" "#PWR049"
-			(at 163.83 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f1f0874-2698-4701-9081-4bfa6b2d2699")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4775,7 +4424,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 109.22)
+		(at 156.21 110.49)
 		(size 31.75 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4791,7 +4440,7 @@
 		)
 		(uuid "2810e5bd-88e3-445e-9497-ea39bfab4c18")
 		(property "Sheetname" "f411"
-			(at 139.7 108.5084 0)
+			(at 156.21 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4449,7 @@
 			)
 		)
 		(property "Sheetfile" "f411.kicad_sch"
-			(at 139.7 149.1746 0)
+			(at 156.21 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +4694,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 191.77)
+		(at 161.29 168.91)
 		(size 25.4 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5060,7 +4709,7 @@
 		)
 		(uuid "8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683")
 		(property "Sheetname" "RFM95W"
-			(at 35.56 191.0584 0)
+			(at 161.29 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +4718,7 @@
 			)
 		)
 		(property "Sheetfile" "RFM95W.kicad_sch"
-			(at 37.084 186.944 0)
+			(at 162.814 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
