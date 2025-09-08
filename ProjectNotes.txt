@@ -113,8 +113,8 @@ Step 3 + Additional Options:   png NOT VALID FORMAT so not submitted
 - multiplexI2c v0.1.0 2024-09 (with socket for blackpill)
      - to work needs pull-up resistor manually soldered on radio nss, MCU pin A4. 
           This is fixed in drawings.
-     - has Spi reset on pin A0. This has been changed in the drawings to A1 
-          because A0 is MCU reset/wkup. It works without the change as long as reset is not used.
+     - has Spi reset on pin A0. This has been changed A1 since A0 is MCU reset/wkup. 
+          It works without the change as long as reset is not used.
 
 
 ////////////////////////////////////////////////////////////////////////////////

@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0603_1608Metric"
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -57,24 +57,6 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -612,24 +594,6 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1189,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 128.5748 101.6 0)
 			(effects
 				(font
@@ -1198,7 +1162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -1319,7 +1283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 112.0648 101.6 0)
 			(effects
 				(font
@@ -1328,7 +1292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -1609,7 +1573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0402_1005Metric"
+		(property "Footprint" "ProjectLib:R_0603_1608Metric"
 			(at 130.556 85.344 90)
 			(effects
 				(font
@@ -1618,7 +1582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1724,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3ca749-9485-4c24-8594-6974649e2306")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0110"
 			(at 113.03 125.73 0)
 			(effects
 				(font
@@ -1774,7 +1738,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "#PWR062")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -1817,7 +1781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf"
+		(property "Datasheet" "~"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -1826,7 +1790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, 7pF"
+		(property "Description" "Two pin crystal"
 			(at 120.65 95.25 0)
 			(effects
 				(font

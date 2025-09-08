@@ -1184,27 +1184,27 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0e7b750d-8e4e-450e-948f-cf92910adbb7"
-					(reference "#PWR051")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR059")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/28f5dbbe-14b4-4c25-86a6-457951a84750"
-					(reference "#PWR071")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/4d3cd71d-38ce-404a-8590-119e12741a1e"
-					(reference "#PWR055")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR045")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1"
-					(reference "#PWR067")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
@@ -1212,7 +1212,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR063")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1277,27 +1277,27 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0e7b750d-8e4e-450e-948f-cf92910adbb7"
-					(reference "#PWR047")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR057")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/28f5dbbe-14b4-4c25-86a6-457951a84750"
-					(reference "#PWR069")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/4d3cd71d-38ce-404a-8590-119e12741a1e"
-					(reference "#PWR053")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR040")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1"
-					(reference "#PWR065")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
@@ -1305,7 +1305,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR061")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1454,7 +1454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a10d79d-b297-4560-b392-dfaaea7c5d5a")
-		(property "Reference" "C14"
+		(property "Reference" "C22"
 			(at 81.28 35.56 0)
 			(effects
 				(font
@@ -1543,7 +1543,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0e7b750d-8e4e-450e-948f-cf92910adbb7"
-					(reference "C16")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
@@ -1555,11 +1555,11 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/4d3cd71d-38ce-404a-8590-119e12741a1e"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "C15")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1"
@@ -1567,7 +1567,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "C14")
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
@@ -1622,7 +1622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x04"
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 69.85 44.45 0)
 			(effects
 				(font
@@ -1776,27 +1776,27 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0e7b750d-8e4e-450e-948f-cf92910adbb7"
-					(reference "#PWR052")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR060")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/28f5dbbe-14b4-4c25-86a6-457951a84750"
-					(reference "#PWR072")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/4d3cd71d-38ce-404a-8590-119e12741a1e"
-					(reference "#PWR056")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR046")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1"
-					(reference "#PWR068")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
@@ -1804,7 +1804,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR064")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1870,27 +1870,27 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0e7b750d-8e4e-450e-948f-cf92910adbb7"
-					(reference "#PWR048")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR058")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/28f5dbbe-14b4-4c25-86a6-457951a84750"
-					(reference "#PWR070")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/4d3cd71d-38ce-404a-8590-119e12741a1e"
-					(reference "#PWR054")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR043")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1"
-					(reference "#PWR066")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
@@ -1898,7 +1898,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR062")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

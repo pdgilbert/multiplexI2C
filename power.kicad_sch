@@ -692,7 +692,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0603_1608Metric"
+			(property "Footprint" "ProjectLib:C_0805_2012Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -711,24 +711,6 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -846,7 +828,7 @@
 				)
 			)
 			(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-				(at -1.524 -8.128 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -864,7 +846,7 @@
 				)
 			)
 			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 1.27 5.334 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2017,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 152.4 92.71 0)
 			(effects
 				(font
@@ -2294,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 110.7948 95.25 0)
 			(effects
 				(font
@@ -2303,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2425,7 +2407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 101.9048 95.25 0)
 			(effects
 				(font
@@ -2434,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2566,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
+		(property "Datasheet" "~"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2575,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12mm coin battery retainer smd"
+		(property "Description" "Single-cell battery"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -2703,7 +2685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
+		(property "Datasheet" "~"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2712,7 +2694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Screw terminal 1x02"
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2956,7 +2938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 84.1248 95.25 0)
 			(effects
 				(font
@@ -2965,7 +2947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3087,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 146.685 121.285 0)
 			(effects
 				(font
@@ -3223,7 +3205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 157.1752 102.87 0)
 			(effects
 				(font
@@ -3232,7 +3214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3356,7 +3338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 120.3452 74.93 0)
 			(effects
 				(font
@@ -3365,7 +3347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3537,7 +3519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76a3a78-04f8-4bad-9ac6-b17fb2d2d8b7")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0113"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3587,7 +3569,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR030")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -3619,7 +3601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+		(property "Footprint" "ProjectLib:C_0805_2012Metric"
 			(at 94.2848 95.25 0)
 			(effects
 				(font
@@ -3628,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 91.44 0)
 			(effects
 				(font
