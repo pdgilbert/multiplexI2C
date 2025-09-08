@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 128.5748 101.6 0)
 			(effects
 				(font
@@ -1283,7 +1283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLib:C_0805_2012Metric"
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
 			(at 112.0648 101.6 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ProjectLib:R_0603_1608Metric"
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
 			(at 130.556 85.344 90)
 			(effects
 				(font
