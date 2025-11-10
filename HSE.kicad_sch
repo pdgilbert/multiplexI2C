@@ -1251,7 +1251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c3ed37-d7e2-4bf2-b2a5-66876896fa15")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR070"
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -1301,7 +1301,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "#PWR03")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1316,7 +1316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24e60490-3484-45d3-9799-972927bad40a")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR069"
 			(at 142.24 88.9 0)
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "#PWR0111")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1381,7 +1381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d7fba7a-7500-4cdc-abf4-6f3adda648bc")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 161.036 108.204 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -1511,7 +1511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ef0b011-8f11-4809-ba4a-be61ba0534e1")
-		(property "Reference" "R30"
+		(property "Reference" "R35"
 			(at 159.766 80.772 0)
 			(effects
 				(font
@@ -1626,7 +1626,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "R30")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9017669b-9523-4d0b-9ad1-8c78bdd4e79a")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR068"
 			(at 138.43 132.08 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "#PWR0112")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1708,7 +1708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1237180-2c02-40f9-8be6-6b9dfdb81eaa")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR067"
 			(at 121.92 133.35 0)
 			(effects
 				(font
@@ -1758,7 +1758,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "#PWR095")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a21ab5c5-3991-486c-8a6e-e7f468862097")
-		(property "Reference" "Y1"
+		(property "Reference" "Y2"
 			(at 160.528 93.218 0)
 			(effects
 				(font
@@ -1911,7 +1911,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "Y1")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfc1d95e-e5af-49a4-8697-915ef7d3f153")
-		(property "Reference" "NT1"
+		(property "Reference" "NT2"
 			(at 128.524 124.968 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "NT1")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1cf36d8-fb6e-45fa-913f-f8e109b7e60c")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 132.08 108.204 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/09b28461-e1e3-4809-8d37-797a691b7cc0"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)

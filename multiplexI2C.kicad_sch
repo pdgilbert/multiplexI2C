@@ -2404,7 +2404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c4b24a-6b29-476c-8cc3-fce243685f54")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 135.89 66.04 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "205c900d-081c-4aff-b0a5-6ff1120cfb81")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 104.14 25.4 0)
 			(effects
 				(font
@@ -2520,7 +2520,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2602,7 +2602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f0ac85-facb-45ee-833f-526cf0b9ab5e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7afb2d-bc20-4318-bd88-6f4758e8f0f6")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 138.43 190.5 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3240,7 +3240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edf5a8f-9004-4e42-8341-d056fbf9e9da")
-		(property "Reference" "R31"
+		(property "Reference" "R8"
 			(at 138.43 64.77 90)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R31")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7eca51-b13f-43b0-8d78-2b30987cfbda")
-		(property "Reference" "R28"
+		(property "Reference" "R7"
 			(at 138.43 40.64 90)
 			(effects
 				(font
@@ -3698,7 +3698,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R28")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3887,7 +3887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c177d535-d075-4096-b97a-31fa9d8d0f3c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 135.89 88.9 0)
 			(effects
 				(font
@@ -3937,7 +3937,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a98471-8f61-4bf9-b88c-b5bd0a6efd32")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4225,7 +4225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66fe278-4ea8-4ead-9f46-384cc5ce267a")
-		(property "Reference" "R32"
+		(property "Reference" "R9"
 			(at 138.43 87.63 90)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R32")
+					(reference "R9")
 					(unit 1)
 				)
 			)

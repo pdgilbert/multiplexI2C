@@ -1603,7 +1603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a6eeeaf-8f3e-40c3-b663-9487225077e9")
-		(property "Reference" "R35"
+		(property "Reference" "R26"
 			(at 95.758 77.724 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "R35")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc8b28e-83d6-481c-8097-bf6c6867b103")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR044"
 			(at 118.11 106.68 0)
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR0104")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1801,7 +1801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11a8b980-cb8a-4b2b-86bb-4b70464a8428")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR045"
 			(at 130.81 83.82 0)
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR0105")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1867,7 +1867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a7b520-c744-4860-9f18-a04534a39b23")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR041"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -1917,7 +1917,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR0102")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1933,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e7587c6-c4ef-448b-bec0-ce632638b4ac")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR042"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR0101")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b2b2a8-8f6f-470a-9ee6-4fd9a8156a01")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR043"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -2049,7 +2049,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR0103")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
