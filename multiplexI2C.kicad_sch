@@ -1161,18 +1161,6 @@
 		(uuid "29f08440-90c9-41c3-97f5-acc30278b34c")
 	)
 	(junction
-		(at 135.89 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "620abf57-6581-4454-b4fe-9f3230b4641b")
-	)
-	(junction
-		(at 135.89 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70f0abed-a364-427e-8172-970d0cdc6804")
-	)
-	(junction
 		(at 121.92 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1344,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 135.89 45.72)
+			(xy 114.3 45.72) (xy 143.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1454,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 156.21 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bcc9c4a-f138-49ae-8bc9-92e2ebed3bd2")
-	)
-	(wire
-		(pts
 			(xy 49.53 123.19) (xy 78.74 123.19)
 		)
 		(stroke
@@ -1514,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 129.54 69.85)
+			(xy 129.54 69.85) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1801,16 +1779,6 @@
 			(type default)
 		)
 		(uuid "a08f597a-a61e-4969-a4d0-90010330f75f")
-	)
-	(wire
-		(pts
-			(xy 135.89 45.72) (xy 143.51 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e933a1-73fa-477c-ae40-d70fd0030662")
 	)
 	(wire
 		(pts
@@ -2389,72 +2357,6 @@
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16c4b24a-6b29-476c-8cc3-fce243685f54")
-		(property "Reference" "#PWR06"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b7a0046-e3d7-4167-8aa1-376a94e25db1")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3231,111 +3133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectLib:R_US")
-		(at 135.89 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8edf5a8f-9004-4e42-8341-d056fbf9e9da")
-		(property "Reference" "R8"
-			(at 138.43 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 138.43 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:R_0402_1005Metric"
-			(at 136.906 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MountType" "SMT"
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgPart" ""
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 135.89 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1db46ae-ed3b-49a5-90a0-d05bdf8a15e1")
-		)
-		(pin "2"
-			(uuid "211f3239-61ee-46ea-929b-3b69d4a10284")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 25.4 0)
 		(mirror y)
@@ -3600,111 +3397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectLib:R_US")
-		(at 135.89 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c7eca51-b13f-43b0-8d78-2b30987cfbda")
-		(property "Reference" "R7"
-			(at 138.43 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k 1%"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:R_0402_1005Metric"
-			(at 136.906 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MountType" "SMT"
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgPart" ""
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7009330a-c996-466c-b632-9a91b45cd2cf")
-		)
-		(pin "2"
-			(uuid "5902a3b4-c54e-47f8-aeb9-f813ffc976f9")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ProjectLib:TCA9548APWR")
 		(at 104.14 63.5 0)
 		(mirror y)
@@ -3733,7 +3425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+		(property "Footprint" "ProjectLib:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -4041,72 +3733,6 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 135.89 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1a98471-8f61-4bf9-b88c-b5bd0a6efd32")
-		(property "Reference" "#PWR05"
-			(at 135.89 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 135.89 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df96dc20-203f-42ba-94a8-013db0482003")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4086,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2810e5bd-88e3-445e-9497-ea39bfab4c18")
-		(property "Sheetname" "f411"
+		(property "Sheetname" "MCU-LoRa"
 			(at 156.21 109.7784 0)
 			(effects
 				(font
@@ -4481,7 +4107,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
@@ -4611,7 +4237,7 @@
 		)
 	)
 	(sheet
-		(at 157.48 30.48)
+		(at 158.75 162.56)
 		(size 29.21 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4627,7 +4253,7 @@
 		)
 		(uuid "872e59d9-aae9-4a0c-a438-0cad18134c8d")
 		(property "Sheetname" "power"
-			(at 157.48 29.7684 0)
+			(at 158.75 161.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4262,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 157.48 50.1146 0)
+			(at 158.75 182.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4273,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "14")
+					(page "11")
 				)
 			)
 		)
@@ -4710,47 +4336,6 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 161.29 168.91)
-		(size 25.4 41.91)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683")
-		(property "Sheetname" "RFM95W"
-			(at 161.29 168.1984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RFM95W.kicad_sch"
-			(at 162.814 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "10")
 				)
 			)
 		)

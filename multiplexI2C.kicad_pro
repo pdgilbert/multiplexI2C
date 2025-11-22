@@ -428,9 +428,9 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -453,8 +453,8 @@
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -778,20 +778,8 @@
       "Connector7"
     ],
     [
-      "8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683",
-      "RFM95W"
-    ],
-    [
       "2810e5bd-88e3-445e-9497-ea39bfab4c18",
-      "f411"
-    ],
-    [
-      "349f89d2-b212-45c7-8a70-67b2942fde7b",
-      "LSE"
-    ],
-    [
-      "09b28461-e1e3-4809-8d37-797a691b7cc0",
-      "HSE"
+      "MCU-LoRa"
     ],
     [
       "872e59d9-aae9-4a0c-a438-0cad18134c8d",
