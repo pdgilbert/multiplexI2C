@@ -1072,8 +1072,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 102.87 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 102.87 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 102.87 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,8 +1362,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 125.73 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 125.73 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1497,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 85.09 35.56 0)
 			(effects
 				(font
@@ -1579,6 +1633,24 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 69.85 44.45 0)
 			(effects
 				(font

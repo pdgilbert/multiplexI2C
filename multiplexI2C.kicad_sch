@@ -2240,7 +2240,25 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
+			(at 99.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 99.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 99.06 25.4 0)
 			(effects
 				(font
@@ -2343,8 +2361,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 101.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 101.6 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 101.6 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,6 +2756,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -2808,8 +2862,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 101.6 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 101.6 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 101.6 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,8 +2983,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 130.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 130.81 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 130.81 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,6 +3115,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 19.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 19.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -3113,8 +3221,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 101.6 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 101.6 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 101.6 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,6 +3419,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 170.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
@@ -3384,6 +3528,24 @@
 			)
 		)
 		(property "Notes" ""
+			(at 152.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 152.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 152.4 20.32 0)
 			(effects
 				(font
@@ -3485,6 +3647,24 @@
 			)
 		)
 		(property "Notes" "or equivalent"
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 104.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -3719,8 +3899,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 130.81 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 130.81 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 130.81 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,8 +4020,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 130.81 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 130.81 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 130.81 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,8 +4143,26 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 135.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 135.89 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)

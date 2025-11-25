@@ -2089,6 +2089,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a68d12de-a432-43af-b791-063ba5935078")
 		)
@@ -2366,6 +2384,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c52ec13-0ba8-4438-a972-018f3f42b296")
 		)
@@ -2489,6 +2525,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2629,6 +2683,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ea82d56-bddc-41e0-8eef-ea00fc9f114f")
 		)
@@ -2757,6 +2829,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 152.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 152.4 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 152.4 68.58 90)
 			(effects
 				(font
@@ -3028,6 +3118,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dc448dc-8853-49a1-ab7b-c830a2ffed03")
 		)
@@ -3152,6 +3260,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -3295,6 +3421,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 156.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "defe0448-311d-4370-bb3a-db7377b0363e")
 		)
@@ -3420,6 +3564,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3683,6 +3845,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font

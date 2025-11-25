@@ -187,7 +187,7 @@
 			)
 		)
 		(property "Value" "1µF"
-			(at 1.33 0.19 90)
+			(at 2.9 0.22 90)
 			(layer "F.Fab")
 			(uuid "10ac1877-278c-4686-8dba-b5c9c5d1b0ba")
 			(effects
@@ -478,7 +478,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 1.34 4.23 0)
+			(at -3.76 6.2 45)
 			(layer "F.Fab")
 			(uuid "2994a77d-6ec2-4650-9bae-a03bacd17fc6")
 			(effects
@@ -632,7 +632,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 0)
+			(at 3.87 -2.39 45)
 			(layer "F.Fab")
 			(uuid "54709b63-6013-4cab-9115-4e76668857bc")
 			(effects
@@ -1483,7 +1483,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D3"
-			(at 0 -2.4 180)
+			(at 0.75 2.31 180)
 			(layer "F.SilkS")
 			(uuid "df0c52c2-833a-412f-a6f1-1bf33a68a92f")
 			(effects
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(property "Value" "BAT54C-HF"
-			(at -3.29 0.05 180)
+			(at -4.63 2.54 225)
 			(layer "F.Fab")
 			(uuid "112282fd-8ad3-409e-989e-87b94b9b4999")
 			(effects
@@ -1836,7 +1836,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.09 -0.09 90)
+			(at 3.25 0 90)
 			(layer "F.Fab")
 			(uuid "35e8a0cb-de16-4b56-be48-8dd232cb3bf4")
 			(effects
@@ -2633,7 +2633,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 20.25 3.5 0)
+			(at 16.61 -6.03 45)
 			(layer "F.Fab")
 			(uuid "eaf6fa73-df89-408c-9485-19c08bd3aab5")
 			(effects
@@ -3140,7 +3140,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 1.16 0)
+			(at -0.06 -1.32 0)
 			(layer "F.Fab")
 			(uuid "b5a81bb6-1ed6-434f-ada2-e919af517d49")
 			(effects
@@ -3392,7 +3392,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.08 -0.05 90)
+			(at 3.37 0.2 90)
 			(layer "F.Fab")
 			(uuid "aa4497a2-2d54-43a5-be7a-7a271fb4b7f3")
 			(effects
@@ -4190,7 +4190,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at -7.67 -1.46 0)
+			(at 3.4 -6.43 45)
 			(layer "F.Fab")
 			(uuid "40a078c5-65c5-4120-aef4-f1d3b4999648")
 			(effects
@@ -4345,7 +4345,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.11 -0.06 90)
+			(at 3.33 -0.07 90)
 			(layer "F.Fab")
 			(uuid "66e80179-b550-429f-ba1b-9a7f9849246f")
 			(effects
@@ -5143,7 +5143,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at -1.12 3.57 0)
+			(at -3.27 5.84 45)
 			(layer "F.Fab")
 			(uuid "15621851-9a11-4b69-ae8f-230af1eeeca2")
 			(effects
@@ -5297,7 +5297,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at -8.973 11.9275 0)
+			(at 17.127 -4.8825 45)
 			(layer "F.Fab")
 			(uuid "99ee43f6-5641-416b-b643-91ce56341f4e")
 			(effects
@@ -5803,7 +5803,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3 SOT-223"
-			(at 0 4.5 0)
+			(at 6.81 -11.2 45)
 			(layer "F.Fab")
 			(uuid "c5ce5720-b814-4fff-8176-eb1295b5d7c7")
 			(effects
@@ -6159,7 +6159,7 @@
 			)
 		)
 		(property "Value" "PCA9548A"
-			(at 0 4.85 0)
+			(at -4.5745 1.1075 45)
 			(layer "F.Fab")
 			(uuid "94f2c554-cb6a-40d6-85ca-d155c0426971")
 			(effects
@@ -6676,7 +6676,7 @@
 			)
 		)
 		(property "Value" "f411-RFM95W"
-			(at -1.45 8.63 0)
+			(at 12.15 0.32 45)
 			(layer "F.Fab")
 			(uuid "2d51364f-3215-4203-840b-568b5c7670c5")
 			(effects
@@ -7151,7 +7151,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 1.016 12.192 90)
+			(at -4.73 10.33 45)
 			(layer "F.Fab")
 			(uuid "57016a7b-b1ad-4a57-985f-5a4b298d5377")
 			(effects
@@ -7654,7 +7654,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 0 90)
+			(at -3.3 0.03 90)
 			(layer "F.Fab")
 			(uuid "a18ffde0-f96e-443e-8d6a-14c3d88a6376")
 			(effects
@@ -9145,7 +9145,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 1.629 -3.049 0)
+			(at 6.3 -5.77 45)
 			(layer "F.Fab")
 			(uuid "80c5833e-e5ca-4f0c-87e0-f87284877bdf")
 			(effects
@@ -10070,7 +10070,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 0 180)
+			(at 0.36 1.21 180)
 			(layer "B.Fab")
 			(uuid "a77b3bbd-6d53-4a19-9163-da1e19b862d9")
 			(effects
@@ -10855,7 +10855,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 -0.1 90)
+			(at 2.04 1.4 90)
 			(layer "B.Fab")
 			(uuid "261cfc92-51de-482f-9bb5-530f6a43c60d")
 			(effects
@@ -11956,7 +11956,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at -0.22 -0.1 0)
+			(at -0.49 -1.11 0)
 			(layer "B.Fab")
 			(uuid "b9c0a8ec-44bf-44a8-9e8a-b844140a5ced")
 			(effects
@@ -12783,7 +12783,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at -0.75 0 0)
+			(at -0.39 1.32 0)
 			(layer "B.Fab")
 			(uuid "d42a4f93-3ae6-445c-b5a4-6142c7ccabee")
 			(effects
@@ -13087,6 +13087,7 @@
 		(property "Value" "Battery_Cell_Holder"
 			(at 0 7 180)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c0136d5f-c41b-45a1-b49e-a6f67555e4d9")
 			(effects
 				(font
@@ -13195,10 +13196,9 @@
 			)
 		)
 		(property "Package" "BatteryHolder_LINX_BAT-HLD-012-SMT"
-			(at 0 0 180)
+			(at 13.87 7.61 315)
 			(unlocked yes)
 			(layer "B.Fab")
-			(hide yes)
 			(uuid "0fac664f-36a6-4636-be8a-d0ed2658b657")
 			(effects
 				(font
@@ -13783,7 +13783,7 @@
 			(uuid "8682767b-1223-43b2-8952-4b136bc3b849")
 		)
 		(fp_text user "Pad  2 battery contact - no solder paste"
-			(at -0.29 -12.27 0)
+			(at 23.97 25.7 315)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "381746c3-87fb-482a-b64b-5956c0a803f3")
@@ -14928,7 +14928,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at -0.2 -0.15 90)
+			(at -0.95 -1.21 90)
 			(layer "B.Fab")
 			(uuid "4e16ba67-bb7d-47e3-b97c-1d329bee88fb")
 			(effects
@@ -15189,7 +15189,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 0 180)
+			(at 0.67 1.18 180)
 			(layer "B.Fab")
 			(uuid "caf8978a-6c49-4a0b-9991-8521f296dd24")
 			(effects
@@ -17074,7 +17074,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 0 180)
+			(at 0.26 1.11 180)
 			(layer "B.Fab")
 			(uuid "fa78cca9-c449-4ba3-bc01-3870ae285a7a")
 			(effects
@@ -17639,7 +17639,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 0.1 90)
+			(at -1.28 -1.27 90)
 			(layer "B.Fab")
 			(uuid "26ade10d-ccae-4d57-8b2c-a7bec43f1cef")
 			(effects
@@ -17900,7 +17900,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 0 0)
+			(at 0.5 1.19 0)
 			(layer "B.Fab")
 			(uuid "3786b295-d520-466e-9cb7-c05e8ac9cc9a")
 			(effects
@@ -18161,7 +18161,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 -1.16 0)
+			(at 0.6 1.05 0)
 			(layer "B.Fab")
 			(uuid "6f32c136-b9fc-4d04-8ca5-e7f5503cd5b1")
 			(effects
@@ -18726,7 +18726,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at -0.38 -0.1 180)
+			(at 1.32 1.13 180)
 			(layer "B.Fab")
 			(uuid "6944fd95-d480-48c9-a971-df3f2d9a1b22")
 			(effects
@@ -19144,52 +19144,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Battery_Cell_Holder"
-		(at 87.609998 46.01 90)
-		(layer "B.Fab")
-		(uuid "92e49f0f-f4b7-4f2e-bd81-86abdd2bc98f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "BT1"
-		(at 87.619999 33.72 0)
-		(layer "B.Fab")
-		(uuid "e70c0280-47ee-41f8-aceb-10f2e17c4546")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "ADS1115IDGS"
-		(at 73.84 56.02 90)
-		(layer "F.Fab")
-		(uuid "0f2b9355-501c-4082-bef8-ebe4a8b0fa72")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "H1"
-		(at 96.29 95.15 0)
-		(layer "F.Fab")
-		(uuid "253a3a31-66eb-4752-a7bb-fae81e7c7805")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(gr_text "U2"
@@ -20432,14 +20386,6 @@
 		(uuid "29c92a2a-2794-4311-b66e-baf7857a196c")
 	)
 	(segment
-		(start 69.885 60.09)
-		(end 69.885 60.585)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "2ee40fb6-2c59-404b-b8f8-3632b95f471f")
-	)
-	(segment
 		(start 64.94 51.65)
 		(end 64.9 51.69)
 		(width 0.25)
@@ -20456,28 +20402,12 @@
 		(uuid "484a2a94-31e5-48e9-ba29-a2389e03fa56")
 	)
 	(segment
-		(start 58.197 60.0775)
-		(end 58.197 60.617)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "48c91256-10e6-4ea5-8006-0768921962ec")
-	)
-	(segment
 		(start 70.242 65.9025)
 		(end 70.917 65.2275)
 		(width 0.25)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "548d1073-cfc8-4012-b889-5a24dcc9a287")
-	)
-	(segment
-		(start 69.84 40.92)
-		(end 69.84 40.44)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "5613ad2f-7c0e-4114-87f9-a39b5f5f00b0")
 	)
 	(segment
 		(start 70.242 67.9075)
@@ -20568,14 +20498,6 @@
 		(uuid "88fa1853-2b0e-4519-9b93-9b7ff8cded49")
 	)
 	(segment
-		(start 58.214 33.415)
-		(end 58.214 33.924)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "99fb3296-b722-4d91-9a24-4c2e6f2d84d8")
-	)
-	(segment
 		(start 58.197 60.617)
 		(end 59.34 61.76)
 		(width 0.25)
@@ -20616,14 +20538,6 @@
 		(uuid "b62af4e9-a124-4d2c-8433-00f814f7c881")
 	)
 	(segment
-		(start 58.182 67.9075)
-		(end 58.182 67.278)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "b8daac6c-c9bb-41d8-9eef-c4c66a2450db")
-	)
-	(segment
 		(start 65.64 51.65)
 		(end 64.94 51.65)
 		(width 0.25)
@@ -20654,14 +20568,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "e1f2c838-d875-4b33-bbc0-50b4b5c08200")
-	)
-	(segment
-		(start 58.214 40.915)
-		(end 58.214 40.656)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "ec5e3273-ef65-40a8-9ec0-956f0ac5cb49")
 	)
 	(segment
 		(start 59.07 32.559)
@@ -22296,14 +22202,6 @@
 		(uuid "72e6457d-12a3-4c34-9940-1f1607bfcae5")
 	)
 	(segment
-		(start 55.633 68.2545)
-		(end 55.633 67.9425)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 38)
-		(uuid "762ac77e-64e4-4e6b-ac13-25803fd238c7")
-	)
-	(segment
 		(start 51.189 56.520805)
 		(end 51.189 68.8905)
 		(width 0.25)
@@ -22350,14 +22248,6 @@
 		(layer "B.Cu")
 		(net 38)
 		(uuid "53062077-5f01-49e9-8f54-916f17b91081")
-	)
-	(segment
-		(start 55.633 65.893)
-		(end 55.55 65.81)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 38)
-		(uuid "7beb2a6a-d575-42fc-967e-b023d9c95a6d")
 	)
 	(segment
 		(start 52.646695 55.857805)
@@ -22430,14 +22320,6 @@
 		(layer "B.Cu")
 		(net 39)
 		(uuid "d33a8864-74c3-4f9e-afa9-ccae3afaf9fa")
-	)
-	(segment
-		(start 53.093 65.857)
-		(end 53.15 65.8)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 39)
-		(uuid "ea575036-ae78-4e5b-8de6-cf4ace49b80f")
 	)
 	(segment
 		(start 58.967 50.7675)

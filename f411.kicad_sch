@@ -2234,6 +2234,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "00fd7c6d-dad6-4bf8-a000-7a05d269e5a3")
 		)
@@ -2488,6 +2506,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "a1"
 			(uuid "81a552a7-3e48-43d2-b652-0d3dc1cf044b")
 		)
@@ -2569,6 +2605,24 @@
 		)
 		(property "Description" "test point"
 			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 167.64 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
