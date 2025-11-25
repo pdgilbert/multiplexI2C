@@ -150,11 +150,15 @@
 			(embedded_fonts no)
 		)
 		(symbol "ProjectLib:MountingHole"
-			(pin_names
-				(offset 1.016)
+			(pin_numbers
+				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -162,6 +166,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "MountingHole"
@@ -1322,16 +1327,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 52.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe423bb-f2ee-417b-baea-9dc68de7dd90")
-	)
-	(wire
-		(pts
 			(xy 114.3 45.72) (xy 143.51 45.72)
 		)
 		(stroke
@@ -1379,6 +1374,16 @@
 			(type default)
 		)
 		(uuid "2e088db5-05fe-41ba-85df-29a8a40591db")
+	)
+	(wire
+		(pts
+			(xy 49.53 55.88) (xy 52.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306ab972-cef6-4251-a8eb-77423c2bee40")
 	)
 	(wire
 		(pts
@@ -1922,6 +1927,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 53.34) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb04a4c-756a-4f8d-9025-2b0de2b2e030")
+	)
+	(wire
+		(pts
 			(xy 134.62 186.69) (xy 138.43 186.69)
 		)
 		(stroke
@@ -1959,16 +1974,6 @@
 			(type default)
 		)
 		(uuid "d05d6f77-d94a-47bc-9033-594dd1011cd8")
-	)
-	(wire
-		(pts
-			(xy 49.53 53.34) (xy 54.61 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b5d28a-b5e8-4696-871c-b4e2f9aa09c6")
 	)
 	(wire
 		(pts
@@ -3202,7 +3207,7 @@
 		(lib_id "ProjectLib:MountingHole")
 		(at 170.18 227.33 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -3947,8 +3952,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 44.45)
-		(size 16.51 15.24)
+		(at 26.67 156.21)
+		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3961,9 +3966,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0e7b750d-8e4e-450e-948f-cf92910adbb7")
-		(property "Sheetname" "Connector2"
-			(at 33.02 43.7384 0)
+		(uuid "0ffcdb2c-d74e-4b7d-b16c-7be1edbff217")
+		(property "Sheetname" "Connector_flipped7"
+			(at 26.67 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,8 +3976,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connector.kicad_sch"
-			(at 33.02 60.2746 0)
+		(property "Sheetfile" "connector_flipped.kicad_sch"
+			(at 26.67 170.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,8 +3986,8 @@
 			)
 		)
 		(pin "SC" bidirectional
-			(at 49.53 53.34 0)
-			(uuid "4feb1fb1-819c-4009-a80f-1ce6c836c309")
+			(at 49.53 163.83 0)
+			(uuid "41a23915-20a2-490f-bd8d-0c73e6baa9cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,8 +3996,8 @@
 			)
 		)
 		(pin "SD" bidirectional
-			(at 49.53 55.88 0)
-			(uuid "3ab0cd06-e595-4366-b0a4-b0d68293477e")
+			(at 49.53 166.37 0)
+			(uuid "ffa4fc33-008b-4ce2-a1b4-657484447c42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4008,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "4")
+					(page "9")
 				)
 			)
 		)
@@ -4113,130 +4118,6 @@
 		)
 	)
 	(sheet
-		(at 33.02 154.94)
-		(size 16.51 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "28f5dbbe-14b4-4c25-86a6-457951a84750")
-		(property "Sheetname" "Connector7"
-			(at 33.02 154.2284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "connector.kicad_sch"
-			(at 33.02 170.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SC" bidirectional
-			(at 49.53 163.83 0)
-			(uuid "a2a8eec2-0518-4e21-9b6f-10421264ce0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD" bidirectional
-			(at 49.53 166.37 0)
-			(uuid "0f3e53c5-e44f-4d9a-a64e-753e54aaa30a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 33.02 66.04)
-		(size 16.51 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4d3cd71d-38ce-404a-8590-119e12741a1e")
-		(property "Sheetname" "Connector3"
-			(at 33.02 65.3284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "connector.kicad_sch"
-			(at 33.02 81.8646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SC" bidirectional
-			(at 49.53 74.93 0)
-			(uuid "a177ca16-bec0-4db9-879e-479e6cab5e42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD" bidirectional
-			(at 49.53 77.47 0)
-			(uuid "c0e6851e-9ada-4dcc-a99f-a73381e87dd4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 158.75 162.56)
 		(size 29.21 19.05)
 		(exclude_from_sim no)
@@ -4341,8 +4222,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 133.35)
-		(size 16.51 15.24)
+		(at 26.67 134.62)
+		(size 22.86 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4355,9 +4236,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "96274ab6-b7f5-49e6-b2bc-a2b6a3cb42d1")
-		(property "Sheetname" "Connector6"
-			(at 33.02 132.6384 0)
+		(uuid "a879a04a-2836-4e79-a27d-1b46398578a8")
+		(property "Sheetname" "Connector_flipped6"
+			(at 26.67 133.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,8 +4246,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connector.kicad_sch"
-			(at 33.02 149.1746 0)
+		(property "Sheetfile" "connector_flipped.kicad_sch"
+			(at 26.67 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4257,7 @@
 		)
 		(pin "SC" bidirectional
 			(at 49.53 142.24 0)
-			(uuid "2754ee67-c0fe-4b11-b665-78501174592f")
+			(uuid "f94e6979-bdc0-403c-aff8-e82b373146a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +4267,7 @@
 		)
 		(pin "SD" bidirectional
 			(at 49.53 144.78 0)
-			(uuid "5812263a-824a-4f63-80a5-40986feb3a43")
+			(uuid "95e484dd-e35d-4f9f-b861-0c03c6d4c411")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,6 +4279,68 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 45.72)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4c0e226-9808-439f-a0d2-8470ea18ef3d")
+		(property "Sheetname" "Connector_flipped2"
+			(at 26.67 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_flipped.kicad_sch"
+			(at 26.67 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SC" bidirectional
+			(at 49.53 53.34 0)
+			(uuid "956fded7-5e63-4c64-bcc0-cba17b43616d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD" bidirectional
+			(at 49.53 55.88 0)
+			(uuid "2b4681ff-d64c-4ee3-96c8-08f382d34a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(page "4")
 				)
 			)
 		)
@@ -4521,6 +4464,68 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 67.31)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd54f7e6-e57e-45a8-af7b-068cfabb882f")
+		(property "Sheetname" "Connector_flipped3"
+			(at 26.67 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_flipped.kicad_sch"
+			(at 26.67 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SC" bidirectional
+			(at 49.53 74.93 0)
+			(uuid "efec3e0b-4346-4840-bde1-3ca0f1214d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD" bidirectional
+			(at 49.53 77.47 0)
+			(uuid "3221ae87-5bbd-4d5c-a5d6-6b1b9837dc03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
+					(page "5")
 				)
 			)
 		)

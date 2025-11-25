@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "79ef3708-3b83-4429-8d5f-8990bbc7f134")
+	(uuid "d4450b78-2b9f-4c1b-9fad-b9a89880fba1")
 	(paper "A4")
 	(title_block
 		(title "Multiplex I2C to Screw Terminal connectors")
@@ -846,280 +846,163 @@
 		)
 	)
 	(junction
-		(at 85.09 39.37)
+		(at 104.14 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64cadc6b-4f39-4f8d-8176-c4c094b26ae3")
+		(uuid "40b97eb4-f279-45ba-8fb1-6e324ca1720c")
 	)
 	(junction
-		(at 102.87 46.99)
+		(at 144.78 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79a52cbe-7217-497d-95c9-b5e97f1bdc4f")
+		(uuid "da29a1a0-be91-4e98-9e39-53a6cd8b86da")
 	)
 	(junction
-		(at 125.73 49.53)
+		(at 104.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8135baa4-36e5-4f19-923f-c35d493996ba")
+		(uuid "db99a472-5e30-4f0e-ad3c-febda9b41ac2")
 	)
 	(junction
-		(at 85.09 31.75)
+		(at 121.92 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ae6dc3bf-8bf3-498f-828e-5b9d886af12a")
+		(uuid "f862ce3d-13e9-4df6-b7be-81f1d09c5e0a")
 	)
 	(wire
 		(pts
-			(xy 81.28 39.37) (xy 81.28 44.45)
+			(xy 121.92 83.82) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "021342c2-d5f4-492c-8009-13aedf3d6d82")
+		(uuid "26df60b3-02e9-4c40-bf09-12b567290d0f")
 	)
 	(wire
 		(pts
-			(xy 102.87 46.99) (xy 106.68 46.99)
+			(xy 104.14 68.58) (xy 96.52 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b83f148-3b61-42be-beb9-0626024c564e")
+		(uuid "4135045d-f8dd-468f-8e4f-bee779407b1d")
 	)
 	(wire
 		(pts
-			(xy 74.93 46.99) (xy 102.87 46.99)
+			(xy 92.71 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c00af80-110e-4c26-9ec5-abdf88ee6590")
+		(uuid "519798e8-01e0-4bed-be88-be7df9853299")
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 77.47 31.75)
+			(xy 100.33 81.28) (xy 92.71 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "473f98c4-7847-44a4-8ee6-8bf4e21807db")
+		(uuid "63eb3267-173c-4f91-b657-e0f7ae914ffb")
 	)
 	(wire
 		(pts
-			(xy 85.09 39.37) (xy 81.28 39.37)
+			(xy 96.52 78.74) (xy 92.71 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54435e8f-5c8d-4b47-9fcd-d2af7978bbf3")
+		(uuid "64953bb8-8d66-4ac3-9c42-5105765f5b08")
 	)
 	(wire
 		(pts
-			(xy 77.47 31.75) (xy 77.47 41.91)
+			(xy 92.71 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74ebe7c2-f9fb-48d6-b5ee-87ff9ab30edf")
+		(uuid "6dfbe727-4721-4fa4-a723-8000880b10d8")
 	)
 	(wire
 		(pts
-			(xy 74.93 49.53) (xy 125.73 49.53)
+			(xy 100.33 76.2) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8891a501-a4fe-48e3-88ea-ea7d54537684")
+		(uuid "758aa29c-ad1b-4a69-88c8-15f412ee5e67")
 	)
 	(wire
 		(pts
-			(xy 77.47 41.91) (xy 74.93 41.91)
+			(xy 96.52 68.58) (xy 96.52 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb27b634-906a-4111-ad33-dbb4fe6174a2")
+		(uuid "a4bcb85c-a6fd-4bee-9218-3bdc151c9bc7")
 	)
 	(wire
 		(pts
-			(xy 81.28 44.45) (xy 74.93 44.45)
+			(xy 104.14 76.2) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e847a4ea-876a-47b9-a71e-14a51e95124e")
+		(uuid "c2f188fd-4bef-4d85-b6db-47cdac783b9b")
 	)
 	(wire
 		(pts
-			(xy 125.73 49.53) (xy 133.35 49.53)
+			(xy 144.78 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7a81337-3253-4f65-ae2a-9b1465466c5e")
-	)
-	(hierarchical_label "SC"
-		(shape bidirectional)
-		(at 106.68 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "32dc93c7-a1f2-4706-bf3a-6e687fb4e706")
+		(uuid "fede0294-e666-415d-a480-9843fb6fcd29")
 	)
 	(hierarchical_label "SD"
 		(shape bidirectional)
-		(at 133.35 49.53 0)
+		(at 152.4 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "aa720a89-2d35-45fc-b960-50f153ecc9ca")
+		(uuid "19ff790c-92a5-421d-9ff0-61b03cf37ee9")
 	)
-	(symbol
-		(lib_id "ProjectLib:R_US")
-		(at 102.87 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ac55fa2-b45f-4223-9d6e-62ab08dacc63")
-		(property "Reference" "R10"
-			(at 105.41 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "SC"
+		(shape bidirectional)
+		(at 125.73 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "4.7k"
-			(at 105.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:R_0402_1005Metric"
-			(at 103.886 43.434 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MountType" "SMT"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgPart" ""
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71dc183d-ad79-4d78-8c26-669424ad48d6")
-		)
-		(pin "2"
-			(uuid "8f0498c3-ca79-418e-88e2-963de3025017")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "2165afa1-7833-4cde-8b1f-7c7272122465")
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 102.87 39.37 0)
+		(at 104.14 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4fb5f384-f28c-4c6f-991e-ff785c1efd94")
-		(property "Reference" "#PWR011"
-			(at 102.87 43.18 0)
+		(uuid "2fdd5110-4ea7-499c-b4cb-bc1097d7e1a9")
+		(property "Reference" "#PWR05"
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1011,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 102.87 34.29 0)
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +1019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 39.37 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 39.37 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 102.87 39.37 0)
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,24 +1046,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b6761abd-a87e-4e72-a3a4-4398b47bc99f")
+			(uuid "d5578935-08e3-4923-bc30-7a5c50b8e670")
 		)
 		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR027")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "#PWR043")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR015")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "#PWR011")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "#PWR05")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR031")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1188,15 +1071,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 39.37 0)
+		(at 104.14 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "70d6385d-0b14-4fc0-9569-3a4dd29fdd11")
-		(property "Reference" "#PWR010"
-			(at 85.09 45.72 0)
+		(uuid "55fe9ab6-29d4-4f8d-b479-5f82e6c1edb2")
+		(property "Reference" "#PWR06"
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 44.45 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 39.37 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 39.37 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 39.37 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,141 +1123,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e0c4a08-5d05-462c-9e82-6e65dc4645ca")
+			(uuid "69281065-79f3-497e-8b40-707140998a43")
 		)
 		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR026")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "#PWR044")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR014")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "#PWR010")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProjectLib:R_US")
-		(at 125.73 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72ff6a4f-8576-48f9-82a5-dbde65c797a1")
-		(property "Reference" "R11"
-			(at 128.27 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 128.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ProjectLib:R_0402_1005Metric"
-			(at 126.746 45.974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MountType" "SMT"
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MfgPart" ""
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 125.73 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f07b437-7461-48bc-9f2d-ec18fac2618c")
-		)
-		(pin "2"
-			(uuid "501b068b-8ced-493c-a108-e4f5790dba03")
-		)
-		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "R21")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1382,16 +1148,16 @@
 	)
 	(symbol
 		(lib_id "ProjectLib:C")
-		(at 85.09 35.56 0)
+		(at 104.14 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a10d79d-b297-4560-b392-dfaaea7c5d5a")
-		(property "Reference" "C2"
-			(at 81.28 35.56 0)
+		(uuid "635b0d2d-f941-4f12-8a4c-87827143ca53")
+		(property "Reference" "C4"
+			(at 100.33 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1166,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 88.9 35.56 90)
+			(at 107.95 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1174,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:C_0402_1005Metric"
-			(at 84.1248 39.37 0)
+			(at 103.1748 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1192,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1201,7 @@
 			)
 		)
 		(property "MountType" "SMT"
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1210,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1219,7 @@
 			)
 		)
 		(property "MfgPart" ""
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1228,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 85.09 35.56 0)
+			(at 104.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,27 +1237,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "628297d9-c1df-49ac-b397-6f0eb2a229d6")
+			(uuid "850e4f30-02f8-4a5c-bc7a-54c610aeba17")
 		)
 		(pin "2"
-			(uuid "c6932813-1f25-45f7-9f05-894207853054")
+			(uuid "0778fdf4-6c86-44f3-a4d8-568f099335c1")
 		)
 		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "C6")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "C9")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "C3")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "C8")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "C2")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "C4")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "C7")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aaeba1a-3807-4835-9b3c-d13b7422e9d7")
+		(property "Reference" "#PWR042"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41dff868-8313-4bf5-9e9a-6663b0d87331")
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1499,16 +1343,15 @@
 	)
 	(symbol
 		(lib_id "ProjectLib:Screw_Terminal_01x04")
-		(at 69.85 44.45 0)
-		(mirror y)
+		(at 87.63 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cd866aa7-af5e-419e-a029-ee66195553d2")
-		(property "Reference" "J1"
-			(at 67.31 44.4499 0)
+		(uuid "a87ee450-7dd8-4b2b-a06b-9f689f603c48")
+		(property "Reference" "J3"
+			(at 85.09 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1359,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 67.31 46.9899 0)
+			(at 85.09 81.2801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1368,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1386,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1395,7 @@
 			)
 		)
 		(property "MountType" "PTH"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1404,7 @@
 			)
 		)
 		(property "Manufacturer" "Cixi Kefa Elec"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1413,7 @@
 			)
 		)
 		(property "MfgPart" "KF128-2.54-4P"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1422,7 @@
 			)
 		)
 		(property "Notes" "or equivalent"
-			(at 69.85 44.45 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,33 +1431,33 @@
 			)
 		)
 		(pin "2"
-			(uuid "aeee83e2-16ac-4e00-bfe8-0522213e7e39")
+			(uuid "f3a62659-875d-4648-b6c4-7493d300cf09")
 		)
 		(pin "4"
-			(uuid "13da5bc6-781d-425b-9d3a-b646c3d1d57e")
+			(uuid "3978677b-b5e7-4775-bc85-2e0cedfc5e1c")
 		)
 		(pin "1"
-			(uuid "2e821729-f3d5-4bf1-9018-c2917a329271")
+			(uuid "38f14f71-d03b-454e-a6a6-1480507471cc")
 		)
 		(pin "3"
-			(uuid "a77f2725-a587-4d73-be61-3638f98701eb")
+			(uuid "3c8b990e-f2b3-4d47-93a8-3e43cff3177a")
 		)
 		(instances
-			(project ""
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "J5")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "J8")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "J2")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "J7")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "J1")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "J3")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "J6")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1622,16 +1465,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 125.73 41.91 0)
+		(at 121.92 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d247b5c2-ab8d-405d-b690-10b32318b37f")
-		(property "Reference" "#PWR012"
-			(at 125.73 45.72 0)
+		(uuid "c693a919-3a9e-4ff8-a9a5-308a58aab03c")
+		(property "Reference" "#PWR041"
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1483,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 125.73 36.83 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 41.91 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 41.91 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 125.73 41.91 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,41 +1518,59 @@
 			)
 		)
 		(pin "1"
-			(uuid "efcfd1e7-99ae-4673-9bb9-7a9f3bf0e614")
+			(uuid "4215c527-3c25-4ca5-809e-57771f71087c")
 		)
 		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR028")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "#PWR045")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR016")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "#PWR023")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "#PWR012")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "#PWR041")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR032")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 85.09 31.75 0)
+		(lib_id "ProjectLib:R_US")
+		(at 121.92 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6a4de6a-1f6d-4f09-80a7-9246d50d9b0d")
-		(property "Reference" "#PWR09"
-			(at 85.09 35.56 0)
+		(uuid "e1587b77-6663-47fc-b936-d85a609529e0")
+		(property "Reference" "R14"
+			(at 124.46 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 124.46 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
+			(at 122.936 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,16 +1578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 85.09 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 31.75 0)
+		(property "Datasheet" "~"
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,8 +1587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 85.09 31.75 0)
+		(property "Description" "Resistor, US symbol"
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,8 +1596,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 31.75 0)
+		(property "MountType" "SMT"
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" ""
+			(at 121.92 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 121.92 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,24 +1633,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "935d3bf5-e974-407d-8c72-034bd1f27e92")
+			(uuid "0bb6e6b4-1bae-467f-b080-5e42d766f822")
+		)
+		(pin "2"
+			(uuid "d4797df5-e68d-4243-b752-81a2973c6d71")
 		)
 		(instances
-			(project "multiplexI2CwithRJ11"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "#PWR025")
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "R24")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "#PWR013")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "R22")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
-					(reference "#PWR09")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "R14")
 					(unit 1)
 				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "#PWR029")
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:R_US")
+		(at 144.78 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9272158-d359-4695-9b51-eb3a7df4b567")
+		(property "Reference" "R15"
+			(at 147.32 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 147.32 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:R_0402_1005Metric"
+			(at 145.796 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" ""
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36df8f63-2b78-4ba6-b0df-42120ffd72f7")
+		)
+		(pin "2"
+			(uuid "cb9b0e16-4ee3-4f9a-af06-ce6e6e6e816e")
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/0ffcdb2c-d74e-4b7d-b16c-7be1edbff217"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/a879a04a-2836-4e79-a27d-1b46398578a8"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/c4c0e226-9808-439f-a0d2-8470ea18ef3d"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/fd54f7e6-e57e-45a8-af7b-068cfabb882f"
+					(reference "R17")
 					(unit 1)
 				)
 			)

@@ -1859,7 +1859,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Connector*:*_2x??_*"
+		(property "ki_fp_filters" "pinsocket*2x04*vertical*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3667,11 +3667,15 @@
 		(embedded_fonts no)
 	)
 	(symbol "MountingHole"
-		(pin_names
-			(offset 1.016)
+		(pin_numbers
+			(hide yes)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
 			(at 0 5.08 0)
@@ -3679,6 +3683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "MountingHole"
@@ -6962,7 +6967,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TerminalBlock*:*"
+		(property "ki_fp_filters" "TerminalBlock*1x02*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7152,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TerminalBlock*:*"
+		(property "ki_fp_filters" "TerminalBlock*1x04*"
 			(at 0 0 0)
 			(effects
 				(font

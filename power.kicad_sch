@@ -863,7 +863,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "TerminalBlock*1x02*"
 				(at 0 0 0)
 				(effects
 					(font

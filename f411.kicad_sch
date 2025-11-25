@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "HOPERF*RFM9XW*"
+			(property "ki_fp_filters" "castellated*mcu-lora*20x50mm*2x12*p2.0mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -696,7 +696,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "pinsocket*2x04*vertical*"
 				(at 0 0 0)
 				(effects
 					(font
