@@ -1983,7 +1983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f579583-166f-49ab-bdc8-bb25409adb3e")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 159.512 81.534 0)
 			(effects
 				(font
@@ -2104,7 +2104,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2260,7 +2260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4647865b-d2c1-48c3-ae28-3f842b060a22")
-		(property "Reference" "C20"
+		(property "Reference" "C13"
 			(at 111.76 97.79 0)
 			(effects
 				(font
@@ -2375,7 +2375,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C20")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2391,7 +2391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2b1572-6fa1-4d38-98d9-b1d1797378f8")
-		(property "Reference" "C19"
+		(property "Reference" "C12"
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C19")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2922,7 +2922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad7efb38-c65a-48c8-ba46-bc3e9fcf5eaa")
-		(property "Reference" "C17"
+		(property "Reference" "C10"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C17")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d13f2655-2385-43d1-8d25-47cbcceff34d")
-		(property "Reference" "C22"
+		(property "Reference" "C15"
 			(at 161.544 98.298 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C22")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7c495e-b6ad-4541-9f27-54699f2d5a76")
-		(property "Reference" "C21"
+		(property "Reference" "C14"
 			(at 123.19 69.8499 0)
 			(effects
 				(font
@@ -3437,7 +3437,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C21")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb554d17-6211-4e7f-9bac-68a73e1af051")
-		(property "Reference" "C18"
+		(property "Reference" "C11"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C18")
+					(reference "C11")
 					(unit 1)
 				)
 			)

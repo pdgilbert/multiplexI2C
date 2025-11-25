@@ -1001,7 +1001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac55fa2-b45f-4223-9d6e-62ab08dacc63")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 105.41 41.91 90)
 			(effects
 				(font
@@ -1090,19 +1090,19 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "R12")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
 					(reference "R10")
 					(unit 1)
 				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
+					(reference "R8")
+					(unit 1)
+				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1273,7 +1273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ff6a4f-8576-48f9-82a5-dbde65c797a1")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 128.27 44.45 90)
 			(effects
 				(font
@@ -1362,19 +1362,19 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/24b4e8ef-9825-49f5-9404-579a6ea7b19b"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8a12c970-6e82-4f99-ab8e-e5d673f5e8d9"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
 					(reference "R11")
 					(unit 1)
 				)
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/e657843b-000b-4d7c-a001-36698309a032"
+					(reference "R9")
+					(unit 1)
+				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)

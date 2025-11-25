@@ -3856,7 +3856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66fe278-4ea8-4ead-9f46-384cc5ce267a")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 138.43 87.63 90)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 		(instances
 			(project "multiplexI2CwithRJ11"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
