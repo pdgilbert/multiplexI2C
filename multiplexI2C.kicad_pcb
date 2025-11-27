@@ -312,6 +312,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebeeda1e-4bab-4dc1-bdc8-b010702a168e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab3dd874-f2b1-4409-ac42-3c6ebc1f651e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/ad7efb38-c65a-48c8-ba46-bc3e9fcf5eaa")
 		(sheetname "/power/")
@@ -566,6 +592,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61378b03-b6cf-4368-9283-5a98d656d14e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb79708-aaf7-44a6-886a-883edb116997")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/6b8c4bb3-bf8a-4f33-ab57-b4384b6ea6f6")
 		(sheetname "/")
@@ -664,6 +716,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bff3ece-3076-40dc-8dcc-d23f2daf459b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92e1fe88-2689-41cd-8daf-3774338c90fe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -809,12 +887,38 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29a5584a-a9d0-498d-99de-6b95e540f731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16fe3411-991e-4d13-b05b-d381a0b82fbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8080d4cf-0018-4054-b0b3-6bced7d6cd2d")
 			(effects
 				(font
 					(size 1 1)
@@ -1069,6 +1173,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "311c79e3-e696-42c8-a52a-4abea424e793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5da45d84-eeb1-45d2-970b-463e05d800ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6c4fb59-6eb4-4cce-959a-e797b7ae47fd")
 			(effects
 				(font
 					(size 1 1)
@@ -1619,6 +1749,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdf07968-d2ee-46f8-8209-5a66d2cee185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee568ce-dbed-4623-9b3c-0f07050898c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/bcc2b40b-4fd8-4a53-9cbf-05da88c556db")
 		(sheetname "/power/")
@@ -1961,6 +2117,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dbb5acf-6e13-4bce-ba0d-68252832cf5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3abb1ed4-d00f-417a-98e9-d1fb16b76ae8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/4d2b1572-6fa1-4d38-98d9-b1d1797378f8")
 		(sheetname "/power/")
@@ -2208,6 +2390,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bee3489c-d7cd-46ae-b530-caa9658089ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c994b3e1-145e-40bf-8a67-67c787dc20f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b4920ba-65c0-42bf-b0da-f51a28d044b6")
 			(effects
 				(font
 					(size 1 1)
@@ -2721,6 +2929,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab15937-d650-472b-9c3a-f360cd75f2be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "515e0da4-ec81-4a45-b357-e88136485ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*1x04*")
 		(path "/24b4e8ef-9825-49f5-9404-579a6ea7b19b/cd866aa7-af5e-419e-a029-ee66195553d2")
 		(sheetname "/Connector4/")
@@ -3213,12 +3447,38 @@
 				)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29f9ecc2-0416-4bd5-ad8e-6eecebe0d363")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1e4b3f3-126b-41a1-b14e-cf89704516b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "197a0226-205b-43dd-8687-d4dfea6f9183")
 			(effects
 				(font
 					(size 1 1)
@@ -3517,6 +3777,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fcfb49f-7b43-4f4a-a1e2-da0d23b97013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35da31f4-728b-4b95-a67d-5b322d56d911")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/fb554d17-6211-4e7f-9bac-68a73e1af051")
 		(sheetname "/power/")
@@ -3764,6 +4050,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41695a71-0fb5-42ef-a177-3e3a3cb57be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19ff2e78-970f-47d7-afc1-55eb702d45d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31d7a80d-aa63-4806-8e6d-0b27a209b426")
 			(effects
 				(font
 					(size 1 1)
@@ -4278,6 +4590,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "893d9772-d4cc-4735-b067-201a93a7b785")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1a0851b-863d-49cf-8930-2e771c421e22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/99e88154-98af-435b-9b4d-b1177eaeed03")
 		(sheetname "/")
@@ -4463,6 +4801,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "672e0907-454a-468c-8724-5361c6cf740f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8759045b-c5de-4af6-b73e-bda90ca16e4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d97ce8a6-9011-42ef-b174-c52c8d59256d")
 			(effects
 				(font
 					(size 1 1)
@@ -4717,6 +5081,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "702d52f0-412d-4252-b559-1931ec8d2aef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a213bb6-11f7-4411-93a4-1571f739d982")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1e06bbe-6925-48e5-9285-ce4027187203")
 			(effects
 				(font
 					(size 1 1)
@@ -5231,6 +5621,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58a8f3c9-8524-4cc2-8f5a-2611f690b623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73deaf28-ee8d-4b42-ab7e-b51089420254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/97e06d61-2048-44bf-bea5-86c8aeb12065")
 		(sheetname "/")
@@ -5378,6 +5794,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b212f169-5bb1-4bf5-941a-dc5d2cfe74e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00626b8b-e524-4f35-89cc-68e979039310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a259413-0f93-43eb-a0c1-1127d52f195b")
 			(effects
 				(font
 					(size 1 1)
@@ -5930,6 +6372,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd70aad8-2232-443a-8d22-0f50da78c05a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64bf8d1b-526d-421a-87a7-23707e50181f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?223*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/2f579583-166f-49ab-bdc8-bb25409adb3e")
 		(sheetname "/power/")
@@ -6240,6 +6708,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b5b43c2-1934-4b8f-ae8a-a4433f8f905e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c71f076-b8a4-4b99-b75e-3d39ccb6ee33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61fbf778-735f-4819-831e-717c61c8ea6a")
 			(effects
 				(font
 					(size 1 1)
@@ -6712,6 +7206,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2d4a75-0e49-4e67-b3f0-c0364b13c34a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3580a2f2-58d5-4b4a-8bb5-ad5cae784c4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "castellated*mcu-lora*20x50mm*2x12*p2.0mm*")
 		(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18/64066fb5-a9c6-4612-b295-57998812d80c")
 		(sheetname "/MCU-LoRa/")
@@ -6725,7 +7245,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "833cb3df-ed6b-4ee4-a6d2-4d072fca8f51")
+			(uuid "f537f183-453a-4eeb-ab80-be64872a3aa7")
 		)
 		(fp_line
 			(start -10.1 23.15)
@@ -6735,7 +7255,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00d6cf03-efac-4d73-927d-9867d4477319")
+			(uuid "88d22292-f56a-44a7-9017-5226ae5d7194")
 		)
 		(fp_line
 			(start -10.005 -26.07)
@@ -6745,7 +7265,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "781c5f6c-c015-4efd-8c96-ff29e98e37e8")
+			(uuid "82f1a3e1-9e98-4d13-a1ac-eb323c63855e")
 		)
 		(fp_line
 			(start 10.075 -26.07)
@@ -6755,7 +7275,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34c94a47-4a51-4b3a-94fa-31c099074a79")
+			(uuid "e1e14902-8876-4cb3-9df6-c197ed9cd6ff")
 		)
 		(fp_line
 			(start 10.075 23.15)
@@ -6765,7 +7285,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b9da09e4-3b80-4fa6-96df-cd6c2961b09e")
+			(uuid "1c9101d9-5d05-4c2b-a72d-a73b1e97053a")
 		)
 		(fp_poly
 			(pts
@@ -6777,7 +7297,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "0fc0ac78-00f3-4d6f-8ea8-56e2d4aeb124")
+			(uuid "4f5ccf8b-c9a5-48db-99a2-7909115920f8")
 		)
 		(fp_line
 			(start -11.23 -26.22)
@@ -6787,7 +7307,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "42b06484-6b0a-4b04-bc20-d0f738c27ff8")
+			(uuid "b252d0c7-80d3-4492-93b6-af04e999108e")
 		)
 		(fp_line
 			(start -11.225 23.3)
@@ -6797,7 +7317,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "5e97353d-771e-40f5-9c3b-226fd2b172ff")
+			(uuid "245c9d40-ccf6-42ac-97ec-599bc137cd52")
 		)
 		(fp_line
 			(start -11.225 23.3)
@@ -6807,7 +7327,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f704adf0-c04c-46e2-980c-45e08639cbd7")
+			(uuid "cdea242d-540d-409c-be7d-cb97150fe195")
 		)
 		(fp_line
 			(start 11.245 -26.22)
@@ -6817,7 +7337,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b51b565c-efb3-4027-bb5c-67eedf19843f")
+			(uuid "60106acb-a7b3-46e8-b5a2-9c2278457dab")
 		)
 		(fp_line
 			(start -10 23)
@@ -6827,7 +7347,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0b68bbe4-b724-4301-9cd2-3257de4603ed")
+			(uuid "90023dd9-1493-472c-991c-848feff84cf1")
 		)
 		(fp_line
 			(start -10 23)
@@ -6837,7 +7357,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "63bfcc0a-6ee1-4dfd-b1f5-0909a2d22eed")
+			(uuid "7be68d6f-3de6-4f60-b491-bc25d30d5b8d")
 		)
 		(fp_line
 			(start -8.98 -25.97)
@@ -6847,7 +7367,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d0d961f0-00ee-490b-8bb3-be0d6052c86a")
+			(uuid "6468d415-7abe-4b44-88c5-32de542d1f4c")
 		)
 		(fp_line
 			(start -8.98 -25.97)
@@ -6857,7 +7377,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7fe8e313-0b59-4fc9-834a-c600b2aef724")
+			(uuid "0b8b19f0-dbff-44de-890c-3740b479c6b9")
 		)
 		(fp_line
 			(start 10 23)
@@ -6867,7 +7387,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "efdbfbe8-8a10-422c-8270-6a71c0b34b24")
+			(uuid "d710f30a-4afc-405a-aa68-5563541fbf26")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -7121,15 +7641,15 @@
 			(uuid "1f319fe8-ec4f-45b5-9384-a4cb7d2933df")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Private/3dmodels/RFM95_LoRa_v15.step"
+		(model "${KIPRJMOD}/Private/3dmodels/f411-RFM95.step"
 			(offset
-				(xyz 8 -8 0)
+				(xyz 0 1.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 180 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7271,6 +7791,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "96350420-cf91-4db5-b281-af7521f7de21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a5481c6-57bd-4381-8a05-440313e6fb1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d0f6063-5711-4fee-8589-b92f929fe68f")
 			(effects
 				(font
 					(size 1 1)
@@ -7779,6 +8325,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37a5fc14-776d-4499-a02c-49c26dc5d31c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "983540aa-4131-426a-bf57-37873ced35ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/d13f2655-2385-43d1-8d25-47cbcceff34d")
 		(sheetname "/power/")
@@ -8051,6 +8623,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb416176-42c5-4e71-ad41-a5a9dc22bf83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ebc59fa-dc12-4f15-a580-e3bb2ff3587a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91edebee-f96e-417d-b26f-f0d7d55283a0")
 			(effects
 				(font
 					(size 1 1)
@@ -8726,6 +9324,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74f1b01-b521-40cf-aadf-321f4b589130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa800f53-7187-48ac-8903-d30b9f2929c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TerminalBlock*1x04*")
 		(path "/f2b2a76e-3be2-4491-ad7e-06b9b1e9bf9c/cd866aa7-af5e-419e-a029-ee66195553d2")
 		(sheetname "/Connector5/")
@@ -9233,6 +9857,32 @@
 				)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d0ef3a6-9d13-49f5-9b70-591ee21ec079")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93485b5b-3e0d-4b0d-b1eb-74b3241cc97d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/74d55b8d-4816-4fd0-8b17-a3c0948ea73d")
 		(sheetname "/")
@@ -9381,6 +10031,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dbad620b-d233-430d-b1e8-cc40286e99be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af14697-1ab1-4f89-b0e9-745572fcbea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21662ce2-0cc6-4374-afd8-6a990193a0b7")
 			(effects
 				(font
 					(size 1 1)
@@ -9888,12 +10564,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e752f359-f192-4a3d-913a-5ca996b882ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8364320-96f4-43f7-b2f7-98b6f21522e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fff59580-b632-48bb-8411-0ed7cd711a03")
 			(effects
 				(font
 					(size 1 1)
@@ -10149,12 +10853,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e514c381-bd8d-4970-9f6d-fabd1709d728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abae9104-dedf-4dab-8928-46e989379428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb6de65e-2d0a-47c8-87a2-88655be83a54")
 			(effects
 				(font
 					(size 1 1)
@@ -10411,12 +11143,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3208e95d-4b4f-4f95-a7cf-f7ca10daedb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "153cd9c2-40b8-43f2-a997-d259134a7c5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "62f9e771-e75d-4ade-bed4-f69a9969aebb")
 			(effects
 				(font
 					(size 1 1)
@@ -10673,12 +11433,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bbecdc28-fd43-4ea8-a545-ac2e0e489ef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ab98d439-5a8c-4138-b3f4-5b82749c8fa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04ed5e4b-6c5e-43c7-b8b7-cdf8f762fd0d")
 			(effects
 				(font
 					(size 1 1)
@@ -10934,12 +11722,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a3f797cf-4bad-4b8c-83f4-c0cef975c297")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0745b354-c221-43fc-9310-85f246bcadc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50c2df25-505f-4bc8-80e4-370bda64a4fc")
 			(effects
 				(font
 					(size 1 1)
@@ -11223,7 +12039,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11243,6 +12059,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aee5c19d-4586-4713-8666-69cb13e3e773")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8017f0b2-e19d-485e-8684-f7a4845c7c1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91dc4c75-0fed-4e2c-9b80-55a6ff40797c")
 			(effects
 				(font
 					(size 1 1)
@@ -11499,7 +12343,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11518,6 +12362,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6ddb77cf-c08f-4c74-a371-45c0d2e084bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d968f6f8-3ea7-40e5-8a19-5631b0111f1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "063b641d-9967-460e-8770-705ce4c30ac2")
 			(effects
 				(font
 					(size 1 1)
@@ -11774,12 +12646,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "48b96f56-571d-4dc3-b0e8-ddd1ea7b18dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2be34bc4-db8a-432b-8d23-fcfc41c4f597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1504351-da1a-4c04-a5b6-df1a64147503")
 			(effects
 				(font
 					(size 1 1)
@@ -12091,6 +12991,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5c4ae77b-6e8c-43d7-bf72-a51cdf79b7a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "640882ac-47a4-4def-894a-70a379f4128f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/872e59d9-aae9-4a0c-a438-0cad18134c8d/df7c495e-b6ad-4541-9f27-54699f2d5a76")
 		(sheetname "/power/")
@@ -12339,12 +13267,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c61544b5-04d8-4e2e-a5f9-bc0ba42634b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f445b9d4-1c91-4909-b49c-3cf32cd1a49d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0514267-8cc4-4007-ab50-c90041d2642e")
 			(effects
 				(font
 					(size 1 1)
@@ -12601,12 +13557,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "380fe9fc-e16b-49f9-8fc8-e0c6fd6a97d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ced6bfd4-1196-4279-a134-44edd2479c6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4acdb520-c34a-424e-a988-c96d122f95da")
 			(effects
 				(font
 					(size 1 1)
@@ -12890,7 +13874,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12910,6 +13894,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9d4cd47e-cca0-439c-8bd8-ce7799b5445d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b0c94b6-7d69-44e4-a7b9-22033536f461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f130d8a4-0f81-4143-8c6d-3f7188449cd5")
 			(effects
 				(font
 					(size 1 1)
@@ -13214,6 +14226,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dca79ced-e5e9-45d0-b899-5ff70ea7691a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffe05b6b-adf2-46a0-bce5-eecbd6866a16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f91b7f92-97bd-49a9-a094-61bda4301e05")
 			(effects
 				(font
 					(size 1 1)
@@ -13947,12 +14987,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1f3b75e0-e810-42e6-a2a9-0868c1e3132d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ff49822-76b0-45d5-a6e7-b8e62d7daeb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d8d303a-8996-40b2-a587-547b666673c0")
 			(effects
 				(font
 					(size 1 1)
@@ -14209,12 +15277,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bd0c4540-94b8-4b7b-b524-22df6c254519")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5cc61653-933e-4eff-833e-b0529588ab8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0cab4c71-afcd-4191-b113-91315f64f7e9")
 			(effects
 				(font
 					(size 1 1)
@@ -14471,7 +15567,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14490,6 +15586,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "52336047-9943-4e77-8448-1028f85dd5e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9538548-44db-4561-89ef-d99a8dd0f00a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b50a06aa-be90-4522-87f7-44baa7f4cea6")
 			(effects
 				(font
 					(size 1 1)
@@ -14746,12 +15870,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d246faff-d12a-4a22-8ab7-3b1a4d523fb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "224afa35-8022-48fa-bf07-abe0a8ea384d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "960f3146-acaa-4c07-85f5-b0df01a96c9c")
 			(effects
 				(font
 					(size 1 1)
@@ -15007,12 +16159,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "47d7170c-0245-4d90-981a-db440b544c22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "761113d4-3f2d-40b3-997c-4bba6ab87b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39373885-c83f-477b-98ae-5c4e6c27a3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -15268,12 +16448,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b25010fb-1093-46a0-ad74-7a358161b765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ccb2d2b-3032-4d2c-a737-05d1bade8e9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1085e22-4b88-4b4e-8b0f-6585ad9ff0c4")
 			(effects
 				(font
 					(size 1 1)
@@ -15530,12 +16738,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6cadfade-432c-4288-b23f-b6dab1af005c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3201dd1-1957-49c8-a721-8de83d47a884")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6f28f88-59aa-4cc6-a210-91b85b754323")
 			(effects
 				(font
 					(size 1 1)
@@ -15792,7 +17028,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15811,6 +17047,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "40b2ade4-9f7a-4ca8-a6d8-3f28da220653")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f3bd14b6-af25-4a79-998a-09c149d03052")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ec020ee-b583-4771-a4b5-868b0b45f38c")
 			(effects
 				(font
 					(size 1 1)
@@ -16067,7 +17331,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16086,6 +17350,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6093259e-a52d-4bb8-aa98-ea7436a17619")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "013eb002-34e9-469a-812f-3d9bd6f98a7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d3d23c9-21eb-4f3e-8f01-a061c6c83652")
 			(effects
 				(font
 					(size 1 1)
@@ -16342,7 +17634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16361,6 +17653,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "685b22da-ded0-440a-b914-6a5ea378536a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "619d39a1-f377-43ed-93f9-229803eec07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d184bb73-da5d-4c8d-81fb-4354851315da")
 			(effects
 				(font
 					(size 1 1)
@@ -16617,12 +17937,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4de9058c-a132-4da6-9238-0cdf923e96ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "835f0e76-3e12-4290-b43e-6b0dfdd75354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bcb8955f-8250-4c24-9ba1-87eea1b57446")
 			(effects
 				(font
 					(size 1 1)
@@ -16879,7 +18227,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16898,6 +18246,34 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "3344da58-66f6-48a5-bda4-2948a5962282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20cc2f72-8590-4402-b7a2-2605a011efdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "833372cd-1469-4302-9613-437b4c054fdd")
 			(effects
 				(font
 					(size 1 1)
@@ -17181,7 +18557,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17201,6 +18577,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "de21e2f9-e135-48e3-b768-17feb8c74985")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c2ce5c4-0223-463e-a31c-355195ebdb54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "792ef3a8-4299-468d-aa5f-2b55c9f1f5b5")
 			(effects
 				(font
 					(size 1 1)
@@ -17457,12 +18861,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b22cf800-9aea-490f-beb3-1d80c1f5f8df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "176bf743-4648-4707-99d6-99fc4a245502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "010e336f-5998-4677-b0ff-db55fed6e661")
 			(effects
 				(font
 					(size 1 1)
@@ -17718,12 +19150,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3b82b29c-6e50-4ede-b5ba-0b207b7f36a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2acb8c26-5de6-468f-b425-bd46afb1d7d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3eb94077-ceac-4067-b717-a7a1a564d1d6")
 			(effects
 				(font
 					(size 1 1)
@@ -17979,12 +19439,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a43fefc9-6caf-4094-be47-edccc411d976")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "862b3b5a-571a-40bc-9c09-be4a60ae874a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5bc59997-5bb7-49b7-a879-4b15a016dc79")
 			(effects
 				(font
 					(size 1 1)
@@ -18268,7 +19756,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18288,6 +19776,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d6921028-4f79-4198-bf75-3704a581d5db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d288db7-8c1b-46da-b4e9-ca947690fffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aa312271-d6c8-4001-99de-ad07b23a43fe")
 			(effects
 				(font
 					(size 1 1)
@@ -18544,12 +20060,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f67cf0eb-6ee3-4064-b30c-599b075e5038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9afa5a4-e6bf-481c-ad5d-c9b9ad089bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22e5356c-6101-485c-b25a-cef83d30b1da")
 			(effects
 				(font
 					(size 1 1)
@@ -18805,12 +20349,40 @@
 				(justify mirror)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "or equivalent"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aa9c1813-ddc5-443d-af03-1ad85c064339")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Part" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b041126c-f9cb-4022-a1b2-7f13ff6926e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manuf Series" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cfd6130a-1db4-4d21-8090-cc81b8280bd1")
 			(effects
 				(font
 					(size 1 1)
