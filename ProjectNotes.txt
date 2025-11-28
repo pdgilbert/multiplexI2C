@@ -4,10 +4,6 @@ grep "/////////////// " ProjectNotes.txt   # for section index
 ///////////////            To Do
 ////////////////////////////////////////////////////////////////////////////////
 
-- SMT pin header for ssd
-  or   KF2024V-2.54 SMT terminal block  pin header not wire
-  or  SMD PH3.5  Low Profile PH3.5 Single Row Rohs SMT Female Header Connector
-
 - consider screwless terminal connector, eg KEFA  KF141V_4P 
   or  KF208VB-2.5/2.54  Spring type terminal block,
   (https://www.kefaelectronic.com/KF208VB-2-5-2-54-Spring-type-terminal-block-pd563040758.html)
@@ -56,7 +52,7 @@ then  zip multiplexI2C-gerbers.zip  *.gbr *.drl
 
 ======= submit and get Quote ========
 
-Folllowing  (The First Way)
+Following  (The First Way)
   https://www.pcbway.com/helpcenter/pcb_assembly_ordering/How_to_Upload_PCB_Assembly_PCBA__Inquiry.html 
 
 
@@ -107,32 +103,20 @@ Step 3 + Additional Options:   png NOT VALID FORMAT so not submitted
        g4   PB7     opendrain 
        h7   PA8     opendrain 
 
-- Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
 
-
-///////////////     Version Notes
-
-- multiplexI2c v0.1.0 2024-09 (with socket for blackpill)
-     - to work needs pull-up resistor manually soldered on radio nss, MCU pin A4. 
-          This is fixed in drawings.
-     - has Spi reset on pin A0. This has been changed A1 since A0 is MCU reset/wkup. 
-          It works without the change as long as reset is not used.
+///////////////     Version Notes  See README.md
 
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
 
-ADD ANTENNA PAD  and 915mhz-spring-antenn  NiceRF  part# sw915-th06
+No longer using 915mhz-spring-antenna  NiceRF  part# sw915-th06
 https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html
 (This was "out of stock" so switched to DNP)
 
-- LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) apparently based
+- LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) based
 on Semtech sx1276 chipset and used radio-sx127x rust crate.
-A circa August 2024 version of this project with radio-sx127x RFM95W pad was merged to main and tagged as radio-sx127x.
-
-Git branch RFM95W is the branch with LoRa module RFM95W-915S2.
-https://www.hoperf.com/modules/lora/RFM95W.html
 
 https://www.instructables.com/Introduction-LoRa-Module-RFM95-RFM95W-Hoperf/
 https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
