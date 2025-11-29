@@ -4325,7 +4325,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2810e5bd-88e3-445e-9497-ea39bfab4c18")
-		(property "Sheetname" "MCU-LoRa"
+		(property "Sheetname" "f411"
 			(at 156.21 109.7784 0)
 			(effects
 				(font
@@ -4388,7 +4388,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "11")
+					(page "14")
 				)
 			)
 		)

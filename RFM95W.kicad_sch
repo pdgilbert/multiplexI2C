@@ -5,9 +5,9 @@
 	(uuid "29ade065-c8eb-48f0-b9fa-b9018ec9d24d")
 	(paper "A4")
 	(title_block
-		(title "Multiplex I2C to Screw Terminal connectors")
-		(date "2025-09-07")
-		(rev "v0.2.0")
+		(title "RFM95W 915MHz")
+		(date "2025-09-15")
+		(rev "v0.2.2")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:Antenna_Shield"
@@ -347,8 +347,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
-				(at -9.906 -32.512 0)
+			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
+				(at -83.82 41.91 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,8 +356,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
-				(at 2.286 -37.338 0)
+			(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -733,6 +733,24 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MountType" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1603,7 +1621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a6eeeaf-8f3e-40c3-b663-9487225077e9")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 95.758 77.724 0)
 			(effects
 				(font
@@ -1630,7 +1648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -1718,9 +1736,9 @@
 			(uuid "2d3e5e23-6e5b-4729-975f-f66a86d8d447")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "R26")
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc8b28e-83d6-481c-8097-bf6c6867b103")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR066"
 			(at 118.11 106.68 0)
 			(effects
 				(font
@@ -1784,9 +1802,9 @@
 			(uuid "c726118f-fc04-447a-a6a1-c650fa2964ad")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR044")
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1801,7 +1819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11a8b980-cb8a-4b2b-86bb-4b70464a8428")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR065"
 			(at 130.81 83.82 0)
 			(effects
 				(font
@@ -1849,9 +1867,9 @@
 			(uuid "c8c9cf4d-479d-4355-9597-2aa58cd49eb5")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR045")
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1867,7 +1885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a7b520-c744-4860-9f18-a04534a39b23")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0102"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -1915,9 +1933,9 @@
 			(uuid "cebcf57a-f406-4c61-803b-5d820ac6dbda")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR041")
+			(project "SensorProject_t16-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -1933,7 +1951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e7587c6-c4ef-448b-bec0-ce632638b4ac")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0103"
 			(at 109.22 110.49 0)
 			(effects
 				(font
@@ -1981,9 +1999,9 @@
 			(uuid "52a9278d-99bd-4318-847c-fea093599c41")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR042")
+			(project "SensorProject_t16-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1999,7 +2017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56b2b2a8-8f6f-470a-9ee6-4fd9a8156a01")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0101"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -2047,9 +2065,9 @@
 			(uuid "dc64e94f-0295-42e5-b64a-dd605d418178")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "#PWR043")
+			(project "SensorProject_t16-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8900236d-e90f-4978-a98c-d857964d9776")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 128.778 101.6 0)
 			(effects
 				(font
@@ -2090,7 +2108,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -2099,7 +2117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
+		(property "Description" "LoRa module, SPI, 915 MHz,  SMD-16"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -2219,9 +2237,9 @@
 			(uuid "4022370a-a171-47b1-bb1f-eb9de4631299")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
-					(reference "U2")
+			(project "SensorProject_t16-pcb"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2263,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.hirose.com/en/product/p/CL0480-0761-0-00"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -2272,7 +2290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna with extra pin for shielding"
+		(property "Description" "Antenna connector with shielding"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -2290,7 +2308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgPart" "U.FL-R-SMT-1"
+		(property "MfgPart" "U.FL-R-SMT-K(800)"
 			(at 128.27 72.39 0)
 			(effects
 				(font
@@ -2342,8 +2360,8 @@
 			(uuid "78a5fdae-a965-4646-85cc-306ed3a84f94")
 		)
 		(instances
-			(project "multiplexI2C"
-				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/8bb5a1a1-4d5b-4032-b28f-cb44ec0cd683"
+			(project ""
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
 					(reference "AE1")
 					(unit 1)
 				)

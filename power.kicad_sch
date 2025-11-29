@@ -5,9 +5,9 @@
 	(uuid "8f11e3ff-aa93-47e5-9d55-32097d30bf87")
 	(paper "A4")
 	(title_block
-		(title "Multiplex I2C to Screw Terminal connectors")
-		(date "2025-09-07")
-		(rev "v0.2.0")
+		(title "Power Regulator & RTC Battery")
+		(date "2025-09-15")
+		(rev "v0.2.2")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:AMS1117-3.3"
@@ -31,7 +31,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:SOT-223"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -67,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -190,7 +190,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 1.905 3.175 0)
 				(effects
 					(font
@@ -692,7 +692,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(property "Footprint" "ProjectLib:C_0603_1608Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -711,6 +711,24 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MountType" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -828,7 +846,7 @@
 				)
 			)
 			(property "Footprint" "ProjectLib:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-				(at 0 0 0)
+				(at -1.524 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -846,7 +864,7 @@
 				)
 			)
 			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 1.27 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -863,7 +881,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*1x02*"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1918,7 +1936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7ba499-7046-4b3a-8d71-6bab0387c6e5")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR?"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -1966,9 +1984,9 @@
 			(uuid "5b78ee84-60c4-4ecd-9d06-378f4e680a82")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR072")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1983,7 +2001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f579583-166f-49ab-bdc8-bb25409adb3e")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 159.512 81.534 0)
 			(effects
 				(font
@@ -2089,24 +2107,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "a68d12de-a432-43af-b791-063ba5935078")
 		)
@@ -2120,9 +2120,9 @@
 			(uuid "f34e248d-56aa-42a2-a380-7bd20c74d184")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "U2")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b2359e2-00b5-46a3-bfcc-3cb27c6d4b2f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG?"
 			(at 145.415 59.69 0)
 			(effects
 				(font
@@ -2194,9 +2194,9 @@
 			(uuid "609b74b0-3e58-46e1-a07e-f68af5cf49fd")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#FLG01")
+					(reference "#FLG?")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f68ae56-fedf-4182-b9c9-d654b535b70d")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR?"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -2260,9 +2260,9 @@
 			(uuid "f0d630aa-c02e-46ac-adea-ba5fc315cd9d")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR074")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4647865b-d2c1-48c3-ae28-3f842b060a22")
-		(property "Reference" "C13"
+		(property "Reference" "C?"
 			(at 111.76 97.79 0)
 			(effects
 				(font
@@ -2303,7 +2303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2384,24 +2384,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 111.76 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5c52ec13-0ba8-4438-a972-018f3f42b296")
 		)
@@ -2409,9 +2391,9 @@
 			(uuid "5ab066b6-01ee-42a7-857e-68f6eaabcca6")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C13")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2427,7 +2409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2b1572-6fa1-4d38-98d9-b1d1797378f8")
-		(property "Reference" "C12"
+		(property "Reference" "C?"
 			(at 102.87 97.79 0)
 			(effects
 				(font
@@ -2452,7 +2434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2533,24 +2515,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ee3e68a9-68d8-43e8-8954-94fb52ed417e")
 		)
@@ -2558,9 +2522,9 @@
 			(uuid "368796ce-86ca-4d52-acf3-9c6ba37f8936")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C12")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -2575,7 +2539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51e3a893-f129-4c2e-a33b-ac24b3e6676b")
-		(property "Reference" "BT1"
+		(property "Reference" "BT?"
 			(at 163.83 120.0784 0)
 			(effects
 				(font
@@ -2602,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2611,7 +2575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "12mm coin battery retainer smd"
 			(at 160.02 123.19 0)
 			(effects
 				(font
@@ -2683,24 +2647,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 160.02 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 160.02 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "0ea82d56-bddc-41e0-8eef-ea00fc9f114f")
 		)
@@ -2714,7 +2660,7 @@
 					(unit 1)
 				)
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "BT1")
+					(reference "BT?")
 					(unit 1)
 				)
 			)
@@ -2730,7 +2676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5dbf1d6c-f4e4-4691-b79a-cbfc5d317d62")
-		(property "Reference" "J10"
+		(property "Reference" "J?"
 			(at 155.702 67.056 90)
 			(effects
 				(font
@@ -2757,7 +2703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2766,7 +2712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Screw terminal 1x02"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2837,24 +2783,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 152.4 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 152.4 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2011b003-c692-4356-92a9-2d27f39b5757")
 		)
@@ -2862,9 +2790,9 @@
 			(uuid "331231f0-92ba-45a4-adfc-594f407a3b68")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "J10")
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -2880,7 +2808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c930a2a-2491-4c5f-a700-b33935eb6350")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR?"
 			(at 156.21 109.22 0)
 			(effects
 				(font
@@ -2928,9 +2856,9 @@
 			(uuid "0bb652b5-c5ce-40bc-8d60-61f9cd6f77ae")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR075")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -2946,7 +2874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94be03e5-1c1d-45b9-9dea-7cc18754fbd8")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR?"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -2994,9 +2922,9 @@
 			(uuid "df85b532-37c6-4717-a758-ca9af2a69a63")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR071")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3012,7 +2940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad7efb38-c65a-48c8-ba46-bc3e9fcf5eaa")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at 85.09 97.79 0)
 			(effects
 				(font
@@ -3037,7 +2965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3118,24 +3046,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5dc448dc-8853-49a1-ab7b-c830a2ffed03")
 		)
@@ -3143,9 +3053,9 @@
 			(uuid "36159c78-d5cf-4ca1-b9cb-175b7976f8c3")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C10")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3161,7 +3071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc2b40b-4fd8-4a53-9cbf-05da88c556db")
-		(property "Reference" "D3"
+		(property "Reference" "D?"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -3268,24 +3178,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 144.78 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "db190524-39ec-4772-a387-5816a52f7feb")
 		)
@@ -3296,9 +3188,9 @@
 			(uuid "5b9c239c-6b40-4460-97d3-d2831fc91049")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "D3")
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -3313,7 +3205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d13f2655-2385-43d1-8d25-47cbcceff34d")
-		(property "Reference" "C15"
+		(property "Reference" "C?"
 			(at 161.544 98.298 0)
 			(effects
 				(font
@@ -3340,7 +3232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3421,24 +3313,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "defe0448-311d-4370-bb3a-db7377b0363e")
 		)
@@ -3446,9 +3320,9 @@
 			(uuid "f71902c3-fd9f-4de7-a91b-e354553e6b8e")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C15")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7c495e-b6ad-4541-9f27-54699f2d5a76")
-		(property "Reference" "C14"
+		(property "Reference" "C?"
 			(at 123.19 69.8499 0)
 			(effects
 				(font
@@ -3491,7 +3365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3572,24 +3446,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 119.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "79c48a31-d3aa-4506-bd30-420af639ae1e")
 		)
@@ -3597,9 +3453,9 @@
 			(uuid "f2703455-5851-421f-b102-c3fc690eafb6")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C14")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75f3b10-5e82-4136-a75d-57c615411708")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR?"
 			(at 160.02 132.08 0)
 			(effects
 				(font
@@ -3663,9 +3519,9 @@
 			(uuid "37d8e813-73e3-4b8d-b0d2-b7dbf460614e")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR076")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3681,7 +3537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76a3a78-04f8-4bad-9ac6-b17fb2d2d8b7")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR?"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -3729,9 +3585,9 @@
 			(uuid "2dbf9102-ec83-42e6-92cf-2483685024c6")
 		)
 		(instances
-			(project ""
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "#PWR073")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb554d17-6211-4e7f-9bac-68a73e1af051")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 95.25 97.79 0)
 			(effects
 				(font
@@ -3772,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font
@@ -3853,24 +3709,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manuf Part" ""
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manuf Series" ""
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2ffa3ba8-c118-4bc5-94dd-38b4343d9020")
 		)
@@ -3878,9 +3716,9 @@
 			(uuid "e977c7a2-7552-4296-83ea-745cfb758b0d")
 		)
 		(instances
-			(project "SensorProject_t16-pcb"
+			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
-					(reference "C11")
+					(reference "C?")
 					(unit 1)
 				)
 			)
