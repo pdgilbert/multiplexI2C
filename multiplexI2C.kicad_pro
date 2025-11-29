@@ -566,7 +566,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 900,
     "bom_export_filename": "outputs/BOM_auto.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -778,6 +778,10 @@
       "Connector_flipped7"
     ],
     [
+      "872e59d9-aae9-4a0c-a438-0cad18134c8d",
+      "power"
+    ],
+    [
       "2810e5bd-88e3-445e-9497-ea39bfab4c18",
       "f411"
     ],
@@ -792,10 +796,6 @@
     [
       "e20fbd44-1da9-4c99-bcb2-270c25737e1b",
       "RFM95W"
-    ],
-    [
-      "872e59d9-aae9-4a0c-a438-0cad18134c8d",
-      "power"
     ]
   ],
   "text_variables": {}

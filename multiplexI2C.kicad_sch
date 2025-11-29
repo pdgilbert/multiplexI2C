@@ -4346,7 +4346,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -4388,7 +4388,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba"
-					(page "14")
+					(page "10")
 				)
 			)
 		)

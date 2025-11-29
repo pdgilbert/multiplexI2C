@@ -1173,7 +1173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a135479-c7c5-4de8-a046-907b29a0a9a5")
-		(property "Reference" "C?"
+		(property "Reference" "C502"
 			(at 135.89 104.394 0)
 			(effects
 				(font
@@ -1288,7 +1288,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "C?")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -1303,7 +1303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "408174ab-a880-403f-8a50-d54dcab6b020")
-		(property "Reference" "C?"
+		(property "Reference" "C501"
 			(at 105.41 104.394 0)
 			(effects
 				(font
@@ -1418,7 +1418,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "C?")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -1433,7 +1433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ad28584-014e-4a55-a0d3-65d5293b21de")
-		(property "Reference" "NT?"
+		(property "Reference" "NT501"
 			(at 103.886 117.094 0)
 			(effects
 				(font
@@ -1511,7 +1511,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "NT?")
+					(reference "NT501")
 					(unit 1)
 				)
 			)
@@ -1526,7 +1526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8705b7d4-076a-4ed7-bef5-c3b0c485674a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0502"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -1576,7 +1576,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "#PWR?")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b025db1a-edcc-4afd-b390-15530bcc19af")
-		(property "Reference" "R?"
+		(property "Reference" "R501"
 			(at 133.604 83.566 0)
 			(effects
 				(font
@@ -1708,7 +1708,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "R?")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -1724,7 +1724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3ca749-9485-4c24-8594-6974649e2306")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0501"
 			(at 113.03 125.73 0)
 			(effects
 				(font
@@ -1774,7 +1774,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "#PWR?")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -1790,7 +1790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1673a10-5e20-49b9-a45c-14642f8c7e2b")
-		(property "Reference" "Y?"
+		(property "Reference" "Y501"
 			(at 119.38 90.424 0)
 			(effects
 				(font
@@ -1906,7 +1906,7 @@
 		(instances
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/349f89d2-b212-45c7-8a70-67b2942fde7b"
-					(reference "Y?")
+					(reference "Y501")
 					(unit 1)
 				)
 			)
