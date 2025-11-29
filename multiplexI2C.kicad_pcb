@@ -749,8 +749,8 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18/83f047e6-8eee-4ab6-8b78-ca06760747af")
 		(sheetname "/MCU-LoRa/")
-		(sheetfile "f411.kicad_sch")
-		(attr exclude_from_pos_files)
+		(sheetfile "MCU-LoRa.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7235,8 +7235,8 @@
 		(property ki_fp_filters "castellated*mcu-lora*20x50mm*2x12*p2.0mm*")
 		(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18/64066fb5-a9c6-4612-b295-57998812d80c")
 		(sheetname "/MCU-LoRa/")
-		(sheetfile "f411.kicad_sch")
-		(attr smd)
+		(sheetfile "MCU-LoRa.kicad_sch")
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -10.11 -1)
 			(end -10.1 23.15)
@@ -8659,7 +8659,7 @@
 		(property ki_fp_filters "pinsocket*2x04*vertical*")
 		(path "/2810e5bd-88e3-445e-9497-ea39bfab4c18/82bcf454-b118-455c-98b1-ca8d24c8c93b")
 		(sheetname "/MCU-LoRa/")
-		(sheetfile "f411.kicad_sch")
+		(sheetfile "MCU-LoRa.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.6 5.14)

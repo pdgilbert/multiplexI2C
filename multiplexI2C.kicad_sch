@@ -4334,7 +4334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "f411.kicad_sch"
+		(property "Sheetfile" "MCU-LoRa.kicad_sch"
 			(at 156.21 150.4446 0)
 			(effects
 				(font
