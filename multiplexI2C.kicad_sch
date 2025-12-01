@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0805_2012Metric"
+			(property "Footprint" "ProjectLib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(property "Footprint" "ProjectLib:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -432,7 +432,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+			(property "Footprint" "ProjectLib:TSSOP-24_4.4x7.8mm_P0.65mm"
 				(at 0 -25.4 0)
 				(effects
 					(font

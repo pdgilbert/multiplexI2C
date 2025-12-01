@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "stm32f411, ST-Link & SSD")
-		(date "2025-09-15")
-		(rev "v0.2.2")
+		(date "2025-11-30")
+		(rev "v0.2.3")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"
@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0603_1608Metric"
+			(property "Footprint" "ProjectLib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -57,24 +57,6 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -167,129 +149,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ProjectLib:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ProjectLib:Conn_02x04_Row_Letter_First"
 			(pin_names
 				(offset 1.016)
@@ -350,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "pinsocket*2x04*vertical*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -633,7 +492,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:L_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -968,7 +827,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(property "Footprint" "ProjectLib:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -987,24 +846,6 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1155,7 +996,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(property "Footprint" "ProjectLib:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 				(at -15.24 -38.1 0)
 				(effects
 					(font
@@ -2450,7 +2291,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ProjectLib:TestPoint_Pad_D1.0mm"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2894,10 +2735,6 @@
 		(uuid "8e2eaaa7-6db1-4925-bbb9-8acd679372f3")
 	)
 	(no_connect
-		(at 162.56 90.17)
-		(uuid "a0f1dab3-9be3-45d1-a924-0b8ec27e4cf2")
-	)
-	(no_connect
 		(at 127 130.81)
 		(uuid "a29f8dca-b870-47e8-89ae-9cfe93b69eaf")
 	)
@@ -3110,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 80.01) (xy 185.42 72.39)
+			(xy 173.99 80.01) (xy 173.99 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3027,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 189.23 82.55)
+			(xy 162.56 82.55) (xy 176.53 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3230,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 157.48) (xy 196.85 80.01)
+			(xy 196.85 161.29) (xy 196.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3270,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 80.01) (xy 185.42 80.01)
+			(xy 162.56 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 82.55) (xy 189.23 74.93)
+			(xy 176.53 82.55) (xy 176.53 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 85.09) (xy 191.77 77.47)
+			(xy 179.07 85.09) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3307,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 191.77 85.09)
+			(xy 162.56 85.09) (xy 179.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3317,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 107.95) (xy 116.84 157.48)
+			(xy 116.84 107.95) (xy 116.84 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3520,7 +3357,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 82.55) (xy 198.12 158.75)
+			(xy 198.12 82.55) (xy 198.12 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3650,7 +3487,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 181.61 77.47)
+			(xy 162.56 77.47) (xy 171.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3680,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 77.47) (xy 181.61 69.85)
+			(xy 171.45 77.47) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3707,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "90d5788f-6f81-414c-9f0a-6829fd9e63aa")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f80557-a9c4-41c2-a8ac-127f13c3ba49")
 	)
 	(wire
 		(pts
@@ -3780,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 208.28 77.47)
+			(xy 179.07 77.47) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3890,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 177.8 69.85)
+			(xy 162.56 69.85) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3920,13 +3767,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 157.48) (xy 196.85 157.48)
+			(xy 116.84 161.29) (xy 196.85 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c03b74ef-4333-4cd2-9c99-7bffbd19baae")
+	)
+	(wire
+		(pts
+			(xy 162.56 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c178961d-b685-4689-b82b-d80de5feff4a")
 	)
 	(wire
 		(pts
@@ -4000,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 158.75) (xy 115.57 158.75)
+			(xy 198.12 162.56) (xy 115.57 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 105.41) (xy 115.57 158.75)
+			(xy 115.57 105.41) (xy 115.57 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4080,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 69.85) (xy 208.28 69.85)
+			(xy 171.45 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4120,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 72.39) (xy 208.28 72.39)
+			(xy 173.99 72.39) (xy 208.28 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4130,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 74.93) (xy 208.28 74.93)
+			(xy 176.53 74.93) (xy 208.28 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4180,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 67.31) (xy 177.8 69.85)
+			(xy 168.91 67.31) (xy 168.91 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4190,7 +4047,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 67.31) (xy 208.28 67.31)
+			(xy 168.91 67.31) (xy 208.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4600,6 +4457,28 @@
 			)
 		)
 	)
+	(global_label "PA9"
+		(shape input)
+		(at 175.26 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68822740-8d0e-40de-a0fc-1926d634bfc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.8133 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{RESET NSS MISO MOSI SCK DIO0 DIO1}"
 		(shape input)
 		(at 210.82 68.58 0)
@@ -4659,7 +4538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4790,7 +4669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -4887,16 +4766,16 @@
 		)
 	)
 	(symbol
-		(lib_id "ProjectLib:Conn_01x01_Socket")
-		(at 167.64 87.63 0)
+		(lib_id "ProjectLib:TestPoint")
+		(at 182.88 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "17850ab0-7b55-4df0-a332-35ccea908883")
 		(property "Reference" "TP401"
-			(at 172.974 89.408 0)
+			(at 185.928 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4784,7 @@
 			)
 		)
 		(property "Value" "MCO"
-			(at 171.958 87.376 0)
+			(at 183.896 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4914,7 +4793,7 @@
 			)
 		)
 		(property "Footprint" "ProjectLib:TestPoint_Pad_D1.0mm"
-			(at 167.64 87.63 0)
+			(at 187.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 87.63 0)
+			(at 187.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,8 +4810,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 167.64 87.63 0)
+		(property "Description" "test point"
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4820,7 @@
 			)
 		)
 		(property "MountType" "PTH"
-			(at 167.64 87.63 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,7 +4829,7 @@
 			)
 		)
 		(property "pads" ""
-			(at 167.64 87.63 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4837,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 167.64 87.63 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4846,7 @@
 			)
 		)
 		(property "Note" ""
-			(at 167.64 87.63 0)
+			(at 182.88 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -5418,7 +5297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LVBC-D.pdf"
+		(property "Datasheet" "~"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5898,7 +5777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 96.52 109.22 0)
 			(effects
 				(font
@@ -6029,7 +5908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C42163132.html"
+		(property "Datasheet" "~"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6038,7 +5917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PinSocket  02x04 connector, low profile"
+		(property "Description" "Generic connector, double row, 02x04, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6234,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -6364,7 +6243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -6496,7 +6375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -6626,7 +6505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -7152,7 +7031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1005_en.pdf"
+		(property "Datasheet" "~"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7613,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf"
+		(property "Datasheet" "~"
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -7812,7 +7691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -8012,7 +7891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 190.5 140.97 0)
 			(effects
 				(font
@@ -8142,7 +8021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -8272,7 +8151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 41.91 80.01 0)
 			(effects
 				(font

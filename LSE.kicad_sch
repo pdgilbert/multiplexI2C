@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0603_1608Metric"
+			(property "Footprint" "ProjectLib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -57,24 +57,6 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -593,7 +575,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(property "Footprint" "ProjectLib:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -612,24 +594,6 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1198,7 +1162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -1328,7 +1292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 113.03 105.41 0)
 			(effects
 				(font
@@ -1618,7 +1582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -1817,7 +1781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM9V-T1A.pdf"
+		(property "Datasheet" "~"
 			(at 120.65 95.25 0)
 			(effects
 				(font
@@ -1826,7 +1790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal, 7pF"
+		(property "Description" "Two pin crystal"
 			(at 120.65 95.25 0)
 			(effects
 				(font

@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "ProjectLib:C_0603_1608Metric"
+			(property "Footprint" "ProjectLib:C_0402_1005Metric"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -57,24 +57,6 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -676,7 +658,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(property "Footprint" "ProjectLib:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -695,24 +677,6 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1442,7 +1406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -1572,7 +1536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -1834,7 +1798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-128&lang=en"
+		(property "Datasheet" "~"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1843,7 +1807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, 7pF"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -2080,7 +2044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 109.22 0)
 			(effects
 				(font

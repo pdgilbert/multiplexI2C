@@ -347,8 +347,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
-				(at -83.82 41.91 0)
+			(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
+				(at -9.906 -32.512 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,8 +356,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low power long range transceiver module, SPI and parallel interface, 915 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
-				(at 0 0 0)
+			(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
+				(at 2.286 -37.338 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -714,7 +714,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ProjectLib:R_0603_1608Metric"
+			(property "Footprint" "ProjectLib:R_0402_1005Metric"
 				(at 1.016 -0.254 90)
 				(effects
 					(font
@@ -733,24 +733,6 @@
 				)
 			)
 			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MountType" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "pads" "2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1648,7 +1630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 95.25 81.28 0)
 			(effects
 				(font
@@ -2108,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf"
+		(property "Datasheet" "https://www.hoperf.com/modules/lora/RFM95W.html"
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -2117,7 +2099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LoRa module, SPI, 915 MHz,  SMD-16"
+		(property "Description" "LoRa module, SPI, 915MHz, spreading factor 6 to12, bandwidth 125 to 500kHz, -111 to -136 dBm, SMD-16"
 			(at 115.57 85.09 0)
 			(effects
 				(font
@@ -2281,7 +2263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/en/product/p/CL0480-0761-0-00"
+		(property "Datasheet" "~"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -2290,7 +2272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna connector with shielding"
+		(property "Description" "Antenna with extra pin for shielding"
 			(at 128.27 72.39 0)
 			(effects
 				(font
