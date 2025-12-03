@@ -1,0 +1,82 @@
+(footprint "SensorProject_IDblock"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "silkscreen block to write ID")
+	(property "Reference" "G***"
+		(at -0.5 -7.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4c599387-15e8-48a2-9ecf-f0c02c8d3e97")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d5a7bf5d-b60d-4b1d-9d46-7b7ef8ff5ba3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "097eed3d-b629-4a12-ae59-592f88c6b191")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6819a4c2-be26-40fb-b10d-13fcc7a2ae86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy 4 10) (xy -4 10) (xy -4 -5) (xy 4 -5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0ef130e5-9cbc-4d5b-90d0-3493433945fd")
+	)
+	(fp_text user "ID"
+		(at -1.5 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "688aeb30-483d-4b8f-a566-74f0a6e687e7")
+		(effects
+			(font
+				(size 1.5 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)

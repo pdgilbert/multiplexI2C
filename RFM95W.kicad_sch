@@ -1603,7 +1603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a6eeeaf-8f3e-40c3-b663-9487225077e9")
-		(property "Reference" "R28"
+		(property "Reference" "R701"
 			(at 95.758 77.724 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
-					(reference "R28")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -2064,7 +2064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8900236d-e90f-4978-a98c-d857964d9776")
-		(property "Reference" "U7"
+		(property "Reference" "U701"
 			(at 128.778 101.6 0)
 			(effects
 				(font
@@ -2221,7 +2221,7 @@
 		(instances
 			(project "SensorProject_t16-pcb"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
-					(reference "U7")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -2236,7 +2236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebec4804-d5ba-4acf-87a7-0102fe6e9c59")
-		(property "Reference" "AE1"
+		(property "Reference" "AE701"
 			(at 131.318 69.342 0)
 			(effects
 				(font
@@ -2344,7 +2344,7 @@
 		(instances
 			(project ""
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18/e20fbd44-1da9-4c99-bcb2-270c25737e1b"
-					(reference "AE1")
+					(reference "AE701")
 					(unit 1)
 				)
 			)
