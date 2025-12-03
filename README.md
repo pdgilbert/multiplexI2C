@@ -1,5 +1,5 @@
 # multiplexI2C
-Multiplexed 4-wire screw down connectors on multiplexed on I2C with PCA9548A. 
+4-position screw connectors on multiplexed on I2C with PCA9548A. 
 This allows connecting I2C sensors such as AHT10 (on module boards) using 
 low voltage 4-wire cable.
 
