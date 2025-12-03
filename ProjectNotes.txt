@@ -1,30 +1,49 @@
 grep "/////////////// " ProjectNotes.txt   # for section index
 
 ////////////////////////////////////////////////////////////////////////////////
-///////////////            To Do
+///////////////     General Notes
 ////////////////////////////////////////////////////////////////////////////////
 
-- SMT pin header for ssd
-  or   KF2024V-2.54 SMT terminal block  pin header not wire
-  or  SMD PH3.5  Low Profile PH3.5 Single Row Rohs SMT Female Header Connector
+(See also file `README.md`.)
+
+The 8   4-wire screw down connectors provide gnd, 3.3v, and multiplex I2c (SCL and SDA). 
+
+
+The PCB board is 48.26mm by 71.12mm, which fits (tightly) in a standard NA electric outlet hole. 
+This allows for a standard outlet faceplate cover. The board needs to be supplied by low voltage (5v).
+An outlet box is not a good option because of the number of sensor wires, but a low voltage single gang 
+wall plate with no back, as often used for audio or TV cable, is a good option.
+
+The mounting hole centers are 43.5mm apart in x direction and 66.4 mm in y direction.
+
+In addition to the 8 multiplex I2c connectors and the LoRa module, the board has 
+  - 4 pins on an 8 pin header to connect a ST-link programming dongle.
+  - 4 pins on an 8 pin header to connect ssd display on I2C1.
+  - a red led indicating when it is powered up.
+  - a blue led on pin PC13 which can be programmed to turn on and off.
+  - a 25 MHz crystal for the high speed external (HSE) oscillator. (still untested)
+  - a 32.768 kHz crystal for the low speed external (LSE) oscillator. (still untested)
+  - a coin cell battery holder to supply the real time clock (RTC). (still untested)
+  
+The HSE, LSE, and RTC are not used by current software but are on the board for future possibilities.
+
+- AHT10 sensor module reference  https://www.electroschematics.com/temperature-sensor/
+
+
+////////////////////////////////////////////////////////////////////////////////
+///////////////            To Do
+////////////////////////////////////////////////////////////////////////////////
 
 - consider screwless terminal connector, eg KEFA  KF141V_4P 
   or  KF208VB-2.5/2.54  Spring type terminal block,
   (https://www.kefaelectronic.com/KF208VB-2-5-2-54-Spring-type-terminal-block-pd563040758.html)
+  or Würth Elektronik	 691403900004B
   or https://abra-electronics.com/interconnects/terminals-blocks-barrier/spring-terminals/2427p-screwless-terminal-block-4-pin-0.1-pitch-top-entry-2-pack.html
   or  WAGO 2086-1104-700-000_997-605 but a bit smaller would be better,
   and SMT would be nice. Consider possibly multileveel 45 degree?
   or https://www.kefaelectronic.com/KFM736H4-Spring-type-terminal-block-pd555948668.html
      https://www.lcsc.com/category/432.html
      https://www.lcsc.com/product-detail/C2974939.html
-
-- pull-up on nss. Done in v0.1.1
-
-- Move Spi Reset from PA0 to PA1 because PA0 is reset/wkup for mcu. Done
-
-- MCU on board?
-
-- BOM
 
 -spice
 
@@ -54,7 +73,7 @@ then  zip multiplexI2C-gerbers.zip  *.gbr *.drl
 
 ======= submit and get Quote ========
 
-Folllowing  (The First Way)
+Following  (The First Way)
   https://www.pcbway.com/helpcenter/pcb_assembly_ordering/How_to_Upload_PCB_Assembly_PCBA__Inquiry.html 
 
 
@@ -87,50 +106,15 @@ Step 3 + Additional Options:   png NOT VALID FORMAT so not submitted
 ===============================
 
 
-
-////////////////////////////////////////////////////////////////////////////////
-///////////////     General Notes
-////////////////////////////////////////////////////////////////////////////////
-
-- The mounting hole centers are 44mm apart in x direction and 66.9 mm in y direction.
-  (This is adjusted very slightly and squared from project ads1115with16JTS.)
-
-
-- AHT10 sensor module reference  https://www.electroschematics.com/temperature-sensor/
-
-- Reset pullup to PA8 on header,  "Reset" marked on Silksreen, but beware stm32g4xx uses  PB7 
-  Reset is held low by opendrain to reset. For normal operation reset is at vcc through pullup resistor.
-       f1   PA8     opendrain 
-       f4   PA8     opendrain 
-       g4   PB7     opendrain 
-       h7   PA8     opendrain 
-
-- Text size on resistors set to 0.6,0.6,0.1  vs  0.8,0.8,0.1 on B pill pins and ads...
-
-
-///////////////     Version Notes
-
-- multiplexI2c v0.1.0 2024-09 (with socket for blackpill)
-     - to work needs pull-up resistor manually soldered on radio nss, MCU pin A4. 
-          This is fixed in drawings.
-     - has Spi reset on pin A0. This has been changed in the drawings to A1 
-          because A0 is MCU reset/wkup. It works without the change as long as reset is not used.
+///////////////     Version Notes  See README.md
 
 
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////     Notes on LoRa
 ////////////////////////////////////////////////////////////////////////////////
 
-ADD ANTENNA PAD  and 915mhz-spring-antenn  NiceRF  part# sw915-th06
-https://www.nicerf.com/rf-antenna/915mhz-spring-antenna-sw915-th06.html
-(This was "out of stock" so switched to DNP)
-
-- LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) apparently based
+- LoRa module RFM95W-915S2 (RFM95W module at 915MHz band, SMD Package) based
 on Semtech sx1276 chipset and used radio-sx127x rust crate.
-A circa August 2024 version of this project with radio-sx127x RFM95W pad was merged to main and tagged as radio-sx127x.
-
-Git branch RFM95W is the branch with LoRa module RFM95W-915S2.
-https://www.hoperf.com/modules/lora/RFM95W.html
 
 https://www.instructables.com/Introduction-LoRa-Module-RFM95-RFM95W-Hoperf/
 https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf
@@ -165,7 +149,7 @@ power is not lost when there is no sensor.
 
 4.7k seems to be needed sometimes on short wires, while 10k sometimes works on long wires.
 Possibly poor connections on RJ11 or on AHT10 module boards.
-Should use 4.7k to help insur better signal. Additional power should be small.
+Should use 4.7k to help insure better signal. Additional power should be small.
 In case of still bad signal: additional resistors can be added can be added in the J1 .. J8 connectors
 from power to SC and to SD, beside wires to the sensor module.
 
