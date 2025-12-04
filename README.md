@@ -82,6 +82,7 @@ It is not rendered by Meshlab.
 ## History
  
  - `th8-F411 version 0.3.1 2025-12 (`f411-RFM95W`) has not yet been manufactured/tested.
+ - `th8-F411 version 0.3.2 2025-12 (`f411-RFM95W-module`) has not yet been manufactured/tested.
 
  - `Version 0.1.1 2025-01 (`blackpill-socket`) has pull up resistor added but 
    has not been manufactured/tested.

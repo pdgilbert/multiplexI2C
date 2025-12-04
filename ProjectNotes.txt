@@ -15,6 +15,8 @@ An outlet box is not a good option because of the number of sensor wires, but a 
 wall plate with no back, as often used for audio or TV cable, is a good option.
 
 The mounting hole centers are 43.5mm apart in x direction and 66.4 mm in y direction.
+On versions with the MCU-LoRa module one mounting hole is moved from the corner. 
+It is 20.10mm  in the x direction from the adjacent hole.
 
 In addition to the 8 multiplex I2c connectors and the LoRa module, the board has 
   - 4 pins on an 8 pin header to connect a ST-link programming dongle.
