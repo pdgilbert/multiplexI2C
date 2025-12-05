@@ -54,18 +54,27 @@ with `File > Export Current View as PNG`.
 
 ( hints from https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#3d-file-viewer )
 
-3D  `.wrl` file opens with Meshlab. Good, full colour. The file needs to be download and then viewed. 
+3D  `.wrl` file opens with Meshlab. Good, full colour. 
+The file needs to be load into a viewer (e.g.
+https://3dviewer.net/#model=https://github.com/pdgilbert/multiplexI2C/f411-RFM95W/Graphics/multiplexI2C.wrl )
+or downloaded and viewed with your own viewer. 
 To download go to the file in the Graphics/ directory and click on the file.
 Github will try to render this, but fails because it is too large.
 Then click on the download raw file icon at the top right. 
 The file is produced from kicad  with `File > Export ... >  VRML...`
 ![.wrl file](Graphics/multiplexI2C.wrl)
+https://3dviewer.net/#model=https://github.com/pdgilbert/multiplexI2C/blob/f411-RFM95W/Graphics/multiplexI2C.wrl
 
-3D  `.step` file can be loaded by Freecad. It can be downloaded as above for `.wrl`.
+3D  `.step` file can be loaded by Freecad. 
+It can be load into a viewer (e.g. 
+https://3dviewer.net/#model=https://github.com/pdgilbert/multiplexI2C/f411-RFM95W/Graphics/multiplexI2C.step)
+or downloaded as above for `.wrl`.
 The file is produced from kicad  with `File > Export ... >  STEP...`
 ![.step file](Graphics/multiplexI2C.step)
 
 3D  `.stl` file can be  rendered by Github, Meshlab and Freecad. So far only mono-colour is working. 
+It can be load into a viewer (e.g. 
+https://3dviewer.net/#model=https://github.com/pdgilbert/multiplexI2C/f411-RFM95W/Graphics/multiplexI2C.stl)
 To render by Meshlab or Freecad requires downloading as above for `.wrl`.
 The file is best produced by exporting a `.wrl` or `.step` file from kicad and
 importing that to Meshlab or Freecad, and then exporting an `.stl` file.
@@ -81,13 +90,13 @@ It is not rendered by Meshlab.
 
 ## History
  
- - `th8-F411 version 0.3.1 2025-12 (`f411-RFM95W`) has not yet been manufactured/tested.
- - `th8-F411 version 0.3.2 2025-12 (`f411-RFM95W-module`) has not yet been manufactured/tested.
+ - `th8-F411` version `0.3.1 2025-12` (branch `f411-RFM95W`) has not yet been manufactured/tested.
+ - `th8-F411` version `0.3.1M 2025-12` (branch `f411-RFM95W-module`) has not yet been manufactured/tested.
 
- - `Version 0.1.1 2025-01 (`blackpill-socket`) has pull up resistor added but 
+ - Version `0.1.1 2025-01` (branch `blackpill-socket`) has pull up resistor added but 
    has not been manufactured/tested.
 
- - Version 0.1.0 2024-09 (`blackpill-socket`) needs manual addition of a pull up 
+ - Version `0.1.0 2024-09` (branch `blackpill-socket`) needs manual addition of a pull up 
    resistor on nss line to the radio chip, MCU pin A4. 
    With this modification it works with `blackpill` `stm32f401` or `stm32f411` inserted,
    using AHT20 sensors. With jumper wiring it has also been used to test a WeAct 

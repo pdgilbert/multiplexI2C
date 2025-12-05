@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -2416,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 102.87 91.44 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-012-SMT&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-012-SMT"
 			(at 160.02 121.666 90)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C474920.pdf"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic screw terminal, single row, 01x02"
 			(at 152.4 68.58 0)
 			(effects
 				(font
@@ -2947,7 +2947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -3214,7 +3214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 156.21 99.06 0)
 			(effects
 				(font
@@ -3347,7 +3347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -3610,7 +3610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 91.44 0)
 			(effects
 				(font

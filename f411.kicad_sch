@@ -4580,7 +4580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -4777,7 +4777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 186.69 152.4 0)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 139.7 0)
 			(effects
 				(font
@@ -5405,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 81.28 105.41 0)
 			(effects
 				(font
@@ -6016,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 137.16 0)
 			(effects
 				(font
@@ -6147,7 +6147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C42163132.html"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x04, row letter first"
 			(at 175.26 128.27 0)
 			(effects
 				(font
@@ -6352,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 170.18 50.8 0)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 72.39 0)
 			(effects
 				(font
@@ -7862,7 +7862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 85.09 135.89 0)
 			(effects
 				(font
@@ -8127,7 +8127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -8327,7 +8327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 140.97 0)
 			(effects
 				(font
@@ -8457,7 +8457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -8587,7 +8587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 41.91 80.01 0)
 			(effects
 				(font

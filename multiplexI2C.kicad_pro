@@ -635,9 +635,15 @@
         },
         {
           "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -673,12 +679,6 @@
           "group_by": false,
           "label": "Manuf Series",
           "name": "Manuf Series",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
           "show": false
         },
         {
