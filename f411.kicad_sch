@@ -5405,7 +5405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LVBC-D.pdf"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -6328,7 +6328,7 @@
 		(dnp no)
 		(uuid "8d8534b9-b522-4569-b9ae-08786c735933")
 		(property "Reference" "C401"
-			(at 70.104 42.418 90)
+			(at 71.628 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,12 +6465,13 @@
 				)
 			)
 		)
-		(property "Value" "BT0"
+		(property "Value" "SW_Push"
 			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "ProjectLib:SW_SPST_B3U-1000P"
@@ -6482,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 			(at 58.42 54.61 0)
 			(effects
 				(font
@@ -6554,13 +6555,12 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
-			(at 58.42 59.69 0)
+		(property "label" "BT0"
+			(at 58.166 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6727,12 +6727,13 @@
 				)
 			)
 		)
-		(property "Value" "RST"
+		(property "Value" "SW_Push"
 			(at 71.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "ProjectLib:SW_SPST_B3U-1000P"
@@ -6744,7 +6745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -6816,13 +6817,12 @@
 				(hide yes)
 			)
 		)
-		(property "Note" ""
-			(at 71.12 39.37 0)
+		(property "label" "RST"
+			(at 70.612 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7270,7 +7270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz1005_en.pdf"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf"
 			(at 41.91 72.39 0)
 			(effects
 				(font
