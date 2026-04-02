@@ -1,9 +1,9 @@
 # multiplexI2C
-4-position screw connectors on multiplexed on I2C with PCA9548A. 
-This allows connecting I2C sensors such as AHT10 (on module boards) using 
+Eight 4-position screw connectors on multiplexed on I2C with PCA9548A. 
+This allows connecting 8 I2C sensors such as AHT10 (on module boards) using 
 low voltage 4-wire cable.
 
-##  Status: Prototype.
+##  Status: Working Prototype.
 
 ## Summary
 
@@ -90,14 +90,18 @@ It is not rendered by Meshlab.
 
 ## History
  
- - `th8-F411` version `0.3.1 2025-12` (branch `f411-RFM95W`) has not yet been manufactured/tested.
- - `th8-F411` version `0.3.1M 2025-12` (branch `f411-RFM95W-module`) has not yet been manufactured/tested.
+ - `th8-F411` version `0.3.1 2025-12` (branch `f411-RFM95W`) has stm32f411 MCU chip and HopeRF RFM95W.
+    This version is switched to ssd on I2C1 and sensors on I2C2, so it is consistent with SensorProject_t16.
+    The software has a flag to indicate previous old versions.
+
+ - `th8-F411` version `0.3.1M 2025-12` (branch `f411-RFM95W-module`) has not been manufactured/tested.
 
  - Version `0.1.1 2025-01` (branch `blackpill-socket`) has pull up resistor added but 
-   has not been manufactured/tested.
+   has not been manufactured/tested. This version has ssd on I2C2 and sensors on I2C1.
 
  - Version `0.1.0 2024-09` (branch `blackpill-socket`) needs manual addition of a pull up 
-   resistor on nss line to the radio chip, MCU pin A4. 
+   resistor to nss of the RFM95W radio module, MCU pin A4. 
    With this modification it works with `blackpill` `stm32f401` or `stm32f411` inserted,
-   using AHT20 sensors. With jumper wiring it has also been used to test a WeAct 
-   Studio STM32474G474 board. See notes re testing in the software repository.
+   using AHT10 and AHT20 sensors. With jumper wiring it has also been used to test a WeAct 
+   Studio STM32474G474 board.  This version has ssd on I2C2 and sensors on I2C1.
+   See notes re testing in the software repository.

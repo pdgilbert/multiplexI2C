@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Regulator & RTC Battery")
-		(date "2025-09-15")
-		(rev "v0.2.2")
+		(date "2025-12-12")
+		(rev "v0.3.1")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:AMS1117-3.3"
@@ -1505,6 +1505,12 @@
 		(uuid "79d60334-87e8-467d-a91b-36f871dd2a09")
 	)
 	(junction
+		(at 119.38 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b767182-67e8-4344-a1c2-87ad4a752cdd")
+	)
+	(junction
 		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1515,6 +1521,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96e98e7d-1b85-4638-8c3c-35ed6eaa6700")
+	)
+	(junction
+		(at 119.38 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5bb0366-a110-404e-9e65-455e47a35692")
 	)
 	(junction
 		(at 95.25 87.63)
@@ -1535,6 +1547,18 @@
 		(uuid "c1e8e3d7-ce87-4045-82e1-9571bdd2820f")
 	)
 	(junction
+		(at 85.09 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26de654-d976-43fa-bd9c-5b82699af1f8")
+	)
+	(junction
+		(at 85.09 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4045a5a-b849-4c53-81ee-8335db1eb3cc")
+	)
+	(junction
 		(at 95.25 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1545,6 +1569,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa5cb223-a2b8-451e-b7b9-97a1cbee8f18")
+	)
+	(wire
+		(pts
+			(xy 85.09 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b26251d-ce55-4d1c-bf80-1cdad9a72785")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b556ba-1ad4-4d54-9568-327645fcf32c")
 	)
 	(wire
 		(pts
@@ -1575,6 +1619,16 @@
 			(type default)
 		)
 		(uuid "1b49db79-4561-40d4-bc37-b441d3fa32a0")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 119.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c52af4c-5426-4b67-a451-8ca50d19b8f9")
 	)
 	(wire
 		(pts
@@ -1678,6 +1732,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 68.58) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1dd6e0-6e8e-4c6b-af97-e0c30a196fb7")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69af34a2-f3be-4b6d-9003-b39e7084c2e3")
+	)
+	(wire
+		(pts
 			(xy 130.81 67.31) (xy 130.81 77.47)
 		)
 		(stroke
@@ -1688,13 +1762,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 95.25 95.25)
+			(xy 85.09 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73806e3c-c666-4f8b-b596-ec5be7912dbe")
+		(uuid "6e9c1d44-6b22-4973-87ff-05863137a8f4")
 	)
 	(wire
 		(pts
@@ -1705,16 +1779,6 @@
 			(type default)
 		)
 		(uuid "77f0e63a-2a24-49cc-8c03-121cfbf0194c")
-	)
-	(wire
-		(pts
-			(xy 152.4 78.74) (xy 119.38 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f50cd81-583c-44b6-8d1d-16158c4fe075")
 	)
 	(wire
 		(pts
@@ -1735,6 +1799,16 @@
 			(type default)
 		)
 		(uuid "807a265e-a15c-4ef6-b2c5-073ffad43670")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828fc9d3-25a7-4267-8636-1c559d1759f5")
 	)
 	(wire
 		(pts
@@ -1828,16 +1902,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d198b6e3-cae4-463b-a223-ef3f3c799640")
-	)
-	(wire
-		(pts
 			(xy 137.16 87.63) (xy 137.16 118.11)
 		)
 		(stroke
@@ -1855,6 +1919,26 @@
 			(type default)
 		)
 		(uuid "de7e6545-5f07-4731-a7aa-984b076331e2")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 119.38 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22c9d23-2a8c-4be4-8f6c-efd4b6a9d6e7")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 85.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d8271e-636c-4e81-91d5-00fe958e2dcc")
 	)
 	(wire
 		(pts
@@ -2376,6 +2460,138 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:C")
+		(at 73.66 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cc69b34-43d1-4d92-aefb-5aabeedbbc68")
+		(property "Reference" "C108"
+			(at 71.882 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 77.47 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+			(at 74.6252 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0402_1005Metric"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d84dd60e-3260-4419-a4e4-090caa674d97")
+		)
+		(pin "1"
+			(uuid "01d00257-885c-4e84-91d8-3949e1e64534")
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
+					(reference "C108")
 					(unit 1)
 				)
 			)
@@ -3305,6 +3521,138 @@
 			(project "multiplexI2C"
 				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProjectLib:C")
+		(at 106.68 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6868fc6-ffb5-4868-8b97-acbae2d933c8")
+		(property "Reference" "C107"
+			(at 97.282 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 98.298 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ProjectLib:C_0402_1005Metric"
+			(at 107.6452 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MountType" "SMT"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "pads" "2"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" ""
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "C_0402_1005Metric"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "or equivalent"
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 106.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d32e2f5-102b-4112-87e4-29a48f855ad2")
+		)
+		(pin "1"
+			(uuid "0a926438-b0bb-414f-9eb7-d162686b7193")
+		)
+		(instances
+			(project "multiplexI2C"
+				(path "/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/872e59d9-aae9-4a0c-a438-0cad18134c8d"
+					(reference "C107")
 					(unit 1)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "HSE")
-		(date "2025-09-15")
-		(rev "v0.2.2")
+		(date "2025-12-12")
+		(rev "v0.3.1")
 	)
 	(lib_symbols
 		(symbol "ProjectLib:C"

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -244,11 +244,23 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|1473200|1435100|079dd1ce-ee0c-4cac-87bd-e79e8b09cd76|2adea8da-1451-49fa-a187-f4ff31052521|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18",
+        ""
+      ],
+      [
         "multiple_net_names|1473200|1435100|76e365b2-2f81-4e89-a59a-ccc662b1fee7|2adea8da-1451-49fa-a187-f4ff31052521|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18",
         ""
       ],
       [
+        "multiple_net_names|1473200|1435100|7e209d29-f8b7-4dc4-bafb-68d031dd3113|2adea8da-1451-49fa-a187-f4ff31052521|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18",
+        ""
+      ],
+      [
         "multiple_net_names|1473200|1435100|a5abf86e-6adc-4ec3-ae31-ca6a3a106609|2adea8da-1451-49fa-a187-f4ff31052521|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18",
+        ""
+      ],
+      [
+        "multiple_net_names|1473200|1435100|f3fce0c2-e3e5-47e7-9f28-58247f9cf392|2adea8da-1451-49fa-a187-f4ff31052521|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18|/0c2d0c14-8850-4a30-bb78-b2f40cb442ba/2810e5bd-88e3-445e-9497-ea39bfab4c18",
         ""
       ]
     ],
@@ -973,7 +985,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
